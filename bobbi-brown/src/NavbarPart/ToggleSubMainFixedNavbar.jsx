@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faBagShopping, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import NavbarPopupComponent from '../NavbarComponents/NavbarPopupComponent';
+import {faUser} from '@fortawesome/free-regular-svg-icons'
 // import {Fade} from '@mui/material'
 
 const SubMainFixPartOfNavbar = styled.div`
@@ -17,8 +18,8 @@ body{
     width:90%;
     margin:auto; */}
     display:grid;
-    grid-template-columns:1.3fr 10fr;
-    width:91%;
+    grid-template-columns:1.5fr 10fr 1fr;
+    width:92%;
     margin:auto;
     align-items:center; 
 }
@@ -40,7 +41,7 @@ ul {
       margin: 0;
       list-style: none;
       display: flex;
-      gap:3.1%;
+      gap:3.4%;
       width:100%;
       
 }
@@ -61,8 +62,9 @@ p {
       letter-spacing: 1px;
 }
 
+
 `;
-const SubMainFixedNavbar = () => {
+const ToggleSubMainFixedNavbar = () => {
     const [howerState, setHowerState] = useState("");
     const hoverHandler =(type)=>{
         setHowerState(type)
@@ -77,7 +79,7 @@ const SubMainFixedNavbar = () => {
                 <div>
                     <div className="firstDiv" style={{}}>
                         <div style={{ borderBottom: "1px solid rgb(225,236,233)" }}>
-                            <FontAwesomeIcon icon={faSearch} style={{ color: "white", fontWeight: "200", fontSize: "18px", color: "rgb(212,218,216)" }} />
+                            <FontAwesomeIcon icon={faSearch} style={{ fontWeight: "200", fontSize: "17px", color: "rgb(212,218,216)" }} />
                             <input className='searchNavbar' type="search" placeholder="SEARCH" />
                         </div>
                         <div>
@@ -105,6 +107,11 @@ const SubMainFixedNavbar = () => {
                                 </li>
                             </ul>
                         </div>
+                        <div className='iconsAdjust'>
+                            <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faMapMarkerAlt} /></Link>                            
+                            <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faUser} /></Link>
+                            <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faBagShopping} /></Link>
+                        </div>
                     </div>
                 </div>
             </SubMainFixPartOfNavbar>
@@ -115,4 +122,4 @@ const SubMainFixedNavbar = () => {
     )
 }
 
-export default SubMainFixedNavbar
+export default ToggleSubMainFixedNavbar

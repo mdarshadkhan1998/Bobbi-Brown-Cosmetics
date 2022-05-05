@@ -29,17 +29,17 @@ Link{
 .leftPartTopNav{
     display:flex;
     float:left;
-    padding-right: 4.5vw;
+    padding-right: 4vw;
     padding-left:0px;
     margin-left:0px;
 }
 .logoImage{
-    height: 42px;
-    padding-top:17px;
+    height: 37px;
+    padding-top:22px;
     width:100%;
 }
 .rightPartTopNav .leftPartTopNav{
-    font-size:7px;
+    font-size:14px;
 }
 ul {
       margin: 0;
@@ -56,9 +56,10 @@ li > *{
 }
 p {
       margin: 0;
-      font-size: 7.7px;
+      font-size: 10px;
       line-height: 27px;
       font-weight:700;
+      letter-spacing: 2px;
 }
 
 `;
@@ -80,10 +81,10 @@ const FixedNavbar = () => {
                         </li>
                         <li className='rightPartTopNav'>
                             <Link to={"#"}><p>JOIN</p></Link>
-                            <Link to={"#"}><p>BBACCESS</p></Link>
-                            <Link to={"#"}><FontAwesomeIcon style={{fontSize:'13px', padding:'6px'}} icon={faMapMarkerAlt} /></Link>                            
-                            <Link to={"#"}><FontAwesomeIcon style={{fontSize:'13px', padding:'6px'}} icon={faUser} /></Link>
-                            <Link to={"#"}><FontAwesomeIcon style={{fontSize:'13px', padding:'6px'}} icon={faBagShopping} /></Link>
+                            <Link to={"#"}><p  style={{paddingRight:"15px"}} >BBACCESS</p></Link>
+                            <Link to={"#"}><FontAwesomeIcon style={{fontSize:'21px', padding:'8px'}} icon={faMapMarkerAlt} /></Link>                            
+                            <Link to={"#"}><FontAwesomeIcon style={{fontSize:'21px', padding:'8px'}} icon={faUser} /></Link>
+                            <Link to={"#"}><FontAwesomeIcon style={{fontSize:'21px', padding:'8px'}} icon={faBagShopping} /></Link>
                         </li>
                     </ul>
                 </div>
