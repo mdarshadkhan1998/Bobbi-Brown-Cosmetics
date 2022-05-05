@@ -22,7 +22,7 @@ const BestSellersPopupStyling = styled.div`
         height:27vh;
     }
     h3{
-        font-size:10px;
+        font-size:14px;
         font-weight:640;
         padding-left:10px;
         padding-top:15px;

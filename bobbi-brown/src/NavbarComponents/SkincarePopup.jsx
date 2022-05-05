@@ -25,7 +25,7 @@ const SkincarePopupStyling = styled.div`
         padding-top:10px;
     }
     h3{
-        font-size:9.5px;
+        font-size:14px;
         font-weight:700;
         text-align:left;
         padding-left:10px;
@@ -36,7 +36,7 @@ const SkincarePopupStyling = styled.div`
     }
     p{
         color:black;
-        font-size:9.5px;
+        font-size:13.5px;
         text-align:left;
         padding-left:10px;
     }

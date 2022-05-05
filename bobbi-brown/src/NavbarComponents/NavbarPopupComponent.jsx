@@ -10,7 +10,7 @@ import DiscoverPopup from './DiscoverPopup'
 
 const NavbarPopupComponent = ({type}) => {
   return (
-    <Fade in={type} timeout={1000}>
+    <Fade in={type} timeout={1000} >
         <div>
             {type==='NEW' && <NewPopup/>}
             {type==='BEST' && <BestSellersPopup/>}

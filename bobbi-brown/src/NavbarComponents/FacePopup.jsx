@@ -25,7 +25,7 @@ const FacePopupStyling = styled.div`
         height:21vh;
     }
     h3{
-        font-size:9.1px;
+        font-size:14px;
         font-weight:640;
         text-align:left;
         padding-left:10px;
@@ -35,7 +35,7 @@ const FacePopupStyling = styled.div`
     }
     p{
         color:black;
-        font-size:9.4px;
+        font-size:13.5px;
         text-align:left;
         padding-left:10px;
     }

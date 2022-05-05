@@ -22,10 +22,10 @@ const NewPopupStyling = styled.div`
         height:21vh;
     }
     h3{
-        font-size:9.1px;
+        font-size:14px;
         font-weight:640;
         text-align:left;
-        padding-left:10px;
+        padding-left:25px;
         padding-top:15px;
         color:black;
         list-style: none;

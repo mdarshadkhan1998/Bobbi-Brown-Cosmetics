@@ -24,7 +24,7 @@ const VirtualServicesPopupStyling = styled.div`
         width:95%;
     }
     h3{
-        font-size:9.1px;
+        font-size:14px;
         font-weight:640;
         text-align:left;
         padding-left:10px;
@@ -34,7 +34,7 @@ const VirtualServicesPopupStyling = styled.div`
     }
     p{
         color:black;
-        font-size:9.4px;
+        font-size:13.5px;
         text-align:left;
         padding-left:10px;
     }
