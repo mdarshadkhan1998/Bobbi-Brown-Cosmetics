@@ -12,10 +12,6 @@ body{
     font-family:"Roboto";
 }
 .firstDiv{
-    ${'' /* display:flex;
-    align-items:center;
-    width:90%;
-    margin:auto; */}
     display:grid;
     grid-template-columns:1.3fr 10fr;
     width:91%;
@@ -60,8 +56,18 @@ p {
       align-items:center;
       letter-spacing: 1px;
 }
+`;
+
+const SubMainFixPopupPartOfNavbar = styled.div`
+
+.positioningPopup{
+    position:relative;
+    z-index:20;
+    border :10px solid red;
+}
 
 `;
+
 const SubMainFixedNavbar = () => {
     const [howerState, setHowerState] = useState("");
     const hoverHandler =(type)=>{
@@ -108,9 +114,12 @@ const SubMainFixedNavbar = () => {
                     </div>
                 </div>
             </SubMainFixPartOfNavbar>
-            <div onMouseLeave={handleNoHover}>
-                { howerState && <NavbarPopupComponent type={howerState} /> }
-            </div>
+            <SubMainFixPopupPartOfNavbar>
+                <div onMouseLeave={handleNoHover}>
+                    { howerState && <NavbarPopupComponent type={howerState} className="positioningPopup" /> }
+                </div>
+            </SubMainFixPopupPartOfNavbar>
+            
         </div>
     )
 }
