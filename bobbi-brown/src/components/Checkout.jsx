@@ -9,12 +9,12 @@ export const Checkout = () => {
   return (
   
   <div className="maincontainer">
-    
+   
        <div className="container">
          <div className="py-5 text-center">
            
            <h2>Checkout form</h2>
-           </div>
+          </div>
          <div className="row">
            <div className="col-md-4 order-md-2 mb-4">
              <h4 className="d-flex justify-content-between align-items-center mb-3">
@@ -70,14 +70,14 @@ export const Checkout = () => {
                <div className="row">
                  <div className="col-md-6 mb-3">
                    <label for="firstName">First name</label>
-                   <input type="text" className="form-control" id="firstName" placeholder="" value="" required />
+                   <input type="text" className="form-control" id="firstName" placeholder=""  required />
                    <div className="invalid-feedback">
                      Valid first name is required.
                    </div>
                  </div>
                  <div className="col-md-6 mb-3">
                    <label for="lastName">Last name</label>
-                   <input type="text" className="form-control" id="lastName" placeholder="" value="" required />
+                   <input type="text" className="form-control" id="lastName" placeholder="" required />
                    <div className="invalid-feedback">
                      Valid last name is required.
                    </div>
