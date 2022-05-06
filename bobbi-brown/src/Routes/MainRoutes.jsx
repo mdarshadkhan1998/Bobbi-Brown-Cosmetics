@@ -7,6 +7,7 @@ import ScrollToTop from "react-scroll-to-top";
 import styled from 'styled-components';
 import Footer from '../components/Footer/Footer';
 import { AddtoCart } from '../components/AddtoCart';
+import { Checkout } from '../components/Checkout';
 
 const MainRoutesStyling = styled.div`
 
@@ -24,6 +25,7 @@ export const MainRoutes = () => {
         <Routes>
           <Route path="/*" element={<Home />} />
           <Route path="/addtocart" element={<AddtoCart/>}/>
+          <Route path="/checkout" element={<Checkout/>}/>
         </Routes>
         
         <Footer/>
