@@ -108,9 +108,12 @@ const ToggleSubMainFixedNavbar = () => {
                             </ul>
                         </div>
                         <div className='iconsAdjust'>
-                            <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faMapMarkerAlt} /></Link>                            
+                            {/* <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faMapMarkerAlt} /></Link>                            
                             <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faUser} /></Link>
-                            <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faBagShopping} /></Link>
+                            <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faBagShopping} /></Link> */}
+                            <Link to={"#"}><img style={{padding:'8px' ,height:"21px"}} src='https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg' alt='' /></Link>                            
+                            <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faUser} /></Link>
+                            <Link to={"#"}><img style={{padding:'8px' ,height:"21px"}} src='https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg' alt='' /></Link>
                         </div>
                     </div>
                 </div>

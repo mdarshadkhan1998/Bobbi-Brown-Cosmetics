@@ -1,15 +1,12 @@
 import './App.css';
-import FixedNavbar from './NavbarPart/FixedNavbar';
-import SubMainFixedNavbar from './NavbarPart/SubMainFixedNavbar';
-import ToggleSubMainFixedNavbar from './NavbarPart/ToggleSubMainFixedNavbar';
+import Navbar from './MainComponentsOfProject/Navbar';
+
 
 function App() {
   return (
     
     <div className="App">
-      <FixedNavbar/>
-      <SubMainFixedNavbar/>
-      {/* <ToggleSubMainFixedNavbar/> */}
+      <Navbar/>
     </div>
   );
 }

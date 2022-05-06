@@ -69,7 +69,7 @@ const SubMainFixedNavbar = () => {
     }
 
     const handleNoHover=()=>{
-        // setHowerState("")
+        setHowerState("")
     }
     return (
         <div>
