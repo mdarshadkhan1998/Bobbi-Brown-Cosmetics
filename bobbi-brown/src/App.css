@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body{
+  font-family:"BBText Regular",Helvetica,Arial,sans-serif;
+}
 .acrouselheading{
   margin-right:600px;
   margin-bottom: none;

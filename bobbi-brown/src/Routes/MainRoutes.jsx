@@ -6,11 +6,14 @@ import Navbar from '../components/Navbar';
 import ScrollToTop from "react-scroll-to-top";
 import styled from 'styled-components';
 import Footer from '../components/Footer/Footer';
+import { AddtoCart } from '../components/AddtoCart';
+
+const MainRoutesStyling = styled.div`
+
+`;
 
 export const MainRoutes = () => {
-  const MainRoutesStyling = styled.div`
 
-  `;
 
   return (
     <div>
@@ -20,6 +23,7 @@ export const MainRoutes = () => {
 
         <Routes>
           <Route path="/*" element={<Home />} />
+          <Route path="/addtocart" element={<AddtoCart/>}/>
         </Routes>
         
         <Footer/>
