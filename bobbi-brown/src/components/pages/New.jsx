@@ -3,7 +3,7 @@ import Carousel from "react-multi-carousel";
 import Button from "react-bootstrap/Button";
 import "react-multi-carousel/lib/styles.css";
 // import { hover1here } from '../../styled.js/styled';
-
+// import "react-multi-carousel/lib/styles.css";
 export const New = () => {
   // const imagesforhover = "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EFAA01_600x600_1.jpg"
 

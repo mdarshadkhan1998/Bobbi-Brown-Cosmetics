@@ -24,13 +24,13 @@ export const Home = () => {
           <br />
            <h1 id="gottahaveit">GOTTA HAVE IT</h1>
            <div className="afterhaveit">
-           <p onClick={() =>navigate("/new")}>NEW</p>
+           <p onClick={() =>navigate("/")}>NEW</p>
            <p onClick={() =>navigate("/trendingnow")}>TRENDING NOW</p>
            <p onClick={() =>navigate("/skincare")}>SKINCARE</p>
            </div>
 
            <Routes>
-             <Route path="/new" element={<New/>}/>
+             <Route path="/" element={<New/>}/>
              <Route path="/trendingnow" element={<TrendingNow/>}/>
              <Route path="/skincare" element={<SkinCare/>}/>
            </Routes>

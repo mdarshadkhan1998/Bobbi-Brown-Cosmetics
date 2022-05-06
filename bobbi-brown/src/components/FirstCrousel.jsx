@@ -31,8 +31,8 @@ export  const FirstCrousel = () =>{
       alt="First slide"
     />
     <Carousel.Caption className= "acrouselheading">
-      <h5>May Beauty Days</h5>
-      <h1>40% OFF GLOW FAVOURITES</h1>
+      <h5 className= "crouselh5">May Beauty Days</h5>
+      <h1  className= "crouselh1">40% OFF GLOW FAVOURITES</h1>
       <div>
       <Button className="aslidebuttonhere" variant="outline-secondary">Shop Now</Button>
       </div>
@@ -59,9 +59,9 @@ export  const FirstCrousel = () =>{
 
 
     <Carousel.Caption>
-      <h1>MORE PLAY.</h1>
-      <h1>YOUR WAY.</h1>
-      <p>Blend the rules with our NEW 24-hour<br/> Long-Wear-Cream Shadow-Stick -now<br/> in 29 ready-to play shades.</p>
+      <h1 className= "crouselh1">MORE PLAY.</h1>
+      <h1 className= "crouselh1">YOUR WAY.</h1>
+      <p className= "crouselh5">Blend the rules with our NEW 24-hour<br/> Long-Wear-Cream Shadow-Stick -now<br/> in 29 ready-to play shades.</p>
       <div>
       <Button className="aslidebuttonhere" variant="outline-secondary" >Shop Now</Button>
       </div>
@@ -77,9 +77,9 @@ export  const FirstCrousel = () =>{
     <Carousel.Caption>
      
     <div className="slider_thingshere">
-      <p>MAY BEAUTY DAYS</p>
-    <h2>30% OFF VITAMIN <br/> ENRICHED EYE BASE</h2>
-      <p> Wake up your makeup with 30% off our brightening, smoothing, priming <strong>Vitamin Enriched Eye Base</strong> for a limited time. </p>
+      <p className= "crouselh5">MAY BEAUTY DAYS</p>
+    <h2 className= "crouselh1">30% OFF VITAMIN <br/> ENRICHED EYE BASE</h2>
+      <p className= "crouselh5"> Wake up your makeup with 30% off our brightening, smoothing, priming <strong>Vitamin Enriched Eye Base</strong> for a limited time. </p>
 
       <div>
       <Button className="aslidebuttonhere" variant="outline-secondary">Shop Now</Button>
