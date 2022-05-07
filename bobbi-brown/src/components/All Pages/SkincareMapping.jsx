@@ -119,7 +119,7 @@ const SkincareMapping = () => {
             "tag": "New"
         },
         {
-            id: 30,
+            id: 31,
             "justImage": skincare4,
         },
         {
@@ -192,7 +192,7 @@ const SkincareMapping = () => {
             "tag": "New"
         },
         {
-            id: 30,
+            id: 32,
             "justImage": skincare5,
         },
         {

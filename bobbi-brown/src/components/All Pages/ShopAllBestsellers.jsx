@@ -125,7 +125,7 @@ const ShopAllBestsellers = () => {
             "color": "Pale Yellow"
         },
         {
-            id: 30,
+            id: 31,
             "justImage": BestSellerPick4,
         },
         {
@@ -205,7 +205,7 @@ const ShopAllBestsellers = () => {
             "color": "Bare"
         },
         {
-            id: 30,
+            id: 32,
             "justImage": BestSellerPick5,
         },
         {

@@ -56,14 +56,7 @@ export const Checkout = () => {
                  <strong>$20</strong>
                </li>
              </ul>
-             <form className="card p-2">
-               <div className="input-group">
-                 <input type="text" className="form-control" placeholder="Promo code"/>
-                 <div className="input-group-append">
-                   <button type="button" className="btn btn-secondary">Redeem</button>
-                 </div>
-               </div>
-             </form>
+             
            </div>
            <div className="col-md-8 order-md-1">
              <h4 className="mb-3">Billing address</h4>

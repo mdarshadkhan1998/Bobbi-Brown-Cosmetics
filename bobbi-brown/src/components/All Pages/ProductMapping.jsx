@@ -94,7 +94,7 @@ const ProductMapping = (e) => {
     // console.log(e)
   return (
     <ProductMappingStyling>
-        <div className='personalDiv'>
+        <div  className='personalDiv'>
             <div className={`${e.tag===undefined ? "" : 'tag' }`}>{`${e.tag===undefined ? "" : e.tag }`}</div>
             <img className={e.image===undefined ? 'justImage' : 'image' } src={`${e.image===undefined ? e.justImage : e.image }`} alt='' />
             <h6 className='color'>{`${e.color===undefined ? "" : e.color }`}</h6>

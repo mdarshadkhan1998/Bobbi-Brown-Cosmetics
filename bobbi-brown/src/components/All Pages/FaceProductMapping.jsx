@@ -92,7 +92,7 @@ const FaceProductMapping = () => {
             "price": 40
         },
         {
-            id: 30,
+            id: 31,
             "justImage": face4,
         },
         {
@@ -171,7 +171,7 @@ const FaceProductMapping = () => {
             "price": 45
         },
         {
-            id: 30,
+            id: 32,
             "justImage": face5,
         },
         {
@@ -207,7 +207,7 @@ const FaceProductMapping = () => {
             "price": 52
         },
         {
-            id: 30,
+            id: 33,
             "justImage": face6,
         },
         {

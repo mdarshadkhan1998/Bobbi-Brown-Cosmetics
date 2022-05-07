@@ -18,7 +18,7 @@ width:70%;
 
 
 export const AddtoCart = () => {
-  const {cart}= useSelector((state=> state))
+  const {cart}= useSelector((state => state.cart))
   console.log(cart)
  const navigate= useNavigate()
  const handlecheckout = () => {

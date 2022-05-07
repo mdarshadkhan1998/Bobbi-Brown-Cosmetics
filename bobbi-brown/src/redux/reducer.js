@@ -1,10 +1,10 @@
 
-import React from 'react'
+// import React from 'react'
 import {PRODUCTTOCART} from './action.js'
 
  const initState = {
      cart: [],
-
+    error:false
  }
 
 
@@ -12,10 +12,10 @@ import {PRODUCTTOCART} from './action.js'
 export const reducer = (state= initState , action) => {
      
     switch (action.type) {
-        case PRODUCTTOCART :{ return {
+        case PRODUCTTOCART : return {
             ...state,
-            cart: action.payload
-        }}
+            cart: action.payload,
+        }
         default : return state
     }
 }

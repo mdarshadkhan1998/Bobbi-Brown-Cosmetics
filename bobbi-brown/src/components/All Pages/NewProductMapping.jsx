@@ -125,7 +125,7 @@ const NewProductMapping = () => {
             "totalReview": 251,
         },
         {
-            id: 30,
+            id: 31,
             "justImage": new4,
         },
         {
@@ -206,7 +206,7 @@ const NewProductMapping = () => {
             "totalReview": 2,
         },
         {
-            id: 30,
+            id: 32,
             "justImage": new5,
         },
         {
