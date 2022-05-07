@@ -3,19 +3,21 @@
 import {PRODUCTTOCART} from './action.js'
 
  const initState = {
-     cart: [],
-    error:false
+     cart: []
  }
 
 
 
-export const reducer = (state= initState , action) => {
+export const reducer = (state = initState , {type,payload}) => {
      
-    switch (action.type) {
-        case PRODUCTTOCART : return {
-            ...state,
-            cart: action.payload,
-        }
+    switch (type) {
+        case PRODUCTTOCART : {
+        //     console.log("state:",state,"action.type",action.type,"action.payload",action.payload)
+        // console.log(state)
+            return {
+            ...state.cart,  payload
+        }}
+
         default : return state
     }
 }
