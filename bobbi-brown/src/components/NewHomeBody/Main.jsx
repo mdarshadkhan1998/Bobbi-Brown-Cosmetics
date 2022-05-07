@@ -384,7 +384,7 @@ margin: 0px 0px 0px 0px ;
 const Main = () => {
   return (
     <MainStyling>
-      <div>
+      <div style={{ display:"flex", justifyContent:"center", width:"100vw", paddingLeft:"2.5vw"}}>
         <div className="main">
           <div className="gift_main_div">
             <div className="gift_text_div">
