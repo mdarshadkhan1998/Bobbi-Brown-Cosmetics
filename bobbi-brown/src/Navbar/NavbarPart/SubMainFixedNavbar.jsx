@@ -89,19 +89,19 @@ const SubMainFixedNavbar = () => {
                         <div>
                             <ul className=" linksForFixNav">
                                 <li className='slideFixNavbar'>
-                                    <Link to={"#"} onMouseOver={()=>hoverHandler('NEW')}  ><p>NEW</p></Link>
+                                    <Link to={"/newproductmapping"} onMouseOver={()=>hoverHandler('NEW')}  ><p>NEW</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
-                                    <Link to={"#"} onMouseEnter={()=>hoverHandler('BEST')} ><p>BESTSELLERS</p></Link>
+                                    <Link to={"/shopallbestsellers"} onMouseEnter={()=>hoverHandler('BEST')} ><p>BESTSELLERS</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
-                                    <Link to={"#"} onMouseEnter={()=>hoverHandler('FACE')} ><p>FACE</p></Link>
+                                    <Link to={"/faceproductmapping"} onMouseEnter={()=>hoverHandler('FACE')} ><p>FACE</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
-                                    <Link to={"#"} onMouseEnter={()=>hoverHandler('MAKEUP')} ><p>MAKEUP</p></Link>
+                                    <Link to={"/makeupmini"} onMouseEnter={()=>hoverHandler('MAKEUP')} ><p>MAKEUP</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
-                                    <Link to={"#"} onMouseEnter={()=>hoverHandler('SKINCARE')} ><p>SKINCARE</p></Link>
+                                    <Link to={"/skincaremapping"} onMouseEnter={()=>hoverHandler('SKINCARE')} ><p>SKINCARE</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
                                     <Link to={"#"} onMouseEnter={()=>hoverHandler('VIRTUAL')} ><p>VIRTUAL SERVICES</p></Link>

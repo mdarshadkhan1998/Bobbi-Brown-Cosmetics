@@ -33,7 +33,7 @@ export const Home = () => {
              <Route path="/trendingnow" element={<TrendingNow/>}/>
              <Route path="/skincare" element={<SkinCare/>}/>
            </Routes>
-     
+           <br />
           <br />
           <br />
           <br />

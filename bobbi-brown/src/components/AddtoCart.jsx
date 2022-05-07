@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button'
 import styled from 'styled-components'
 import TextField from '@mui/material/TextField';
 import { ButtonBase } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 
 const Flexdiv = styled.div`
@@ -16,8 +17,10 @@ width:70%;
 
 
 export const AddtoCart = (props) => {
- 
-
+ const navigate= useNavigate()
+ const handlecheckout = () => {
+    navigate("/checkout")
+ }
 
 
   return (
@@ -62,7 +65,7 @@ export const AddtoCart = (props) => {
       <div style={{display: 'flex',flexDirection:"column"}}> 
       <br />
           <Button style={{backgroundColor:"white",color:'black',textAlign:"center"}}><img src="https://www.bobbibrowncosmetics.com/media/export/cms/icons/paypal_button.svg" /></Button>
-      <Button style={{backgroundColor:"black",color:'white'}}> <img src="https://www.bobbibrowncosmetics.com/media/export/cms/icons/security_white_lock_icon.svg" />  CHECKOUT</Button>
+      <Button onClick={handlecheckout} style={{backgroundColor:"black",color:'white'}}> <img src="https://www.bobbibrowncosmetics.com/media/export/cms/icons/security_white_lock_icon.svg" />  CHECKOUT</Button>
       <br />
        <div ><img src="https://www.bobbibrowncosmetics.com/media/export/cms/icons/visa_card.svg" alt="visa" />
        <img style={{marginLeft:"5px"}} src="https://www.bobbibrowncosmetics.com/media/export/cms/icons/master_card.svg" alt="master" />

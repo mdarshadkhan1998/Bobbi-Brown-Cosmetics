@@ -85,19 +85,19 @@ const ToggleSubMainFixedNavbar = () => {
                         <div>
                             <ul className=" linksForFixNav">
                                 <li className='slideFixNavbar'>
-                                    <Link to={"#"} onMouseOver={()=>hoverHandler('NEW')}  ><p>NEW</p></Link>
+                                    <Link to={"/newproductmapping"} onMouseOver={()=>hoverHandler('NEW')}  ><p>NEW</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
-                                    <Link to={"#"} onMouseEnter={()=>hoverHandler('BEST')} ><p>BESTSELLERS</p></Link>
+                                    <Link to={"/shopallbestsellers"} onMouseEnter={()=>hoverHandler('BEST')} ><p>BESTSELLERS</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
-                                    <Link to={"#"} onMouseEnter={()=>hoverHandler('FACE')} ><p>FACE</p></Link>
+                                    <Link to={"/faceproductmapping"} onMouseEnter={()=>hoverHandler('FACE')} ><p>FACE</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
-                                    <Link to={"#"} onMouseEnter={()=>hoverHandler('MAKEUP')} ><p>MAKEUP</p></Link>
+                                    <Link to={"/makeupmini"} onMouseEnter={()=>hoverHandler('MAKEUP')} ><p>MAKEUP</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
-                                    <Link to={"#"} onMouseEnter={()=>hoverHandler('SKINCARE')} ><p>SKINCARE</p></Link>
+                                    <Link to={"/skincaremapping"} onMouseEnter={()=>hoverHandler('SKINCARE')} ><p>SKINCARE</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
                                     <Link to={"#"} onMouseEnter={()=>hoverHandler('VIRTUAL')} ><p>VIRTUAL SERVICES</p></Link>
@@ -113,7 +113,7 @@ const ToggleSubMainFixedNavbar = () => {
                             <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faBagShopping} /></Link> */}
                             <Link to={"#"}><img style={{padding:'8px' ,height:"37px"}} src='https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg' alt='' /></Link>                            
                             <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "22px", paddingLeft:"10px",paddingRight:"10px" }} icon={faUser} /></Link>
-                            <Link to={"#"}><img style={{padding:'8px' ,height:"37px"}} src='https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg' alt='' /></Link>
+                            <Link to={"/addtocart"}><img style={{padding:'8px' ,height:"37px"}} src='https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg' alt='' /></Link>
                         </div>
                     </div>
                 </div>
