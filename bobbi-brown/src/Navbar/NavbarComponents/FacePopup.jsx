@@ -52,7 +52,7 @@ const FacePopup = () => {
         <div className='maindivSet'>
             <div className='maindiv'>
                 <Link to="#"  style={{textDecoration:"none"}} >
-                    <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/new/20210811_BB_FY21_LuxeDefiningLipstick_Engage_Product_ShadeRange_NA_GNAV_600x300.jpg" alt=''/>
+                    <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/face/Nagivation-Tiles-Face-PC-SLWW_2_@2x.jpg" alt=''/>
                     <h3>DISCOVER SKIN LONG-WEAR WEIGHTLESS FOUNDATION SPF 15</h3>
                     <p>Our #1 Foundation Formula now in 42 shades.</p>
                 </Link>

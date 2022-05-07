@@ -6,6 +6,7 @@ import {faBagShopping, faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';
 import {faUser} from '@fortawesome/free-regular-svg-icons'
 import { red } from '@mui/material/colors';
 import { height } from '@mui/system';
+import logo from "../Images/logo.png"
 // import {} from '@fortawesome/fontawesome-svg-core'
 // import { FaBeer, FaGithub } from 'react-icons/fa';
 
@@ -79,7 +80,8 @@ const FixedNavbar = () => {
                         </li>
                         <li>
                             <Link to={"#"}>
-                                <img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" className='logoImage' alt="" />
+                                {/* <img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" className='logoImage' alt="" /> */}
+                                <img src={logo} className='logoImage' alt="" />
                             </Link>
                         </li>
                         <li className='rightPartTopNav'>
