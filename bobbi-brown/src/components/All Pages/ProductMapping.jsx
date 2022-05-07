@@ -76,7 +76,7 @@ const ProductMappingStyling = styled.div`
 `;
 
 const ProductMapping = (e) => {
-    console.log(e)
+    // console.log(e)
   return (
     <ProductMappingStyling>
         <div className='personalDiv'>

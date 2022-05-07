@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Footer.css'
+import { FaFacebookF, FaGithub, FaInstagram, FaLinkedin, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa';
 
  const Footer = () => {
     // function myFunction() {
@@ -54,12 +56,13 @@ import './Footer.css'
             <button >SUBMIT</button><br/>
             <h3>FOLLOW US</h3><br/>
             <div className="socials">
-                <a href="https://www.facebook.com/BobbiBrown" target="_blank"><i  class='bx bxl-facebook'></i></a>
-                <a href="https://twitter.com/BobbiBrown" target="_blank"><i class='bx bxl-twitter' ></i></a>
-                <a href="https://www.youtube.com/BobbiBrown" target="_blank"><i class='bx bxl-youtube' ></i></a>
-                <a href="https://www.instagram.com/BobbiBrown/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="https://www.pinterest.com/bobbibrown/" target="_blank"><i class='bx bxl-pinterest'></i></a>
-             
+                <Link to="https://www.instagram.com/_mad___boxer_/" target="_blank"><FaInstagram /></Link>                
+                <Link to="https://www.linkedin.com/in/md-arshad-khan-350206154/" target="_blank"><FaLinkedin /></Link>
+                <Link to="https://github.com/mdarshadkhan1998/Bobbi-Brown-Cosmetics" target="_blank"><FaGithub /></Link>
+                <Link to="https://www.pinterest.com/bobbibrown/" target="_blank"><FaPinterest /></Link>
+                <Link to="https://www.facebook.com/BobbiBrown" target="_blank"><FaFacebookF /></Link>
+                <Link to="https://twitter.com/BobbiBrown" target="_blank"><FaTwitter/></Link>
+                <Link to="https://www.youtube.com/BobbiBrown" target="_blank"><FaYoutube /> </Link>                
             </div>
         </div>
         </div>
