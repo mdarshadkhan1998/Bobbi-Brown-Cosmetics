@@ -1,6 +1,7 @@
 export const FIRST_SLIDE = 'FIRST_SLIDE';
+export const PRODUCTTOCART = 'PRODUCTTOCART';
 
-
-const firstSlide = (payload) =>{
-    
-}
+   export  const producttocart = (payload) =>({
+    type: PRODUCTTOCART,
+    payload
+     })

@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import TextField from '@mui/material/TextField';
 import { ButtonBase } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 
 const Flexdiv = styled.div`
@@ -16,7 +17,9 @@ width:70%;
 `
 
 
-export const AddtoCart = (props) => {
+export const AddtoCart = () => {
+  const {cart}= useSelector((state=> state))
+  console.log(cart)
  const navigate= useNavigate()
  const handlecheckout = () => {
     navigate("/checkout")

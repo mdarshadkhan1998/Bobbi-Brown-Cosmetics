@@ -1,5 +1,8 @@
 import React from 'react'
+import { useDispatch } from 'react-redux';
+
 import styled from "styled-components"
+import {producttocart} from '../../redux/action'
 
 const ProductMappingStyling = styled.div`
 .personalDiv{
@@ -76,6 +79,18 @@ const ProductMappingStyling = styled.div`
 `;
 
 const ProductMapping = (e) => {
+
+   const dispatch = useDispatch()
+ 
+    // const handlecart =(item) =>{
+        //  if( e.id){
+            //  console.log(e)
+            //  dispatch(producttocart(e))
+            //  console.log(producttocart)
+        //  } 
+        //  console.log("working")
+    // }
+
     // console.log(e)
   return (
     <ProductMappingStyling>
@@ -90,7 +105,7 @@ const ProductMapping = (e) => {
                 <p className='totalReview'>{`${e.totalReview===undefined ? "" : `(${e.totalReview})` }`}</p>
             </div>
             <p className='price'>{`${e.tag===undefined ? "" : `$${e.price}.00` }`}</p>
-            {e.name===undefined ? "" : <button className='addToCartButton'>ADD TO BAG</button> }            
+            {e.name===undefined ? "" : <button className='addToCartButton' onClick={()=> dispatch(producttocart(e))}>ADD TO BAG</button> }            
         </div>
     </ProductMappingStyling>
   )
