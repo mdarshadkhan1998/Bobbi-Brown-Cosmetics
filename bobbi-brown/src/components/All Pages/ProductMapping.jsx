@@ -79,6 +79,7 @@ const ProductMappingStyling = styled.div`
 `;
 
 const ProductMapping = (e) => {
+
    const dispatch = useDispatch()
  
     // const handlecart =(item) =>{
