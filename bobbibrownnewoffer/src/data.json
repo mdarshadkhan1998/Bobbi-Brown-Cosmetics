@@ -1,0 +1,44 @@
+[
+  {
+    "name": "last chance",
+    "description": "Get up to 30% off select products before they’re gone for good.",
+    "imgurl": "https://www.bobbibrowncosmetics.com/media/export/cms/offers/BB-OfferLP-LastChance-Tile_@2x.gif",
+    "target": "Shop Now",
+    "selection4_url": "https://www.bobbibrowncosmetics.com/products/16111/Makeup/last-call"
+  },
+  {
+    "name": "free samples",
+    "description": "Select at checkout with any order.*",
+    "imgurl": "https://www.bobbibrowncosmetics.com/media/export/cms/offers/FH20_OfferLP-Minis.jpg",
+    "target": "Shop Now",
+    "selection4_url": "https://www.bobbibrowncosmetics.com/products/14460/new"
+  },
+  {
+    "name": "free shipping",
+    "description": "On all orders when you join BB Access.",
+    "imgurl": "https://www.bobbibrowncosmetics.com/media/export/cms/offers/FH20_OfferLP-FreeShipping.jpg",
+    "target": "Learn More",
+    "selection4_url": "https://www.bobbibrowncosmetics.com/customer-service-shipping#shipping-options"
+  },
+  {
+    "name": "NO-QUESTION\nRETURNS",
+    "description": "On foundations, correctors,     and concealers.",
+    "imgurl": "https://www.bobbibrowncosmetics.com/media/export/cms/offers/FH20_OfferLP-FreeReturns.jpg",
+    "target": "Shop Now",
+    "selection4_url": "https://www.bobbibrowncosmetics.com/products/14017/Makeup/Face-and-Cheek/Foundation"
+  },
+  {
+    "name": "Afterpay",
+    "description": "Shop now and pay in four equal installments.",
+    "imgurl": "https://www.bobbibrowncosmetics.com/media/export/cms/offers/FH20_OfferLP-Afterpay.jpg",
+    "target": "Learn More",
+    "selection4_url": "https://www.bobbibrowncosmetics.com/afterpay"
+  },
+  {
+    "name": "connect with an artist",
+    "description": "Text or chat for expert advice and\nbook free virtual consultations with our artists—anytime, anywhere.",
+    "imgurl": "https://www.bobbibrowncosmetics.com/media/export/cms/offers/FH20_OfferLP-Connect.jpg",
+    "target": "Learn More",
+    "selection4_url": "https://www.bobbibrowncosmetics.com/digital-services"
+  }
+]
