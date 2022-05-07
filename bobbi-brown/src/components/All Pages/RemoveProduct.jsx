@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-
 import styled from "styled-components"
 import {producttocart} from '../../redux/action'
 
-const ProductMappingStyling = styled.div`
+const RemoveProductStyling = styled.div`
 .personalDiv{
     padding:20px;
     line-height:1;
@@ -79,7 +78,7 @@ const ProductMappingStyling = styled.div`
 }
 `;
 const Array = localStorage.getItem("producthere")|| []
-const ProductMapping = (e) => {
+const RemoveProduct = (e) => {
     
 //  console.log(e)
      const [data,setData] = useState([])
@@ -87,23 +86,11 @@ const ProductMapping = (e) => {
    
    const dispatch = useDispatch()
    const navigate= useNavigate()
-    const handlecart =(product,item) =>{
-       
-               setData([...data,product])
-                //  console.log(product)
-          fetch(`http://localhost:3000/data`,{
-              method:'POST',
-              headers:{'content-type':'application/json'},
-              body:JSON.stringify(product)
-          }).then((res)=> res.json())
-          .then((d)=>console.log(d))
-          .catch((err)=>console.log("err",err))
-        // console.log(data)
-    }
+   
 
   return (
-    <ProductMappingStyling>
-        <div  className='personalDiv'>
+    <RemoveProductStyling>
+        {/* <div  className='personalDiv'>
             <div className={`${e.tag===undefined ? "" : 'tag' }`}>{`${e.tag===undefined ? "" : e.tag }`}</div>
             <img className={e.image===undefined ? 'justImage' : 'image' } src={`${e.image===undefined ? e.justImage : e.image }`} alt='' />
             <h6 className='color'>{`${e.color===undefined ? "" : e.color }`}</h6>
@@ -114,10 +101,22 @@ const ProductMapping = (e) => {
                 <p className='totalReview'>{`${e.totalReview===undefined ? "" : `(${e.totalReview})` }`}</p>
             </div>
             <p className='price'>{`${e.tag===undefined ? "" : `$${e.price}.00` }`}</p>
-            {e.name===undefined ? "" : <button className='addToCartButton' onClick={()=>handlecart(e,e.id)}>ADD TO BAG</button> }            
-        </div>
-    </ProductMappingStyling>
+            {e.name===undefined ? "" : <button className='addToCartButton' onClick={""}>REMOVE</button> }            
+        </div> */}
+         <div style={{ display: "flex", justifyContent: "space-around" }}>
+              <img src={e.image} alt="image" style={{height:"80px", weight:"80px"}} />
+              <div>
+                <p style={{ fontSize: "16px" }}>{e.name}</p>
+
+                <p style={{ fontSize: "12px" }}>{e.color}</p>
+                <button style={{ backgroundColor: "lightgrey" }}>
+                  Remove
+                </button>
+              </div>
+              <p>{`$${e.price}`}</p>
+            </div>
+    </RemoveProductStyling>
   )
 }
 
-export default ProductMapping
+export default RemoveProduct

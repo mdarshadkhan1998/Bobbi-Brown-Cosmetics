@@ -35,7 +35,7 @@ const SkincareMapping = () => {
    
     const SkincareMappingData = [
         {
-            "id": 1,
+            "id": 51,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E1LM01_600x600_0.jpg ",
             "rating":"★★★★★",
             "name": "Vitamin Enriched Face Base",
@@ -45,7 +45,7 @@ const SkincareMapping = () => {
             "tag": "Top-Rated"
         },
         {
-            "id": 2,
+            "id": 52,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EL1901_600x600_0.jpg ",
             "rating":"★★★☆☆",
             "name": "Vitamin Enriched Eye Base",
@@ -59,7 +59,7 @@ const SkincareMapping = () => {
             "justImage": skincare3,
         },
         {
-            "id": 3,
+            "id": 53,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EREP01_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Extra Repair Moisture Cream Intense",
@@ -69,7 +69,7 @@ const SkincareMapping = () => {
             "tag": "New"
         },
         {
-            "id": 4,
+            "id": 54,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EP7P01_600x600_0.jpg ",
             "rating":"★★☆☆☆",
             "name": "Extra Repair Eye Cream Intense",
@@ -79,7 +79,7 @@ const SkincareMapping = () => {
             "tag": "New"
         },
         {
-            "id": 5,
+            "id": 55,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_0.jpg  ",
             "rating":"★★☆☆☆",
             "name": "Extra Cleansing Balm",
@@ -89,7 +89,7 @@ const SkincareMapping = () => {
             "tag": "New"
         },
         {
-            "id": 6,
+            "id": 56,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65X01_600x600_0.jpg  ",
             "rating":"★★★★★",
             "name": "Hydrating Face Cream",
@@ -99,7 +99,7 @@ const SkincareMapping = () => {
             "tag": "Best Seller"
         },
         {
-            "id": 7,
+            "id": 57,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65Y01_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Hydrating Eye Cream",
@@ -109,7 +109,7 @@ const SkincareMapping = () => {
             "tag": "Best Seller"
         },
         {
-            "id": 8,
+            "id": 58,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EMNE01_600x600_0.jpg  ",
             "rating":"★★★★★",
             "name": "Hydrating Water Fresh Cream",
@@ -123,7 +123,7 @@ const SkincareMapping = () => {
             "justImage": skincare4,
         },
         {
-            "id": 9,
+            "id": 59,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EHP201_600x600_0.jpg ",
             "rating":"★★☆☆☆",
             "name": "Extra Illuminating Moisture Balm",
@@ -134,7 +134,7 @@ const SkincareMapping = () => {
             "color": "Bare Glow"
         },
         {
-            "id": 10,
+            "id": 510,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E1YJ01_600x600_0.jpg ",
             "rating":"★★★★★",
             "name": "Extra Face Oil",
@@ -144,7 +144,7 @@ const SkincareMapping = () => {
             "tag": "Customer Favorite"
         },
         {
-            "id": 11,
+            "id": 511,
             "image":"  ",
             "rating":"★★★★☆",
             "name": "Extra Lip Tint",
@@ -155,7 +155,7 @@ const SkincareMapping = () => {
             "color": "Bare Pink"
         },
         {
-            "id": 12,
+            "id": 512,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7E01_600x600_0.jpg  ",
             "rating":"★★☆☆☆",
             "name": "Deluxe Size Soothing Cleansing Oil",
@@ -163,7 +163,7 @@ const SkincareMapping = () => {
             "price": 80
         },
         {
-            "id": 13,
+            "id": 513,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGP01_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Mini Soothing Cleansing Oil",
@@ -173,7 +173,7 @@ const SkincareMapping = () => {
             "tag": "Limited Edition"
         },
         {
-            "id": 14,
+            "id": 514,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM4201_600x600_0.jpg  ",
             "rating":"★★★★★",
             "name": "Soothing Cleansing Oil",
@@ -183,7 +183,7 @@ const SkincareMapping = () => {
             "tag": "EXCLUSIVE PRESALE"
         },
         {
-            "id": 15,
+            "id": 515,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM4201_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Soothing Cleansing Oil",
@@ -196,7 +196,7 @@ const SkincareMapping = () => {
             "justImage": skincare5,
         },
         {
-            "id": 16,
+            "id": 516,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCT01_600x600_0.jpg",
             "rating":"★★★★★",
             "name": "Soothing Cleansing Oil",
@@ -204,7 +204,7 @@ const SkincareMapping = () => {
             "price": 50
         },
         {
-            "id": 17,
+            "id": 517,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EFX201_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Skin Clarifier No. 75",
@@ -214,7 +214,7 @@ const SkincareMapping = () => {
             "tag": "Best Seller"
         },
         {
-            "id": 18,
+            "id": 518,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EG7801_600x600_0.jpg  ",
             "rating":"★★☆☆☆",
             "name": "Skin Moisture Solution No. 86 - Intense Rehydration Compound",
@@ -223,7 +223,7 @@ const SkincareMapping = () => {
             "price": 49
         },
         {
-            "id": 19,
+            "id": 519,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65R01_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Hydrating Face Tonic",
@@ -233,7 +233,7 @@ const SkincareMapping = () => {
             "tag": "Top-Rated"
         },
         {
-            "id": 20,
+            "id": 520,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E42G01_600x600_0.jpg ",
             "rating":"★★☆☆☆",
             "name": "Instant Long-Wear Makeup Remover",
@@ -243,7 +243,7 @@ const SkincareMapping = () => {
             "tag": "Top-Rated"
         },
         {
-            "id": 21,
+            "id": 521,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM6701_600x600_0.jpg ",
             "rating":"★★★★★",
             "name": "Makeup Melter & Cleanser",
@@ -252,7 +252,7 @@ const SkincareMapping = () => {
             "price": 20
         },
         {
-            "id": 22,
+            "id": 522,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EKLT01_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Primer Plus Protection SPF 50",
@@ -262,7 +262,7 @@ const SkincareMapping = () => {
             "tag": "Top-Rated"
         },
         {
-            "id": 23,
+            "id": 523,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERER01_600x600_0.jpg  ",
             "rating":"★★★★★",
             "name": "Extra Repair Moisture Cream Intense Refill",
@@ -272,7 +272,7 @@ const SkincareMapping = () => {
             "tag": "New"
         },
         {
-            "id": 24,
+            "id": 524,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPHC01_600x600_0.jpg ",
             "rating":"★★☆☆☆",
             "name": "Extra Repair Eye Cream Intense Refill",
@@ -282,7 +282,7 @@ const SkincareMapping = () => {
             "tag": "New"
         },
         {
-            "id": 25,
+            "id": 525,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7C01_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Deluxe Size Vitamin Enriched Face Base",
@@ -292,7 +292,7 @@ const SkincareMapping = () => {
             "tag": "New"
         },
         {
-            "id": 26,
+            "id": 526,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERJK03_600x600_0.jpg ",
             "rating":"★★☆☆☆",
             "name": "Mini Extra Illuminating Moisture Balm",
@@ -302,7 +302,7 @@ const SkincareMapping = () => {
             "color": "Pink Glow"
         },
         {
-            "id": 27,
+            "id": 527,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGN01_600x600_0.jpg ",
             "rating":"★★★★★",
             "name": "Mini Vitamin Enriched Face Base",

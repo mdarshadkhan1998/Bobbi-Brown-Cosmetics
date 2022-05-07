@@ -33,7 +33,7 @@ const NewProductMapping = () => {
    
     const NewDataMapping = [
         {
-            id: 1,
+            id: 71,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E49_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Long-Wear Cream Shadow Stick",
@@ -44,7 +44,7 @@ const NewProductMapping = () => {
             "totalReview": 1192,
         },
         {
-            id: 2,
+            id: 72,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSF0_600x600_0.jpg  ",
             "rating":"★★★★★",
             "name": "MZ Wallace Corrector & Concealer Stick Bundle",
@@ -55,11 +55,11 @@ const NewProductMapping = () => {
             "totalReview": 97,
         },
         {
-            id: 30,
+            id: 730,
             "justImage": new3,
         },
         {
-            id: 3,
+            id: 73,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg ",
             "rating":"★★★☆☆",
             "name": "Luxe & Glow",
@@ -70,7 +70,7 @@ const NewProductMapping = () => {
             "totalReview": 97,
         },
         {
-            id: 4,
+            id: 74,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPXL09_600x600_0.jpg  ",
             "rating":"★★★★☆",
             "name": "Skin Corrector Stick",
@@ -81,7 +81,7 @@ const NewProductMapping = () => {
             "totalReview": 32,
         },
         {
-            id: 5,
+            id: 75,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERFJ11_600x600_0.jpg ",
             "rating":"★★★★★",
             "name": "Skin Concealer Stick",
@@ -92,7 +92,7 @@ const NewProductMapping = () => {
             "totalReview": 28,
         },
         {
-            id: 6,
+            id: 76,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETRR08_600x600_0.jpg  ",
             "rating":"★★★★☆",
             "name": "Intensive Serum Concealer",
@@ -103,7 +103,7 @@ const NewProductMapping = () => {
             "totalReview": 2,
         },
         {
-            id: 7,
+            id: 77,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EW5632_600x600_0.jpg ",
             "rating":"★★★☆☆",
             "name": "Pot Rouge for Lips & Cheeks",
@@ -114,7 +114,7 @@ const NewProductMapping = () => {
             "totalReview": 962,
         },
         {
-            id: 8,
+            id: 78,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCW01_600x600_0.jpg ",
             "rating":"★★☆☆☆",
             "name": "Highlighting Powder",
@@ -125,11 +125,11 @@ const NewProductMapping = () => {
             "totalReview": 251,
         },
         {
-            id: 31,
+            id: 731,
             "justImage": new4,
         },
         {
-            id: 9,
+            id: 79,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCY12_600x600_0.jpg  ",
             "rating":"★★★★☆",
             "name": "Extra Lip Tint",
@@ -140,7 +140,7 @@ const NewProductMapping = () => {
             "totalReview": 470,
         },
         {
-            id: 10,
+            id: 710,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERJK03_600x600_0.jpg ",
             "rating":"★★★☆☆",
             "name": "Mini Extra Illuminating Moisture Balm",
@@ -151,7 +151,7 @@ const NewProductMapping = () => {
             "totalReview": 138,
         },
         {
-            id: 11,
+            id: 711,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERGC03_600x600_0.jpg ",
             "rating":"★★★★★",
             "name": "Luxe Eye Shadow",
@@ -162,7 +162,7 @@ const NewProductMapping = () => {
             "totalReview": 130,
         },
         {
-            id: 12,
+            id: 712,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EP7P01_600x600_0.jpg ",
             "rating":"★★☆☆☆",
             "name": "Extra Repair Eye Cream Intense",
@@ -173,7 +173,7 @@ const NewProductMapping = () => {
             "totalReview": 72,
         },
         {
-            id: 13,
+            id: 713,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPHC01_600x600_0.jpg  ",
             "rating":"★★★★☆",
             "name": "Extra Repair Eye Cream Intense Refill",
@@ -184,7 +184,7 @@ const NewProductMapping = () => {
             "totalReview": 5,
         },
         {
-            id: 14,
+            id: 714,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCY12_600x600_0.jpg  ",
             "rating":"★★★☆☆",
             "name": "Extra Repair Moisture Cream Intense",
@@ -195,7 +195,7 @@ const NewProductMapping = () => {
             "totalReview": 52,
         },
         {
-            id: 15,
+            id: 715,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EREP01_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Extra Repair Moisture Cream Intense Refill",
@@ -206,11 +206,11 @@ const NewProductMapping = () => {
             "totalReview": 2,
         },
         {
-            id: 32,
+            id: 732,
             "justImage": new5,
         },
         {
-            id: 16,
+            id: 716,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_0.jpg ",
             "rating":"★★★☆☆",
             "name": "Extra Cleansing Balm",
@@ -221,7 +221,7 @@ const NewProductMapping = () => {
             "totalReview": 36,
         },
         {
-            id: 17,
+            id: 717,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7C01_600x600_0.jpg  ",
             "rating":"★★★★★",
             "name": "Deluxe Size Vitamin Enriched Face Base",
@@ -232,7 +232,7 @@ const NewProductMapping = () => {
             "totalReview": 7,
         },
         {
-            id: 18,
+            id: 718,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETP201_600x600_0.jpg ",
             "rating":"★★☆☆☆",
             "name": "Just A Hint Extra Lip Tint Set",
@@ -243,7 +243,7 @@ const NewProductMapping = () => {
             "totalReview": 4,
         },
         {
-            id: 19,
+            id: 719,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAM04_600x600_0.jpg ",
             "rating":"★★★☆☆",
             "name": "Mini Long-Wear Cream Shadow Stick",
@@ -254,7 +254,7 @@ const NewProductMapping = () => {
             "totalReview": 5,
         },
         {
-            id: 20,
+            id: 720,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAN01_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Mini Smokey Eye Mascara",
@@ -265,7 +265,7 @@ const NewProductMapping = () => {
             "totalReview": 97,
         },
         {
-            id: 21,
+            id: 721,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAP06_600x600_0.jpg ",
             "rating":"★★★★★",
             "name": "Mini Crushed Lip Color",
@@ -276,7 +276,7 @@ const NewProductMapping = () => {
             "totalReview": 2,
         },
         {
-            id: 22,
+            id: 722,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAR06_600x600_0.jpg ",
             "rating":"★★☆☆☆",
             "name": "Mini Luxe Lip Color",
@@ -287,7 +287,7 @@ const NewProductMapping = () => {
             "totalReview": 97,
         },
         {
-            id: 23,
+            id: 723,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERYX01_600x600_0.jpg ",
             "rating":"★★★☆☆",
             "name": "Mini Sheer Finish Pressed Powder",
@@ -298,7 +298,7 @@ const NewProductMapping = () => {
             "totalReview": 1,
         },
         {
-            id: 24,
+            id: 724,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET9301_600x600_0.jpg ",
             "rating":"★★★★★",
             "name": "Soothing Cleansing Oil",

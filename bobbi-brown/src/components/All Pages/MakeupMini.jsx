@@ -30,7 +30,7 @@ const MakeupMini = () => {
    
     const makeupMiniData = [
         {
-            "id": 1,
+            "id": 91,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERE011_600x600_0.jpg  ",
             "rating":"★★★☆☆",
             "name": "Mini Skin Long-Wear Weightless Foundation SPF15",
@@ -40,7 +40,7 @@ const MakeupMini = () => {
             "totalReview": 12
         },
         {
-            "id": 2,
+            "id": 92,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAM04_600x600_0.jpg  ",
             "rating":"★★★★☆",
             "name": "Mini Long-Wear Cream Shadow Stick",
@@ -50,7 +50,7 @@ const MakeupMini = () => {
             "totalReview": 5
         },
         {
-            "id": 3,
+            "id": 93,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPH201_600x600_0.jpg  ",
             "rating":"★★★★★",
             "name": "Mini Highlighting Powder",
@@ -60,7 +60,7 @@ const MakeupMini = () => {
             "totalReview": 251
         },
         {
-            "id": 4,
+            "id": 94,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPH101_600x600_0.jpg ",
             "rating":"★★★★☆",
             "name": "Mini Shimmer Brick",
@@ -70,7 +70,7 @@ const MakeupMini = () => {
             "totalReview": 944
         },
         {
-            "id": 5,
+            "id": 95,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERLN01_600x600_0.jpg  ",
             "rating":"★★★☆☆",
             "name": "Mini Bronzing Powder",
@@ -80,7 +80,7 @@ const MakeupMini = () => {
             "totalReview": 2
         },
         {
-            "id": 6,
+            "id": 96,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAP06_600x600_0.jpg ",
             "rating":"★★★★★",
             "name": "Mini Crushed Lip Color",
@@ -90,7 +90,7 @@ const MakeupMini = () => {
             "totalReview": 2
         },
         {
-            "id": 7,
+            "id": 97,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETF518_600x600_0.jpg  ",
             "rating":"★★★★☆",
             "name": "Mini Luxe Lip Color",
@@ -100,7 +100,7 @@ const MakeupMini = () => {
             "totalReview": 356
         },
         {
-            "id": 8,
+            "id": 98,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETF301_600x600_0.jpg  ",
             "rating":"★★★★☆",
             "name": "Mini Luxe Lip Color Duo",
@@ -109,7 +109,7 @@ const MakeupMini = () => {
             "totalReview": 1
         },
         {
-            "id": 9,
+            "id": 99,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGP01_600x600_0.jpg ",
             "rating":"★★★☆☆",
             "name": "Mini Soothing Cleansing Oil",
@@ -118,7 +118,7 @@ const MakeupMini = () => {
             "totalReview": 154
         },
         {
-            "id": 10,
+            "id": 910,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGN01_600x600_0.jpg ",
             "rating":"★★★★★",
             "name": "Mini Vitamin Enriched Face Base",

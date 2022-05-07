@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "id": 72,
+      "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSF0_600x600_0.jpg  ",
+      "rating": "★★★★★",
+      "name": "MZ Wallace Corrector & Concealer Stick Bundle",
+      "description": "Portable, oil-absorbing powder",
+      "tag": "Limited Edition",
+      "color": "Lavender",
+      "price": 70,
+      "totalReview": 97
+    },
+    {
+      "id": 71,
+      "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E49_600x600_0.jpg ",
+      "rating": "★★★★☆",
+      "name": "Long-Wear Cream Shadow Stick",
+      "description": "Our ultimate quick eye shadow stick",
+      "tag": "TRY IT ON",
+      "color": "Incandescent",
+      "price": 30,
+      "totalReview": 1192
+    },
+    {
+      "id": 61,
+      "rating": "★★★☆☆",
+      "name": "Long-Wear Cream Shadow Stick",
+      "image": "https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E49_600x600_0.jpg   ",
+      "description": "Our ultimate quick eye shadow stick",
+      "price": 30,
+      "totalReview": 1192,
+      "tag": "TRY IT ON",
+      "color": "Incandescent"
+    },
+    {
+      "id": 62,
+      "rating": "★★★★☆",
+      "name": "Vitamin Enriched Face Base",
+      "image": "https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E1LM01_600x600_0.jpg   ",
+      "description": "Multitasking, moisturizing primer",
+      "price": 64,
+      "totalReview": 455,
+      "color": "Lavender",
+      "tag": "Top-Rated"
+    }
+  ]
+}
