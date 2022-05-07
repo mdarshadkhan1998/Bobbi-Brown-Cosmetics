@@ -1,0 +1,375 @@
+ /* mom gift   */
+
+.main{
+    height: 100%;
+    width: 1330px;
+    /* border: 5px solid rgb(182, 240, 25); */
+}
+
+.gift_main_div{
+    height: 550px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.gift_text_div{
+    /* border: 1px solid blue; */
+    flex: 4;
+    height: 100%;
+    padding: 0px;
+}
+.gift_image_div{
+    /* border: 1px solid greenyellow; */
+    flex: 6;
+    height: 100%;
+}
+
+.gift_main_div img{
+    height: 100%;
+    width: 75%;
+}
+.mom-text{
+    height: 450px;
+    width: 85%;
+    /* border: 1px solid black; */
+    margin: 30px 0px 0px 50px ;
+}
+
+
+.mom-text h5{
+  font-size: 40px;
+  font-family: "BBSans Regular",Helvetica,Arial,sans-serif;
+  line-height: 1;
+  margin: 60px 65px 10px 0px;
+  text-align: left;
+}
+.mom-text p{
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    font-size: 16px;
+  }
+  .button-div{
+    height: 100px;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 20px 0px 0px 0px ;
+}
+.button-div button{
+    background-color: black;
+    margin: 10px 190px 0px 0px ;
+    height: 40px;
+    width: 180px;
+    /* border: 1px solid white; */
+    color: white;
+}
+
+/* power of beauty */
+
+.beauty-main-div{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid rgb(3, 129, 41); */
+    margin: 60px 0px 0px 0px;
+}
+
+.headline{
+    height: 20%;
+    width: 80%;
+    /* border: 1px solid blue; */
+    margin: 10px 0px 0px 15% ;
+}
+
+.headline h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "BBSans Regular",Helvetica,Arial,sans-serif;
+    line-height: .95;
+    letter-spacing: 1.5px;
+}
+.headline p{
+    font-weight: 400;
+}
+.headline button{
+    background-color: black;
+    margin: 10px 190px 0px 0px ;
+    height: 40px;
+    width: 180px;
+    /* border: 1px solid white; */
+    color: white;
+}
+.main-images-div{
+    height: 70%;
+    width:100%;
+    /* border: 1px solid red; */
+    margin: 8% 0px 0px 0px;
+    display: flex;
+}
+.image-div{
+    height: 90%;
+    width: 21%;
+    /* border: 1px solid blue; */
+    margin: 0px 0px 0px 40px ;
+}
+.image-div img{
+    height: 75%;
+    width: 90%;
+    margin: 0px 40px 0px 0px ;
+    
+}
+.image-div h5{
+    font-size: 15px;
+    font-family: "BBSans Regular",Helvetica,Arial,sans-serif ;
+    text-align: left;
+}
+.image-div p{
+    text-align: left;
+}
+
+/* set for spring */
+
+.main-spring-div{
+    height: 660px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    margin: 160px 0px 0px 0px ;
+    display: flex;
+}
+
+.powder-image-div{
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid black; */
+}
+
+.powder-text-div{
+    height: 60%;
+    width: 40%;
+    /* border: 1px solid brown; */
+    padding: 0px 0px 80px 0px;
+}
+.powder-text-div  h4{
+    font-size: 55px;
+    font-weight: 500;
+    font-family: "BBSans Regular",Helvetica,Arial,sans-serif ;
+    text-align: left;
+    text-transform: uppercase;
+}
+.lightweight{
+    text-align: left;
+    margin: 0px 0px 0px 0px ;
+}
+.powder-text-div h5{
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.powder-text-div p{
+    text-align: left;
+}
+.powder-text-div button{
+    background-color: black;
+    margin: 0px 70% 0px 0px ;
+    height: 40px;
+    width: 180px;
+    border: 1px solid white;
+    color: white;   
+}
+.powder-image-div img{
+    height: 100%;
+    width: 75%;
+}
+
+
+/* YK2 MAKEUP  */
+
+.makeup-main-div{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    margin: 70px 0px 0px 0px ;
+    display: flex;
+}
+.YK-MAKEUP {
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid black; */
+    margin: 0px 0px 0px 60px;
+}
+
+.makeup-image-div {
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid olivedrab; */
+    margin: 0px 0px 0px 20px ;
+}
+.frosted-div {
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid red; */
+    margin: 0px 0px 0px 20px ;
+}
+
+.YK-MAKEUP h3{
+    font-size: 55px;
+    font-weight: 500;
+    font-family: "BBSans Regular",Helvetica,Arial,sans-serif ;
+    text-align: left;
+    text-transform: uppercase;    
+}
+
+.YK-MAKEUP p{
+    text-align: left;   
+    font-size: 18px;
+}
+
+.makeup-image-div img{
+    height: 90%;
+    width: 86%;
+    margin: 0px 0px 0px 0px;
+}
+
+.frosted-div div{
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid blueviolet ; */
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+/* ARTISTY consultation */
+
+.consultation-main-div{
+height: 600px;
+width: 100%;
+/* border: 1px solid blue; */
+margin: 60px 0px 0px 0px;
+}
+.artisty-headline-div{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid brown; */
+    float: none;
+}
+
+.learn-headline h4{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "BBSans Regular",Helvetica,Arial,sans-serif ;
+    text-align: center;  
+    margin: -10px 0px 0px 0px ;
+}
+
+.virtual-headline{
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 0px 0px 20px 0px;
+}
+
+.learn-headline{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid blue; */
+    padding: 0px 0px 20px 0px ;
+}
+
+.complimentary-div{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid green; */
+}           
+
+.complimentary-div p{
+   margin: -40px 0px 0px 0px ; 
+}  
+
+.main-artisty-images-div{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 20px 0px 0px 0px ;
+    display: flex;
+}
+.artisty-images-div{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid blue; */
+    margin: 0px 0px 0px 20px;  
+    text-align: left; 
+}
+.artisty-images-div img{
+     height: 65%;
+     width: 90%;
+}
+
+.artisty-images-div p{
+    margin: 10px 0px 10px 0px ;
+    font-size: 13px;
+    color: grey;
+}
+.artisty-images-div h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "BBSans Regular",Helvetica,Arial,sans-serif ;
+    text-align: left;  
+    margin: 0px 0% 0px 0px ;
+}
+
+.artisty-images-div button{
+    background-color: black;
+    margin: 0px 0% 0px 0px ;
+    height: 40px;
+    width: 150px;
+    border: 1px solid white;
+    color: white;   
+}
+
+/* BOBBIBROWN COMMUNITY */
+
+.community-main-div{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 10% 0px 0px 0px ;
+}
+.community-headline-div{
+    height: 20%;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+.community-headline-div h4{
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "BBSans Regular",Helvetica,Arial,sans-serif ;
+    text-align: center;  
+    margin: 0px 0% 0px 0px ;
+}
+.community-headline-div p{
+    margin: -5px 0px 0px 0px ;
+    font-size: 15px;
+    color: gray;
+}
+
+.community-images-div{
+    height: 80%;
+    width: 100%;
+    /* border: 1px solid rgb(255, 0, 34); */
+    display: flex;
+}
+.community-image-div{
+    height: 100%;
+    width: 22%;
+    /* border: 1px solid green; */
+    margin: 0px 0px 0px 30px ;
+    text-align: left;
+}
+
+.community-image-div img{
+    height: 70%;
+    width: 80%;
+}
+
+.community-image-div h4{
+margin: 0px 0px 0px 0px ;
+}
