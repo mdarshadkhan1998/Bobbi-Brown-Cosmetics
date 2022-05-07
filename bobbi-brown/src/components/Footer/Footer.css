@@ -1,7 +1,8 @@
-/* body{
-    background-color: black;
-    color: white;
-} */
+
+        #footer{
+            background-color: black;
+            color: white;
+        }
         #first{
             padding: 45px;
             cursor: pointer;
@@ -96,7 +97,7 @@
         background-color: black;
         color:white;
         border:2px solid white;
-        width: 80%;
+        width: 60%;
         padding:10px 20px;
         font-size:15px;
         cursor: pointer;

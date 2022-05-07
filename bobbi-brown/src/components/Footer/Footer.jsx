@@ -8,7 +8,7 @@ import './Footer.css'
 
   return (
     <>
-    <div id="footer" style={{backgroundColor:"black"}}>
+    <div id="footer">
         <div id="footer1">
             <div id="first">
             <h4>NEED HELP?</h4>
