@@ -185,7 +185,7 @@ const NewProductMapping = () => {
         },
         {
             id: 14,
-            "image":"  ",
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCY12_600x600_0.jpg  ",
             "rating":"★★★☆☆",
             "name": "Extra Repair Moisture Cream Intense",
             "description": "Replenishing face cream with Vitamin C",

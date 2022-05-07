@@ -7,8 +7,10 @@ import ToggleSubMainFixedNavbar from '../Navbar/NavbarPart/ToggleSubMainFixedNav
 const Navbar = () => {
   return (
     <div>
+        {/* Main Navbar */}
         <FixedNavbar/>
         <SubMainFixedNavbar/>
+        {/* Scroll Fix Navbar */}
         {/* <ToggleSubMainFixedNavbar/> */}
     </div>
   )

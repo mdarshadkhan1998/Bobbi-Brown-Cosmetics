@@ -1,11 +1,10 @@
-
-
 import React from 'react'
-import { Link, Route, Routes, useNavigate } from 'react-router-dom'
+import { Route, Routes, useNavigate } from 'react-router-dom'
 import { FirstCrousel } from './FirstCrousel'
 import { New } from './pages/New'
 import { SkinCare } from './pages/SkinCare'
 import { TrendingNow } from './pages/TrendingNow'
+import Main from "../components/NewHomeBody/Main"
 
 
 export const Home = () => {
@@ -39,7 +38,11 @@ export const Home = () => {
           <br />
           <br />
          </div>
-      
+        <Main />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
     </div>
   )
 }

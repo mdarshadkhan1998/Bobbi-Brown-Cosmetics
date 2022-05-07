@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 //bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -213,9 +214,9 @@ export const Checkout = () => {
          <footer className="my-5 pt-5 text-muted text-center text-small">
            <p className="mb-1">&copy; 2020-2021 therichpost.com</p>
            <ul className="list-inline">
-             <li className="list-inline-item"><a href="#">Privacy</a></li>
-             <li className="list-inline-item"><a href="#">Terms</a></li>
-             <li className="list-inline-item"><a href="#">Support</a></li>
+             <li className="list-inline-item"><Link to={""}>Privacy</Link></li>
+             <li className="list-inline-item"><Link to={""}>Terms</Link></li>
+             <li className="list-inline-item"><Link to={""}>Support</Link></li>
            </ul>
          </footer>
        </div>
