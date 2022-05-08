@@ -1,12 +1,26 @@
+.background {
+  background-color: #ffffff;
+}
 .productdetails {
   display: flex;
   margin-bottom: 100px;
   gap: 10px;
+  background-color: #ffffff;
+}
+.productdetailsleftimg {
+  width: 120px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.productdetailsleftimg img {
+  width: 78px;
+  height: 80px;
+  margin: 20px;
 }
 .productdetailsleft img {
   height: 541px;
   width: 541px;
-  margin-left: 200px;
+  margin: 0 100px 0 50px;
 }
 .textaling {
   text-align: right;
@@ -88,6 +102,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-top: 0px;
+  background-color: #ffffff;
 }
 .reviev {
   text-align: center;
