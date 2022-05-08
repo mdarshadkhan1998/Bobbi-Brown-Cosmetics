@@ -19,6 +19,8 @@ export const AddtoCart = () => {
   // const {cart}= useSelector((state => state.cart))
   // console.log(cart)
   // const location = useLocation()
+ 
+  
   const [arr, setArr] = useState([]);
   const navigate = useNavigate();
   //  console.log(arr)
@@ -65,7 +67,7 @@ export const AddtoCart = () => {
             </div>
             {/* // map the data here ////////////// */}
             <div>
-              {arr.map((e) => ( <RemoveProduct {...e} key={e.id} /> ))}
+              {arr.map((e) => (<RemoveProduct {...e}  key={e.id}  setArr={setArr}/> ))}
             </div>
            
           </div>
