@@ -1,0 +1,281 @@
+{
+    "skincareData" : [
+        {
+            "id": 1,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E1LM01_600x600_0.jpg ",
+            "rating":"★★★★★",
+            "name": "Vitamin Enriched Face Base",
+            "description": "Multitasking, moisturizing primer",
+            "totalReview": 2708,
+            "price": 64,
+            "tag": "Top-Rated"
+        },
+        {
+            "id": 2,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EL1901_600x600_0.jpg ",
+            "rating":"★★★☆☆",
+            "name": "Vitamin Enriched Eye Base",
+            "description": "Moisturizing undereye primer",
+            "totalReview": 108,
+            "price": 56,
+            "tag": "New"
+        },
+        {
+            "id": 30,
+            "justImage": "skincare3"
+        },
+        {
+            "id": 3,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EREP01_600x600_0.jpg ",
+            "rating":"★★★★☆",
+            "name": "Extra Repair Moisture Cream Intense",
+            "description": "Replenishing face cream with Vitamin C",
+            "totalReview": 52,
+            "price": 105,
+            "tag": "New"
+        },
+        {
+            "id": 4,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EP7P01_600x600_0.jpg ",
+            "rating":"★★☆☆☆",
+            "name": "Extra Repair Eye Cream Intense",
+            "description": "Revitalizing undereye treatment",
+            "totalReview": 72,
+            "price": 82,
+            "tag": "New"
+        },
+        {
+            "id": 5,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_0.jpg  ",
+            "rating":"★★☆☆☆",
+            "name": "Extra Cleansing Balm",
+            "description": "Purifying, conditioning cleanser",
+            "totalReview": 36,
+            "price": 56,
+            "tag": "New"
+        },
+        {
+            "id": 6,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65X01_600x600_0.jpg  ",
+            "rating":"★★★★★",
+            "name": "Hydrating Face Cream",
+            "description": "Rich yet lightweight moisturizer",
+            "totalReview": 535,
+            "price": 64,
+            "tag": "Best Seller"
+        },
+        {
+            "id": 7,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65Y01_600x600_0.jpg ",
+            "rating":"★★★★☆",
+            "name": "Hydrating Eye Cream",
+            "description": "Gentle, quick-absorbing eye cream",
+            "totalReview": 639,
+            "price": 56,
+            "tag": "Best Seller"
+        },
+        {
+            "id": 8,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EMNE01_600x600_0.jpg  ",
+            "rating":"★★★★★",
+            "name": "Hydrating Water Fresh Cream",
+            "description": "100 hours of nonstop hydration",
+            "totalReview": 58,
+            "price": 64,
+            "tag": "New"
+        },
+        {
+            "id": 30,
+            "justImage": "skincare4"
+        },
+        {
+            "id": 9,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EHP201_600x600_0.jpg ",
+            "rating":"★★☆☆☆",
+            "name": "Extra Illuminating Moisture Balm",
+            "description": "Glow-amplifying moisturizer",
+            "totalReview": 138,
+            "price": 69,
+            "tag": "Customer Favorite",
+            "color": "Bare Glow"
+        },
+        {
+            "id": 10,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E1YJ01_600x600_0.jpg ",
+            "rating":"★★★★★",
+            "name": "Extra Face Oil",
+            "description": "Silky, fast-absorbing face oil",
+            "totalReview": 264,
+            "price": 72,
+            "tag": "Customer Favorite"
+        },
+        {
+            "id": 11,
+            "image":"  ",
+            "rating":"★★★★☆",
+            "name": "Extra Lip Tint",
+            "description": "Color-enhancing lip balm",
+            "totalReview": 470,
+            "price": 34,
+            "tag": "TRY IT ON",
+            "color": "Bare Pink"
+        },
+        {
+            "id": 12,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7E01_600x600_0.jpg  ",
+            "rating":"★★☆☆☆",
+            "name": "Deluxe Size Soothing Cleansing Oil",
+            "totalReview": 14,
+            "price": 80
+        },
+        {
+            "id": 13,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGP01_600x600_0.jpg ",
+            "rating":"★★★★☆",
+            "name": "Mini Soothing Cleansing Oil",
+            "description": "On-the-go gentle makeup-dissolving oil",
+            "totalReview": 154,
+            "price": 15,
+            "tag": "Limited Edition"
+        },
+        {
+            "id": 14,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM4201_600x600_0.jpg  ",
+            "rating":"★★★★★",
+            "name": "Soothing Cleansing Oil",
+            "description": "Makeup remover and cleanser",
+            "totalReview": 154,
+            "price": 50,
+            "tag": "EXCLUSIVE PRESALE"
+        },
+        {
+            "id": 15,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM4201_600x600_0.jpg ",
+            "rating":"★★★★☆",
+            "name": "Soothing Cleansing Oil",
+            "totalReview": 35,
+            "price": 32,
+            "tag": "New"
+        },
+        {
+            "id": 30,
+            "justImage": "skincare5"
+        },
+        {
+            "id": 16,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCT01_600x600_0.jpg",
+            "rating":"★★★★★",
+            "name": "Soothing Cleansing Oil",
+            "totalReview": 141,
+            "price": 50
+        },
+        {
+            "id": 17,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EFX201_600x600_0.jpg ",
+            "rating":"★★★★☆",
+            "name": "Skin Clarifier No. 75",
+            "description": "Concentrated pore-clarifying treatment",
+            "totalReview": 100,
+            "price": 49,
+            "tag": "Best Seller"
+        },
+        {
+            "id": 18,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EG7801_600x600_0.jpg  ",
+            "rating":"★★☆☆☆",
+            "name": "Skin Moisture Solution No. 86 - Intense Rehydration Compound",
+            "description": "Water-infused hydrating serum",
+            "totalReview": 30,
+            "price": 49
+        },
+        {
+            "id": 19,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65R01_600x600_0.jpg ",
+            "rating":"★★★★☆",
+            "name": "Hydrating Face Tonic",
+            "description": "Balancing and restoring toner",
+            "totalReview": 264,
+            "price": 38,
+            "tag": "Top-Rated"
+        },
+        {
+            "id": 20,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E42G01_600x600_0.jpg ",
+            "rating":"★★☆☆☆",
+            "name": "Instant Long-Wear Makeup Remover",
+            "description": "Gentle eye-makeup remover",
+            "totalReview": 329,
+            "price": 33,
+            "tag": "Top-Rated"
+        },
+        {
+            "id": 21,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM6701_600x600_0.jpg ",
+            "rating":"★★★★★",
+            "name": "Makeup Melter & Cleanser",
+            "description": "Gentle foaming makeup remover",
+            "totalReview": 98,
+            "price": 20
+        },
+        {
+            "id": 22,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EKLT01_600x600_0.jpg ",
+            "rating":"★★★★☆",
+            "name": "Primer Plus Protection SPF 50",
+            "description": "Protective face primer",
+            "totalReview": 84,
+            "price": 40,
+            "tag": "Top-Rated"
+        },
+        {
+            "id": 23,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERER01_600x600_0.jpg  ",
+            "rating":"★★★★★",
+            "name": "Extra Repair Moisture Cream Intense Refill",
+            "description": "Refill. Reuse. Repeat.",
+            "totalReview": 2,
+            "price": 85,
+            "tag": "New"
+        },
+        {
+            "id": 24,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPHC01_600x600_0.jpg ",
+            "rating":"★★☆☆☆",
+            "name": "Extra Repair Eye Cream Intense Refill",
+            "description": "Skin loving. Planet conscious.",
+            "totalReview": 5,
+            "price": 68,
+            "tag": "New"
+        },
+        {
+            "id": 25,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7C01_600x600_0.jpg ",
+            "rating":"★★★★☆",
+            "name": "Deluxe Size Vitamin Enriched Face Base",
+            "description": "Moisturizer and primer in one",
+            "totalReview": 7,
+            "price": 95,
+            "tag": "New"
+        },
+        {
+            "id": 26,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERJK03_600x600_0.jpg ",
+            "rating":"★★☆☆☆",
+            "name": "Mini Extra Illuminating Moisture Balm",
+            "description": "Glow big (in a new mini size)",
+            "totalReview": 138,
+            "price": 30,
+            "color": "Pink Glow"
+        },
+        {
+            "id": 27,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGN01_600x600_0.jpg ",
+            "rating":"★★★★★",
+            "name": "Mini Vitamin Enriched Face Base",
+            "description": "Oil-free moisturizer and primer",
+            "totalReview": 2708,
+            "price": 20,
+            "tag": "Mini Size"
+        }
+    ]
+}

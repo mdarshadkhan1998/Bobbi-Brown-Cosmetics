@@ -1,0 +1,101 @@
+{
+    "makeupMiniData" : [
+        {
+            "id": 1,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERE011_600x600_0.jpg  ",
+            "rating":"★★★☆☆",
+            "name": "Mini Skin Long-Wear Weightless Foundation SPF15",
+            "description": "16-hour, medium coverage matte formula",
+            "color": "Porcelain (N-012 / 0)",
+            "price": 25,
+            "totalReview": 12
+        },
+        {
+            "id": 2,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAM04_600x600_0.jpg  ",
+            "rating":"★★★★☆",
+            "name": "Mini Long-Wear Cream Shadow Stick",
+            "description": "Does-it-all, budge-proof crayon",
+            "color": "Golden Pink",
+            "price": 15,
+            "totalReview": 5
+        },
+        {
+            "id": 3,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPH201_600x600_0.jpg  ",
+            "rating":"★★★★★",
+            "name": "Mini Highlighting Powder",
+            "description": "Pearlescent Glow on the Go",
+            "color": "Pink Glow",
+            "price": 25,
+            "totalReview": 251
+        },
+        {
+            "id": 4,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPH101_600x600_0.jpg ",
+            "rating":"★★★★☆",
+            "name": "Mini Shimmer Brick",
+            "description": "Glow-boosting highlighter",
+            "color": "Bronze",
+            "price": 25,
+            "totalReview": 944
+        },
+        {
+            "id": 5,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERLN01_600x600_0.jpg  ",
+            "rating":"★★★☆☆",
+            "name": "Mini Bronzing Powder",
+            "description": "Sun-kissed, matte-finish bronzer",
+            "color": "Golden Light",
+            "price": 25,
+            "totalReview": 2
+        },
+        {
+            "id": 6,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAP06_600x600_0.jpg ",
+            "rating":"★★★★★",
+            "name": "Mini Crushed Lip Color",
+            "description": "Lived-in look & balm-like hydration",
+            "color": "Cranberry",
+            "price": 15,
+            "totalReview": 2
+        },
+        {
+            "id": 7,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETF518_600x600_0.jpg  ",
+            "rating":"★★★★☆",
+            "name": "Mini Luxe Lip Color",
+            "description": "Bold, moisture-full lipstick",
+            "color": "Hibiscus",
+            "price": 20,
+            "totalReview": 356
+        },
+        {
+            "id": 8,
+            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETF301_600x600_0.jpg  ",
+            "rating":"★★★★☆",
+            "name": "Mini Luxe Lip Color Duo",
+            "description": "Bold, moisture-full lipstick duo",
+            "price": 25,
+            "totalReview": 1
+        },
+        {
+            "id": 9,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGP01_600x600_0.jpg ",
+            "rating":"★★★☆☆",
+            "name": "Mini Soothing Cleansing Oil",
+            "description": "On-the-go gentle makeup-dissolving oil",
+            "price": 15,
+            "totalReview": 154
+        },
+        {
+            "id": 10,
+            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGN01_600x600_0.jpg ",
+            "rating":"★★★★★",
+            "name": "Mini Vitamin Enriched Face Base",
+            "description": "Oil-free moisturizer and primer",
+            "price": 20,
+            "totalReview": 2708
+        }
+    ]
+}
