@@ -1,0 +1,151 @@
+.productdetails {
+  display: flex;
+  margin-bottom: 100px;
+  gap: 10px;
+}
+.productdetailsleft img {
+  height: 541px;
+  width: 541px;
+  margin-left: 200px;
+}
+.textaling {
+  text-align: right;
+  margin-left: 120px;
+}
+.textaling1 {
+  font-weight: lighter;
+  color: gray;
+}
+.img1 img {
+  width: 100px;
+  height: 15px;
+}
+.img2 img {
+  width: 100px;
+  height: 50px;
+}
+.productdetailsright > div:nth-child(1) {
+  display: flex;
+  gap: 20px;
+}
+.productdetailsright > div:nth-child(1) h1 {
+  font-size: 16px;
+}
+.productdetailsright > div:nth-child(1) h2 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.productdetailsright > div:nth-child(3) {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.img1 {
+  display: flex;
+}
+.img1 p {
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  width: 10px;
+  margin-top: 0px;
+  padding-left: 5px;
+}
+.productdetailsright > div:nth-child(5) {
+  margin-top: 20px;
+}
+.productdetailsright > div:nth-child(5) button {
+  background-color: black;
+  color: white;
+  padding: 14px;
+  font-size: 14px 0;
+  width: 260px;
+}
+.productdetailsright > div:nth-child(6) {
+  text-align: center;
+}
+.productdetailsright > div:nth-child(7) {
+  background-color: rgb(219, 216, 216);
+  width: 500px;
+  text-align: left;
+  padding-left: 10px;
+}
+.productdetailsright > div:nth-child(7) u {
+  color: red;
+}
+.spase {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.spase1 {
+  font-weight: 700;
+}
+.heading {
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+.reviev {
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+  height: 300px;
+}
+.reviev1 {
+  display: flex;
+  width: 500px;
+  margin: auto;
+  text-transform: uppercase;
+}
+.reviev11 {
+  border-bottom: 1px solid black;
+  padding: 0 50px;
+}
+.reviev12 {
+  border-bottom: 1px solid gray;
+  padding: 0 50px;
+}
+.reviev2 {
+  margin-top: 20px;
+}
+.lastdiv {
+  height: 140px;
+  padding: 20px 0 20px 0;
+  width: 1440px;
+  margin: auto;
+  border-top: 1px solid gray;
+  display: flex;
+}
+.lastdiv img {
+  width: 100px;
+  height: 100px;
+  margin: 0 20px 0 40px;
+}
+.lastdiv button {
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 600px;
+  background-color: black;
+  color: white;
+  width: 260px;
+  font-size: 14px;
+}
+.lastdiv > p {
+  margin-top: 40px;
+  color: gray;
+}
+.lastdivp1 {
+  font-size: 16;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.lastdivp2 {
+  margin-top: 0px;
+}
+.lastdiv div {
+  margin-top: 10px;
+}
