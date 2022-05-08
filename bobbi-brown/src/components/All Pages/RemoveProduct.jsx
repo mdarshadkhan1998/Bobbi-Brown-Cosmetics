@@ -79,7 +79,7 @@ const RemoveProductStyling = styled.div`
   }
 `;
 var total =0;
-const RemoveProduct = ({arr? arr : e}) => {
+const RemoveProduct = (e) => {
  const {arr,setarr,handleremove} = useContext(Authcontext)
   const navigate = useNavigate();
   useEffect(() => {
@@ -91,7 +91,7 @@ const RemoveProduct = ({arr? arr : e}) => {
 
   };
     total += +e.price
-    console.log(total)
+    // console.log(total)
   // const handleremove = (id) => {
   //   fetch(`http://localhost:3000/data/${id}`, { method: "DELETE" })
   //     .then((res) => res.json())
