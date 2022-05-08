@@ -43,6 +43,50 @@
       "totalReview": 455,
       "color": "Lavender",
       "tag": "Top-Rated"
+    },
+    {
+      "id": 73,
+      "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg ",
+      "rating": "★★★☆☆",
+      "name": "Luxe & Glow",
+      "description": "4 luxurious formulas for lids and lips",
+      "tag": "Limited Edition",
+      "color": "Pale Yellow",
+      "price": 83,
+      "totalReview": 97
+    },
+    {
+      "id": 74,
+      "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPXL09_600x600_0.jpg  ",
+      "rating": "★★★★☆",
+      "name": "Skin Corrector Stick",
+      "description": "Discoloration neutralizer for undereyes & face",
+      "tag": "New",
+      "color": "Bisque",
+      "price": 32,
+      "totalReview": 32
+    },
+    {
+      "id": 711,
+      "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERGC03_600x600_0.jpg ",
+      "rating": "★★★★★",
+      "name": "Luxe Eye Shadow",
+      "description": "Metallic Shimmer Eye Shadow",
+      "tag": "TRY IT ON",
+      "color": "Sun Dip",
+      "price": 38,
+      "totalReview": 130
+    },
+    {
+      "id": 712,
+      "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EP7P01_600x600_0.jpg ",
+      "rating": "★★☆☆☆",
+      "name": "Extra Repair Eye Cream Intense",
+      "description": "Revitalizing undereye treatment",
+      "tag": "New",
+      "color": "Pale Yellow",
+      "price": 82,
+      "totalReview": 72
     }
   ]
 }
