@@ -52,7 +52,7 @@ const MakeupPopup = () => {
       <MakeupPopupStyling>
         <div className='maindivSet'>
             <div className='maindiv'>
-                <Link to="#"  style={{textDecoration:"none"}} >
+                <Link to="/makeupmini"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/new/BB_PC_Ecomm_Mini_Bar_Gnav.jpg" alt=''/>
                     <h3>MINI BAR</h3>
                 </Link>

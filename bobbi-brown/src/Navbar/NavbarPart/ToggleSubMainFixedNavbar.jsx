@@ -103,7 +103,7 @@ const ToggleSubMainFixedNavbar = () => {
                                     <Link to={"#"} onMouseEnter={()=>hoverHandler('VIRTUAL')} ><p>VIRTUAL SERVICES</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
-                                    <Link to={"#"} onMouseEnter={()=>hoverHandler('DISCOVER')} ><p>DISCOVER</p></Link>
+                                    <Link to={"/discoverdatamapping"} onMouseEnter={()=>hoverHandler('DISCOVER')} ><p>DISCOVER</p></Link>
                                 </li>
                             </ul>
                         </div>

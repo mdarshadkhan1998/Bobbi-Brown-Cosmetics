@@ -51,17 +51,17 @@ const FacePopup = () => {
       <FacePopupStyling>
         <div className='maindivSet'>
             <div className='maindiv'>
-                <Link to="#"  style={{textDecoration:"none"}} >
+                <Link to="/faceproductmapping"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/face/Nagivation-Tiles-Face-PC-SLWW_2_@2x.jpg" alt=''/>
                     <h3>DISCOVER SKIN LONG-WEAR WEIGHTLESS FOUNDATION SPF 15</h3>
                     <p>Our #1 Foundation Formula now in 42 shades.</p>
                 </Link>
-                <Link to="#"  style={{textDecoration:"none"}} >
+                <Link to="/faceproductmapping"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/face/Nagivation-Tiles-Face-Foundation-Finder_2_@2x.jpg" alt=''/>
                     <h3>FOUNDATION SHADE FINDER</h3>
                     <p>Discover your perfect shade match.</p>
                 </Link>
-                <Link to="#"  style={{textDecoration:"none"}} >
+                <Link to="/faceproductmapping"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/GNAV/BB_2021_PC_GNAV_NPUF.jpg" alt=''/>
                     <h3>SHOP NOW. PAY LATER.</h3>
                     <p>Pay for your purchase in four equal installments, every two weeks with Afterpay.</p>

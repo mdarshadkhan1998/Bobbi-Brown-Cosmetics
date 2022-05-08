@@ -20,8 +20,11 @@ export const FirstCrousel = () => {
 
 
   return (
+    
     <div style={{ backgroundColor: "black"}}>
-      <Carousel >
+      <br/>
+      
+      <Carousel interval={3500} >
         <Carousel.Item>
           <img
             className="d-block w-100"

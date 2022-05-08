@@ -78,20 +78,23 @@ const RemoveProductStyling = styled.div`
     cursor: pointer;
   }
 `;
-var total =0;
+// var total =0;
 const RemoveProduct = (e) => {
+  const [total,settotal] = useState(0)
  const {arr,setarr,handleremove} = useContext(Authcontext)
   const navigate = useNavigate();
   useEffect(() => {
-   
-  }) 
+    settotal(total+ +e.price)
+   return ()=> (settotal)
     
-  const handleChange = (e) => {
-    const value = +e.target.value;
-
+  },[]) 
+  console.log(total)
+  const handleChange = (quantity) => {
+    const value = +quantity * (+e.price);
+    console.log(value)
+    
   };
-    total += +e.price
-    // console.log(total)
+   
   // const handleremove = (id) => {
   //   fetch(`http://localhost:3000/data/${id}`, { method: "DELETE" })
   //     .then((res) => res.json())
@@ -107,7 +110,7 @@ const RemoveProduct = (e) => {
   
   return (
   <RemoveProductStyling>
-      
+    
      <div style={{ display: "flex", justifyContent: "space-around" }}>
 
         <img
@@ -120,7 +123,7 @@ const RemoveProduct = (e) => {
           <p style={{ fontSize: "12px" }}>{e.color}</p>
        
           Quantity
-          <select onChange={handleChange}>
+          <select onChange={(e)=>handleChange(e.target.value)}>
             <option value={+1}>1</option>
             <option value={+2}>2</option>
             <option value={+3}>3</option>

@@ -75,11 +75,11 @@ const FixedNavbar = () => {
                 <div className="firstDiv">
                     <ul className="firstSubDiv">
                         <li className='leftPartTopNav'>
-                            <Link to={"#"}><p>EMAIL</p></Link>
-                            <Link to={"#"}><p>SIGN UP</p></Link>
+                            <Link to={"/signup"}><p>EMAIL</p></Link>
+                            <Link to={"/signup"}><p>SIGN UP</p></Link>
                         </li>
                         <li>
-                            <Link to={"#"}>
+                            <Link to={"/"}>
                                 {/* <img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" className='logoImage' alt="" /> */}
                                 <img src={logo} className='logoImage' alt="" />
                             </Link>
@@ -90,7 +90,7 @@ const FixedNavbar = () => {
                             {/* <Link to={"#"}><FontAwesomeIcon style={{fontSize:'21px', padding:'8px'}} icon={faMapMarkerAlt} /></Link> */}
                             <Link to={"#"}><img style={{padding:'8px' ,height:"37px", color:"white"}} src='https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg' alt='location' /></Link>                            
                            {/* profile part */}
-                            <Link to={"#"}><FontAwesomeIcon style={{fontSize:'21px', padding:'8px'}} icon={faUser} /></Link> 
+                            <Link to={"/login"}><FontAwesomeIcon style={{fontSize:'21px', padding:'8px'}} icon={faUser} /></Link> 
                             <Link to={"/addtocart"}><img style={{padding:'8px' ,height:"37px"}} src='https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg' alt='cart' /></Link>
                         </li>
                     </ul>

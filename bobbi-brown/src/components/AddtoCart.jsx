@@ -34,7 +34,7 @@ export const AddtoCart = () => {
   }, []);
 
   const handlecheckout = () => {
-    navigate("/checkout");
+  if(arr.length ) { navigate("/checkout");}
   };
 
   return (
