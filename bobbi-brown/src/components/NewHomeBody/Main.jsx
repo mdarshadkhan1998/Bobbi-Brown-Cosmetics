@@ -2,13 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import styles from "./Main.css";
 import styled from "styled-components";
+import homeBody2 from '../Images/homeBody2.png'
 
 const MainStyling = styled.div`
  /* mom gift   */
 
  .main{
-    height: 100%;
-    width: 1330px;
+    
+    width: 90vw;
+    margin:auto;
+    margin-bottom:5vh;
+    margin-top:10vh;
     /* border: 5px solid rgb(182, 240, 25); */
 }
 
@@ -32,21 +36,21 @@ const MainStyling = styled.div`
 
 .gift_main_div img{
     height: 100%;
-    width: 75%;
+    width: 80%;
 }
 .mom-text{
     height: 450px;
-    width: 85%;
+    width: 90%;
     /* border: 1px solid black; */
     margin: 30px 0px 0px 50px ;
 }
 
 
 .mom-text h5{
-  font-size: 40px;
+  font-size: 50px;
   font-family: "BBSans Regular",Helvetica,Arial,sans-serif;
   line-height: 1;
-  margin: 60px 65px 10px 0px;
+  margin: 60px 65px 30px 0px;
   text-align: left;
 }
 .mom-text p{
@@ -72,17 +76,18 @@ const MainStyling = styled.div`
 /* power of beauty */
 
 .beauty-main-div{
-    height: 600px;
+    height: fit-content;
     width: 100%;
     /* border: 1px solid rgb(3, 129, 41); */
-    margin: 60px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
 }
 
 .headline{
     height: 20%;
-    width: 80%;
+    width: 100%;
     /* border: 1px solid blue; */
-    margin: 10px 0px 0px 15% ;
+    margin-top: 10px;
+    text-align:center;
 }
 
 .headline h1{
@@ -97,35 +102,38 @@ const MainStyling = styled.div`
 }
 .headline button{
     background-color: black;
-    margin: 10px 190px 0px 0px ;
+    margin-top: 10px;
     height: 40px;
     width: 180px;
     /* border: 1px solid white; */
     color: white;
 }
 .main-images-div{
-    height: 70%;
-    width:100%;
-    /* border: 1px solid red; */
-    margin: 8% 0px 0px 0px;
-    display: flex;
+    height: 100%;
+    width:93%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:35px;
+    margin-top:50px;
+    justify-content:space-around;
 }
 .image-div{
-    height: 90%;
-    width: 21%;
-    /* border: 1px solid blue; */
-    margin: 0px 0px 0px 40px ;
+    height: 85%;
+    width: 100%;
 }
 .image-div img{
     height: 75%;
-    width: 90%;
+    width: 100%;
     margin: 0px 40px 0px 0px ;
-    
+    cursor: pointer;
 }
 .image-div h5{
     font-size: 15px;
     font-family: "BBSans Regular",Helvetica,Arial,sans-serif ;
+    font-weight:600;
     text-align: left;
+    padding:13px 0px;
 }
 .image-div p{
     text-align: left;
@@ -134,24 +142,24 @@ const MainStyling = styled.div`
 /* set for spring */
 
 .main-spring-div{
-    height: 660px;
-    width: 100%;
-    /* border: 1px solid blue; */
-    margin: 160px 0px 0px 0px ;
-    display: flex;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin:auto;
+    margin-top:8%;
+    justify-content:center;
+    width:94%;
 }
 
 .powder-image-div{
     height: 100%;
-    width: 60%;
-    /* border: 1px solid black; */
+    width: 100%;
+    display:flex;
 }
 
 .powder-text-div{
+    padding-top:100px;
     height: 60%;
-    width: 40%;
-    /* border: 1px solid brown; */
-    padding: 0px 0px 80px 0px;
+    width: 100%;
 }
 .powder-text-div  h4{
     font-size: 55px;
@@ -159,6 +167,7 @@ const MainStyling = styled.div`
     font-family: "BBSans Regular",Helvetica,Arial,sans-serif ;
     text-align: left;
     text-transform: uppercase;
+    padding-bottom:5%;
 }
 .lightweight{
     text-align: left;
@@ -167,6 +176,7 @@ const MainStyling = styled.div`
 .powder-text-div h5{
     text-align: left;
     text-transform: uppercase;
+    padding-top:3%;
 }
 
 .powder-text-div p{
@@ -174,11 +184,13 @@ const MainStyling = styled.div`
 }
 .powder-text-div button{
     background-color: black;
-    margin: 0px 70% 0px 0px ;
     height: 40px;
     width: 180px;
     border: 1px solid white;
     color: white;   
+    text-align:center;
+    align-item:center;
+    float:left;
 }
 .powder-image-div img{
     height: 100%;
@@ -220,7 +232,8 @@ const MainStyling = styled.div`
     font-weight: 500;
     font-family: "BBSans Regular",Helvetica,Arial,sans-serif ;
     text-align: left;
-    text-transform: uppercase;    
+    text-transform: uppercase; 
+    padding:20px 0px;   
 }
 
 .YK-MAKEUP p{
@@ -229,7 +242,7 @@ const MainStyling = styled.div`
 }
 
 .makeup-image-div img{
-    height: 90%;
+    height: 100%;
     width: 86%;
     margin: 0px 0px 0px 0px;
 }
@@ -245,7 +258,7 @@ const MainStyling = styled.div`
 /* ARTISTY consultation */
 
 .consultation-main-div{
-height: 600px;
+height: fit-content;
 width: 100%;
 /* border: 1px solid blue; */
 margin: 60px 0px 0px 0px;
@@ -291,21 +304,21 @@ margin: 60px 0px 0px 0px;
 
 .main-artisty-images-div{
     height: 70%;
-    width: 100%;
-    /* border: 1px solid black; */
-    margin: 20px 0px 0px 0px ;
-    display: flex;
+    width: 90%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justifyContent:space-around;
+    margin:auto;
 }
 .artisty-images-div{
     height: 100%;
-    width: 30%;
-    /* border: 1px solid blue; */
-    margin: 0px 0px 0px 20px;  
+    width: 100%;
+    padding:30px;
     text-align: left; 
 }
 .artisty-images-div img{
      height: 65%;
-     width: 90%;
+     width: 100%;
 }
 
 .artisty-images-div p{
@@ -323,17 +336,18 @@ margin: 60px 0px 0px 0px;
 
 .artisty-images-div button{
     background-color: black;
-    margin: 0px 0% 0px 0px ;
+    margin: auto;
     height: 40px;
     width: 150px;
     border: 1px solid white;
-    color: white;   
+    color: white; 
+    float:bottom;  
 }
 
 /* BOBBIBROWN COMMUNITY */
 
 .community-main-div{
-    height: 400px;
+    height: fit-content;
     width: 100%;
     /* border: 1px solid black; */
     margin: 10% 0px 0px 0px ;
@@ -348,8 +362,8 @@ margin: 60px 0px 0px 0px;
     font-size: 45px;
     font-weight: 500;
     font-family: "BBSans Regular",Helvetica,Arial,sans-serif ;
-    text-align: center;  
-    margin: 0px 0% 0px 0px ;
+    text-align: center; 
+    margin-top: -50px; 
 }
 .community-headline-div p{
     margin: -5px 0px 0px 0px ;
@@ -358,33 +372,44 @@ margin: 60px 0px 0px 0px;
 }
 
 .community-images-div{
-    height: 80%;
-    width: 100%;
+    height: fit-content;
+    width: 96%;
     /* border: 1px solid rgb(255, 0, 34); */
-    display: flex;
+    display: grid;
+    margin:auto;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:30px;
 }
 .community-image-div{
-    height: 100%;
-    width: 22%;
-    /* border: 1px solid green; */
-    margin: 0px 0px 0px 30px ;
+    padding-top:30px;
+    height: 78%;
+    width: 100%;
     text-align: left;
 }
 
 .community-image-div img{
-    height: 70%;
-    width: 80%;
+    height: 80%;
+    width: 100%;
 }
 
 .community-image-div h4{
-margin: 0px 0px 0px 0px ;
+  font-size:16px;
+  padding-top:8px;
+}
+.community-image-div p{
+  font-size:14px;
+}
+.community-image-div a{
+  font-size:10px;
+  color:black;
+  margin-bottom:50px;
 }
 `;
 
 const Main = () => {
   return (
     <MainStyling>
-      <div style={{ display:"flex", justifyContent:"center", width:"100vw", paddingLeft:"2.5vw"}}>
+      <div style={{ display:"flex", justifyContent:"center", width:"100vw", paddingLeft:""}}>
         <div className="main">
           <div className="gift_main_div">
             <div className="gift_text_div">
@@ -583,7 +608,7 @@ const Main = () => {
                 <img src="https://www.bobbibrowncosmetics.com/media/export/cms/VirtualServices/SS21_lookfreshvideocalls.jpg" alt="" />
                 <p>30 MIN</p>
                 <h5>LOOK FRESH FOR VIDEO CALLS</h5>
-                <p>Learn how to look bright eyed and fresh faced in<br />minutes with our pro tips.</p>
+                <p>Learn how to look bright eyed and fresh faced in<br />minutes with our pro tips and bring a fascinating glow in your life.</p>
                 <button>BOOK NOW</button>
               </div>
               <div className="artisty-images-div">
@@ -596,8 +621,8 @@ const Main = () => {
               <div className="artisty-images-div">
                 <img src="https://www.bobbibrowncosmetics.com/media/export/cms/VirtualServices/SS21_customizeskincareroutine.jpg" alt="" />
                 <p>30 MIN</p>
-                <h5>CUSTOMIZE YOUR SKINCARE <br />ROUTINE</h5>
-                <p>Learn how to address your top skin concerns with<br />a personalized routines curated by an artist.</p>
+                <h5>CUSTOMIZE YOUR ROUTINE</h5>
+                <p>Learn how to address your top skin concerns with<br />a personalized routines curated by an artist.<br/>.</p>
                 <button>BOOK NOW</button>
               </div>
             </div>
@@ -607,29 +632,30 @@ const Main = () => {
               <h4>#BOBBIBROWN COMMUNITY</h4>
               <p>Looking fresh-faced? Let's see it. Mention @bobbibrown and tag #bobbiBrown to share</p>
             </div>
+            <Link to={""} ><img src={homeBody2} alt="homeBody1" style={{width:"100%"}}/></Link>
             <div className="community-images-div">
               <div className="community-image-div">
                 <img src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_03.jpg" alt="" />
                 <h4>CHAT NOW</h4>
-                <p>chat with makeup artist to get<br />products recommendations.</p>
+                <p>Chat with makeup artist to get products recommendations.</p>
                 <a href="">LEARN MORE</a>
               </div>
               <div className="community-image-div">
                 <img src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_05.jpg" alt="" />
                 <h4>FREE SHIPPING</h4>
-                <p>Get free shipping on all orders<br />$65+ or join Bobbi Brown Club to<br />get free shipping on all orders</p>
+                <p>Get free shipping on all orders $65+ or join Bobbi Brown Club to get free shipping on all orders</p>
                 <a href="">LEARN MORE</a>
               </div>
               <div className="community-image-div">
                 <img src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_07.jpg" alt="" />
                 <h4>WE WANT YOU TO LOVE IT</h4>
-                <p>That's why we offer free shipping <br />and returns on all foundation <br /> correction,conceals and powders.</p>
+                <p>That's why we offer free shipping  and returns on all foundation   correction,conceals and powders.</p>
                 <a href="">LEARN MORE</a>
               </div>
               <div className="community-image-div">
                 <img src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_09.jpg" alt="" />
                 <h4>EXCLUSIVE OFFERS</h4>
-                <p>chat with makeup artist to get<br />products recommendations.</p>
+                <p>Chat with makeup artist to get products recommendations.</p>
                 <a href="">LEARN MORE</a>
               </div>
             </div>

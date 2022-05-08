@@ -2,12 +2,7 @@
 import React, { useState } from 'react'
 import styled from "styled-components"
 import ProductMapping from './ProductMapping';
-import face1 from '../Images/face1.png'
-import face2 from '../Images/face2.png'
-import face3 from '../Images/face3.png'
-import face4 from '../Images/face4.png'
-import face5 from '../Images/face5.png'
-import face6 from '../Images/face6.png'
+import motherPick1 from '../Images/motherPick1.png'
 
 const MothersMappingStyling = styled.div`
 body{
@@ -354,16 +349,13 @@ const MothersMapping = () => {
         <div>
             <MothersMappingStyling>
                 <div>
-                    <img style={{ width: "100vw" }} src={face1} alt='' />
+                    <img style={{ width: "100vw" }} src={motherPick1} alt='' />
                 </div>
                 <div>
 
                 </div>
                 <div className='mappedGridding'>
                     {data.map((e) => (<ProductMapping {...e} key={e.id} />))}
-                </div>
-                <div>
-                    <img src={face2} alt='' style={{ width: "100vw", padding: "50px" }} />
                 </div>
                 <h6 style={{ width: "71%", margin: "auto", paddingBottom: "30px", fontSize: "14px", letterSpacing: "1px" }}>Our best moisturizer face & best skincare products to nourish skin and create the perfect canvas for makeup application. Bobbi's top-rated collection of best moisturizer face & best skincare products infuse skin with luxurious hydration. Discover our best moisturizer face & best skincare products to nourish, hydrate, repair & soothe all skin types.</h6>
             </MothersMappingStyling>

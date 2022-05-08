@@ -1,17 +1,14 @@
 import React from 'react'
-import { Route, Routes, useNavigate } from 'react-router-dom'
+import { Link, Route, Routes, useNavigate } from 'react-router-dom'
 import { FirstCrousel } from './FirstCrousel'
 import { New } from './pages/New'
 import { SkinCare } from './pages/SkinCare'
 import { TrendingNow } from './pages/TrendingNow'
 import Main from "../components/NewHomeBody/Main"
-
+import homeBody1 from '../components/Images/homeBody1.png'
 
 export const Home = () => {
   const navigate= useNavigate()
-
- 
-
   return (
     <div>
         <div className="firstSlider">
@@ -38,11 +35,9 @@ export const Home = () => {
           <br />
           <br />
          </div>
+         <Link to={""} ><img src={homeBody1} alt="homeBody1" style={{width:"100vw"}}/></Link>
         <Main />
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        
     </div>
   )
 }

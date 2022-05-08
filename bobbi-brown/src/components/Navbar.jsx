@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div>
       {/* Main Navbar */}
-      <div  style={{position: "fixed" , zIndex:"2000000", width:"100vw"}}>
+      <div  style={{position: "relative" , zIndex:"2000000", width:"100vw"}}>
           <FixedNavbar/>
           <SubMainFixedNavbar/>
         </div>
