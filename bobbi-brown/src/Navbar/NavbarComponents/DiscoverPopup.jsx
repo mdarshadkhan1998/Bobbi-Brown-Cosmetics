@@ -52,22 +52,22 @@ const DiscoverPopup = () => {
       <DiscoverPopupStyling>
         <div className='maindivSet'>
             <div className='maindiv'>
-                <Link to="#"  style={{textDecoration:"none"}} >
+                <Link to="/productdatamapping"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/new/BB_GNAV_Tout_04_LastChance.jpg" alt=''/>
                     <h3>PRODUCT GUIDES</h3>
                     <p>Take the guesswork out of your beauty routine with our curated guides for makeup and skincare.</p>
                 </Link>
-                <Link to="#"  style={{textDecoration:"none"}} >
+                <Link to="/discoverdatamapping"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/face/Nagivation-Tiles-Face-Foundation-Finder_2_@2x.jpg" alt=''/>
                     <h3>FOUNDATION SHADE FINDER</h3>
                     <p>Discover your perfect shade match.</p>
                 </Link>
-                <Link to="#"  style={{textDecoration:"none"}} >
+                <Link to="/discoverdatamapping"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/39-Navigation-Dropdown-Tile-PC_Loyalty_2x.jpg" alt=''/>
                     <h3>BBACCESS</h3>
                     <p>Join today and get <b>15% OFF</b> your first order plus free shipping every day.</p>
                 </Link>
-                <Link to="#"  style={{textDecoration:"none"}} >
+                <Link to="/discoverdatamapping"  style={{textDecoration:"none"}} >
                     <video className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/new/20210420_BB_FY21_Citizenship&Sustainability_GNAV_Hub.mp4" muted loop preload='none' autoPlay='10'/>
                     <h3>DO GOOD</h3>
                     <p>See how we're showing up to make things more beautiful.</p>

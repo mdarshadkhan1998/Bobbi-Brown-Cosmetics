@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import styled from "styled-components";
 import TextField from "@mui/material/TextField";
@@ -6,6 +6,7 @@ import { ButtonBase } from "@mui/material";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import RemoveProduct from "./All Pages/RemoveProduct";
+import { Authcontext } from "./Authentication/CartContext";
 
 const Flexdiv = styled.div`
   width: 70%;
@@ -19,18 +20,21 @@ export const AddtoCart = () => {
   // const {cart}= useSelector((state => state.cart))
   // console.log(cart)
   // const location = useLocation()
-  const [arr, setArr] = useState([]);
+ 
+  
+  // const [arr, setArr] = useState([]);
+  const {arr,setarr} = useContext(Authcontext)
   const navigate = useNavigate();
   //  console.log(arr)
   useEffect(() => {
     fetch(`http://localhost:3000/data`)
       .then((res) => res.json())
-      .then((res) => setArr(res))
+      .then((res) => setarr(res))
       .catch((err) => console.log(err));
   }, []);
 
   const handlecheckout = () => {
-    navigate("/checkout");
+  if(arr.length ) { navigate("/checkout");}
   };
 
   return (
@@ -65,7 +69,7 @@ export const AddtoCart = () => {
             </div>
             {/* // map the data here ////////////// */}
             <div>
-              {arr.map((e) => ( <RemoveProduct {...e} key={e.id} /> ))}
+              {arr.map((e) => (<RemoveProduct {...e}  key={e.id} /> ))}
             </div>
            
           </div>

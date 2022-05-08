@@ -180,14 +180,14 @@ export const Login = () => {
         e.preventDefault();
 
         for (let i = 0; i < arr.length; i++) {
-            if (state === arr[i].email) {
-                alert("Signup Successful")
-                // window.location.href = "/Albums"
+            // if (state === arr[i].email) {
+            //     alert("Signup Successful")
+            //     // window.location.href = "/Albums"
                 Navigate("/")
-                return
-            }
+            //     return
+            // }
         }
-        alert("Signup Unsuccessful please enter correct email")
+        // alert("Invalid Credentials")
     }
     const onChange = (e) => {
         setState(e.target.value)

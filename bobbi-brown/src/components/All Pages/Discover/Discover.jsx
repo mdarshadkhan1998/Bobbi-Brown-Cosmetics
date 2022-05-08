@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 
 export const Discover = (props) => {
 
@@ -18,6 +18,7 @@ export const Discover = (props) => {
     <>
     <DiscoverStyling>
       <div className='maindiv' >
+        <br/>
         <div className="d1" >
             <img className="img" src={props.imgsrc} />
             <h2 className="title">{props.title}</h2>

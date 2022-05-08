@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../App.css';
 //bootstrap
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,6 +7,19 @@ import '../App.css';
 
 
 export const Checkout = () => {
+  const navigate = useNavigate()
+
+  const handlecomplete = () => {
+    setTimeout(() => {
+      alert("Payment Successful")
+    },1000)
+    setTimeout(() => {
+      alert("Thank You for Purchasing")
+    },4000)
+    setTimeout(() => {
+      navigate("/")
+    },6000)
+  }
   return (
   
   <div className="maincontainer">
@@ -35,14 +48,14 @@ export const Checkout = () => {
                    <h6 className="my-0">Second product</h6>
                    <small className="text-muted">Brief description</small>
                  </div>
-                 <span className="text-muted">$8</span>
+                 <span className="text-muted">$35</span>
                </li>
                <li className="list-group-item d-flex justify-content-between lh-condensed">
                  <div>
                    <h6 className="my-0">Third item</h6>
                    <small className="text-muted">Brief description</small>
                  </div>
-                 <span className="text-muted">$5</span>
+                 <span className="text-muted">$15</span>
                </li>
                <li className="list-group-item d-flex justify-content-between bg-light">
                  <div className="text-success">
@@ -53,7 +66,7 @@ export const Checkout = () => {
                </li>
                <li className="list-group-item d-flex justify-content-between">
                  <span>Total (USD)</span>
-                 <strong>$20</strong>
+                 <strong>$45</strong>
                </li>
              </ul>
              
@@ -200,7 +213,7 @@ export const Checkout = () => {
                  </div>
                </div>
                <hr className="mb-4" />
-               <button className="btn btn-primary btn-lg btn-block" type="button">Continue to checkout</button>
+               <button className="btn btn-primary btn-lg btn-block" type="button" onClick={handlecomplete} >Confirm</button>
              </form>
            </div>
          </div>

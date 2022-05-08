@@ -13,6 +13,10 @@ import ShopAllBestsellers from '../components/All Pages/ShopAllBestsellers';
 import FaceProductMapping from '../components/All Pages/FaceProductMapping';
 import SkincareMapping from '../components/All Pages/SkincareMapping';
 import MakeupMini from '../components/All Pages/MakeupMini';
+import {Login} from '../components/Authentication/Login'
+import DiscoverDataMapping from '../components/All Pages/Discover/DiscoverDataMapping';
+import { Signup } from '../components/Authentication/Signup';
+import ProductDataMapping from '../components/All Pages/Product/ProductDataMapping';
 
 const MainRoutesStyling = styled.div`
 
@@ -28,7 +32,7 @@ export const MainRoutes = () => {
         <Navbar />
 
         <Routes>
-          <Route path="/*" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/addtocart" element={<AddtoCart/>}/>
           <Route path="/checkout" element={<Checkout/>}/>
           <Route path="/newproductmapping" element={<NewProductMapping/>}/>
@@ -36,6 +40,10 @@ export const MainRoutes = () => {
           <Route path="/faceproductmapping" element={<FaceProductMapping/>}/>
           <Route path="/makeupmini" element={<MakeupMini/>}/>
           <Route path="/skincaremapping" element={<SkincareMapping/>}/>
+          <Route path ="/discoverdatamapping" element={<DiscoverDataMapping/>}/>
+          <Route path="/productdatamapping" element={<ProductDataMapping/>}/>
+          <Route path ="/login" element={<Login/>}/>
+          <Route path="/signup" element={<Signup/>}/>
         </Routes>
         
         <Footer/>

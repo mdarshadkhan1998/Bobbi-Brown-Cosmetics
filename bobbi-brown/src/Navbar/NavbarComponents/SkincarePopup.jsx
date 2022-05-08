@@ -52,12 +52,12 @@ const SkincarePopup = () => {
       <SkincarePopupStyling>
         <div className='maindivSet'>
             <div className='maindiv'>
-                <Link to="#"  style={{textDecoration:"none"}} >
+                <Link to="/skincaremapping"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/skincare/Nagivation-Tiles-Skincare-Best-Sellers_@2x.jpg" alt=''/>
                     <h3>VITAMIN ENRICHED FACE BASE</h3>
                     <p>This cult favorite is the perfect prep for foundation.</p>
                 </Link>
-                <Link to="#"  style={{textDecoration:"none"}} >
+                <Link to="/skincaremapping"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/skincare/BB-PC-GNAV-Skincare_Bestsellers_600x300_@2x.jpg" alt=''/>
                     <h3>OUR BEST SELLERS</h3>
                     <p>Shop moisturizers, serums & more.</p>

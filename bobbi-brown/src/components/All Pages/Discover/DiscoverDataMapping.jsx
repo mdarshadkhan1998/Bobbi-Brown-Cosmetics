@@ -1,4 +1,4 @@
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 import { Discover } from './Discover';
 
 function DiscoverDataMapping() {
@@ -65,7 +65,7 @@ function DiscoverDataMapping() {
       <br></br>
       <br></br>
       <br></br>
-      <Footer/>
+    
       </>
     );
   }
