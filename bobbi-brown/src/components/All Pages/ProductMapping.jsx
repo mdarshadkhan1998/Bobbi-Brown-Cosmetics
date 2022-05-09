@@ -67,6 +67,12 @@ const ProductMappingStyling = styled.div`
     margin-top:20px;
     cursor:pointer;
 }
+.addToCartButton:hover{
+    color:black;
+    background-color:white;
+    border:3px solid black;
+    padding: 7px 27px;
+}
 .rating{
     display:flex;
     justify-content:center;
