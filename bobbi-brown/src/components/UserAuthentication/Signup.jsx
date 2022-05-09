@@ -170,9 +170,7 @@ export const Signup = () => {
 
         localStorage.setItem('user', JSON.stringify(arr));
 
-        // alert("Signup Successfully");
-
-        // window.location.href = "Login";
+        alert("Signed Up Successfully");
         navigate("/")
     }
 

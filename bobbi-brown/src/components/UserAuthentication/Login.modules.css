@@ -4,17 +4,16 @@ input {
 }
 
 input:focus {
-    /* outline: none; */
     border: 1px solid #FF4661;
 }
 
-button {
+.buttonSignupLogin {
     border: none;
     background-color: black;
     color: white;
 }
 
-button:hover {
+.buttonSignupLogin:hover {
     background-color: #FF4661;
 }
 
@@ -22,12 +21,10 @@ button:hover {
 
 .Head {
     display: flex;
-    /* border: 1px solid #FF4661; */
 }
 
 .mainDiv {
     margin-left: 350px;
-    /* border: 1px solid black; */
     width: 30%;
     margin-top: 100px;
     text-align: center;
@@ -64,7 +61,7 @@ input {
     text-align: left;
 }
 
-button {
+.buttonSignupLogin {
     width: 360px;
     height: 40px;
     cursor: pointer;
@@ -160,7 +157,6 @@ select:hover {
 }
 
 .checkBox:checked {
-    /* apply any css */
     border: solid 1px solid black;
 }
 
@@ -195,6 +191,7 @@ select:hover {
 .inputPara {
     width: 50%;
     display: flex;
+    margin-top: 50px;
 }
 
 .alineLeft {
@@ -210,7 +207,6 @@ select:hover {
 .kroSignup {
     width: 330px;
     height: 30px;
-    fontSize: 14px;
     margin-left: -370px;
 }
 
@@ -221,7 +217,7 @@ a {
 #check,
 #check1 {
     height: 16px;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
 }
 
 input:focus {

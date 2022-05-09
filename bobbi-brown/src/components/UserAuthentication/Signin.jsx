@@ -114,7 +114,7 @@ export const Signin = () => {
                         <p className="alineLeft">By clicking "Sign Up", I agree to the Bobbi Brown <a href="https://www.bobbibrowncosmetics.com/customer-service-corporate#corporate-terms">Terms and Conditions</a> and <a href="https://www.bobbibrowncosmetics.com/privacy-policy">Privacy Policy</a>.</p>
                     </div>
 
-                    <button className="kroSignup" type="submit">SIGNUP</button>
+                    <button className="buttonSignupLogin" style={{float:"left"}} type="submit">SIGNUP</button>
                 </form>
             </div>
         </div>

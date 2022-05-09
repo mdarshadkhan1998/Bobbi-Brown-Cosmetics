@@ -33,7 +33,7 @@ export const Location = () => {
 
     function appendData(data) {
 
-        container.innerHTML = null;
+        // container.innerHTML = null;
 
         let main_cont = document.createElement("div");
         main_cont.setAttribute("id", "flexdiv");
