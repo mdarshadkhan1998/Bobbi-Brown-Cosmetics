@@ -1,12 +1,18 @@
 import React from "react";
-import { useLocation, Link} from "react-router-dom";
+import { useLocation, Link, useNavigate} from "react-router-dom";
 import styles from "./SingleProductPage.module.css";
 import { New } from "./Slider";
 import { FaFacebookF, FaGithub, FaInstagram, FaLinkedin, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa';
 const SingleProductPage = () => {
+  const navigate = useNavigate()
   const location = useLocation()
   // const {e} = location.state.e
   //  console.log(location.state)
+  const gotoaddtocart = ()=>{
+    // console.log(data)
+ 
+    navigate("/addtocart")
+}
   return (
     <>
       <div style={{width:"90vw", margin:"auto", paddingTop:"70px" }}>       
@@ -135,7 +141,7 @@ const SingleProductPage = () => {
               <p className={styles.lastdivp1}>{location.state.name}</p>
               <p className={styles.lastdivp2}>{`$${location.state.price}`}</p>
             </div>
-            <button>ADD TO BAG</button>
+            <button onClick={()=>gotoaddtocart}>ADD TO BAG</button>
             <p>A Few Left!</p>
           </div>
         </div>

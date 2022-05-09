@@ -20,7 +20,7 @@ export const AddtoCart = () => {
   // const {cart}= useSelector((state => state.cart))
   // console.log(cart)
   // const location = useLocation()
- 
+  const all = localStorage.getItem("totalincart")
   
   // const [arr, setArr] = useState([]);
   const {arr,setarr} = useContext(Authcontext)
@@ -60,15 +60,16 @@ export const AddtoCart = () => {
             <br />
             <p>Enjoy Free Standard Shipping on any $65+ order.</p>
             <br />
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
+            <div style={{width:"100%", display: "flex", justifyContent: "space-between" }}>
               {" "}
-              <h6>PRODUCT</h6>
-              <h6>QUANTITY</h6>
-              <h6>PRICE</h6>
-              <h6>TOTAL</h6>{" "}
+              <h6> PRODUCT </h6>
+              <h6> QUANTITY </h6>
+              <h6 style={{paddingLeft:"40px"}}> PRICE </h6>
+            
             </div>
             {/* // map the data here ////////////// */}
             <div>
+            <br/>
               {arr.map((e) => (<RemoveProduct {...e}  key={e.id} /> ))}
             </div>
            
@@ -158,11 +159,9 @@ export const AddtoCart = () => {
                 </p>
                 <br />
                 <h5 style={{ textAlign: "left", marginLeft: "5px" }}>
-                  SUB TOTAL:
+                  TOTAL: ${all}
                 </h5>
-                <h5 style={{ textAlign: "left", marginLeft: "5px" }}>
-                  SHIPPING METHOD:
-                </h5>
+             
               </div>
             </div>
           </div>
