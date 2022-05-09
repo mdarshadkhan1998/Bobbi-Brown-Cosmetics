@@ -31,9 +31,9 @@ export const Home = () => {
              <Route path="/skincare" element={<SkinCare/>}/>
            </Routes>
            <br />
-          <br />
-          <br />
-          <br />
+           <br />
+           <br />
+           <br />
          </div>
          <Link to={""} ><img src={homeBody1} alt="homeBody1" style={{width:"100vw"}}/></Link>
         <Main />

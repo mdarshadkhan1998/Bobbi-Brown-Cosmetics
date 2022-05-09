@@ -1,17 +1,6 @@
 {
   "data": [
     {
-      "id": 73,
-      "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg ",
-      "rating": "★★★☆☆",
-      "name": "Luxe & Glow",
-      "description": "4 luxurious formulas for lids and lips",
-      "tag": "Limited Edition",
-      "color": "Pale Yellow",
-      "price": 83,
-      "totalReview": 97
-    },
-    {
       "id": 71,
       "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E49_600x600_0.jpg ",
       "rating": "★★★★☆",
@@ -21,17 +10,6 @@
       "color": "Incandescent",
       "price": 30,
       "totalReview": 1192
-    },
-    {
-      "id": 61,
-      "rating": "★★★☆☆",
-      "name": "Long-Wear Cream Shadow Stick",
-      "image": "https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E49_600x600_0.jpg   ",
-      "description": "Our ultimate quick eye shadow stick",
-      "price": 30,
-      "totalReview": 1192,
-      "tag": "TRY IT ON",
-      "color": "Incandescent"
     },
     {
       "id": 62,
@@ -87,17 +65,6 @@
       "color": "Pale Yellow",
       "price": 82,
       "totalReview": 72
-    },
-    {
-      "id": 78,
-      "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCW01_600x600_0.jpg ",
-      "rating": "★★☆☆☆",
-      "name": "Highlighting Powder",
-      "description": "Pearl-infused illuminator",
-      "tag": "New Shades",
-      "color": "Pink Glow",
-      "price": 50,
-      "totalReview": 251
     }
   ]
 }

@@ -87,7 +87,6 @@ const ProductDataMapping = () => {
 <br></br>
 <br></br>
 <br></br>
-<Footer/>
 </>
   )
 }

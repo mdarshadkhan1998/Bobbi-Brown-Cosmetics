@@ -31,7 +31,7 @@ const MothersMapping = () => {
     const MothersMappingData = [
         {
             "id": 111,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg  ",
             "rating": "★★★★☆",
             "name": "Luxe & Glow",
             "description": "4 luxurious formulas for lids and lips",
@@ -41,7 +41,7 @@ const MothersMapping = () => {
         },
         {
             "id": 112,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E1LM01_600x600_0.jpg  ",
             "rating": "★★★★★",
             "name": "Vitamin Enriched Face Base",
             "description": "Multitasking, moisturizing primer",
@@ -51,7 +51,7 @@ const MothersMapping = () => {
         },
         {
             "id": 113,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EGXR04_600x600_0.jpg  ",
             "rating": "★★★★☆",
             "name": "Skin Long-Wear Weightless Foundation SPF 15",
             "description": "16-hour, breathable, natural matte coverage",
@@ -62,7 +62,7 @@ const MothersMapping = () => {
         },
         {
             "id": 114,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E40_600x600_0.jpg ",
             "rating": "★★★★★",
             "name": "Long-Wear Cream Shadow Stick",
             "description": "Our ultimate quick eye shadow stick",
@@ -73,7 +73,7 @@ const MothersMapping = () => {
         },
         {
             "id": 115,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E7YW01_600x600_0.jpg ",
             "rating": "★★★★☆",
             "name": "Beach",
             "description": "Light, summer-inspired perfume",
@@ -83,7 +83,7 @@ const MothersMapping = () => {
         },
         {
             "id": 116,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPXL09_600x600_0.jpg ",
             "rating": "★★★★★",
             "name": "Skin Corrector Stick",
             "description": "Discoloration neutralizer for undereyes & face",
@@ -94,7 +94,7 @@ const MothersMapping = () => {
         },
         {
             "id": 117,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERFJ11_600x600_0.jpg  ",
             "rating": "★★★★☆",
             "name": "Skin Concealer Stick",
             "description": "Easy-to-use, long-lasting concealer stick",
@@ -105,7 +105,7 @@ const MothersMapping = () => {
         },
         {
             "id": 118,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EL1901_600x600_0.jpg  ",
             "rating": "★★★★☆",
             "name": "Vitamin Enriched Eye Base",
             "description": "Moisturizing undereye primer",
@@ -115,7 +115,7 @@ const MothersMapping = () => {
         },
         {
             "id": 119,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EER901_600x600_0.jpg  ",
             "rating": "★★★★★",
             "name": "Extra Lip Tint",
             "description": "Color-enhancing lip balm",
@@ -126,7 +126,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1110,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EFAA01_600x600_0.jpg ",
             "rating": "★★★★☆",
             "name": "Highlighting Powder",
             "description": "Pearl-infused illuminator",
@@ -137,7 +137,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1111,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM4201_600x600_0.jpg  ",
             "rating": "★★★★☆",
             "name": "Soothing Cleansing Oil",
             "description": "Makeup remover and cleanser",
@@ -147,7 +147,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1112,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCT01_600x600_0.jpg ",
             "rating": "★★☆☆☆                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
             "name": "Soothing Cleansing Oil",
             "price": 50,
@@ -155,7 +155,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1113,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM4708_600x600_0.jpg ",
             "rating": "★★★★☆",
             "name": "Luxe Shine Intense Lipstick",
             "description": "Shine-amplified color & rich hydration",
@@ -166,7 +166,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1114,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EE1Y03_600x600_0.jpg ",
             "rating": "★★★★★",
             "name": "Luxe Lip Color",
             "description": "Bold, moisture-infused lipstick",
@@ -177,7 +177,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1115,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EHJA16_600x600_0.jpg ",
             "rating": "★★★★☆",
             "name": "Luxe Matte Lip Color",
             "description": "Intense, ultra-matte lipstick",
@@ -188,7 +188,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1116,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EMCK02_600x600_0.jpg ",
             "rating": "★★★★☆",
             "name": "Crushed Oil-Infused Gloss",
             "description": "Hydrating, non-sticky lip gloss",
@@ -199,7 +199,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1117,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EH2102_600x600_0.jpg ",
             "rating": "★★☆☆☆",
             "name": "Crushed Lip Color",
             "description": "Playful, effortless color",
@@ -210,7 +210,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1118,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EL1104_600x600_0.jpg ",
             "rating": "★★★★★",
             "name": "Crushed Liquid Lip",
             "description": "Bold, glossy color with a balmy feel",
@@ -221,7 +221,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1119,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EP7406_600x600_0.jpg  ",
             "rating": "★★★★★",
             "name": "Crushed Shine Jelly Stick",
             "description": "Sheer Pop of Hydrating Lip Color",
@@ -231,7 +231,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1120,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EKLT01_600x600_0.jpg ",
             "rating": "★★☆☆☆",
             "name": "Primer Plus Protection SPF 50",
             "description": "Protective face primer",
@@ -241,7 +241,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1121,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65X01_600x600_0.jpg ",
             "rating": "★★★★☆",
             "name": "Real Nudes Eye Shadow Palette",
             "description": "Versatile neutral eye palette",
@@ -251,7 +251,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1122,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_0.jpg  ",
             "rating": "★★★★☆",
             "name": "Extra Cleansing Balm",
             "description": "Purifying, conditioning cleanser",
@@ -261,7 +261,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1123,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EREP01_600x600_0.jpg  ",
             "rating": "★★☆☆☆",
             "name": "Extra Repair Moisture Cream Intense",
             "description": "Replenishing face cream with Vitamin C",
@@ -271,7 +271,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1124,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EP7P01_600x600_0.jpg  ",
             "rating": "★★★★★",
             "name": "Extra Repair Eye Cream Intense",
             "description": "Revitalizing undereye treatment",
@@ -281,7 +281,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1125,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65X01_600x600_0.jpg ",
             "rating": "★★★★☆",
             "name": "Hydrating Face Cream",
             "description": "Rich yet lightweight moisturizer",
@@ -291,7 +291,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1126,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EMNE01_600x600_0.jpg ",
             "rating": "★★★★☆",
             "name": "Hydrating Water Fresh Cream",
             "description": "100 hours of nonstop hydration",
@@ -301,7 +301,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1127,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65Y01_600x600_0.jpg  ",
             "rating": "★★★★★",
             "name": "Hydrating Eye Cream",
             "description": "Gentle, quick-absorbing eye cream",
@@ -311,7 +311,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1128,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERJK03_600x600_0.jpg ",
             "rating": "★★★★☆",
             "name": "Mini Extra Illuminating Moisture Balm",
             "description": "Glow big (in a new mini size)",
@@ -321,7 +321,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1129,
-            "image": "  ",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERER01_600x600_0.jpg  ",
             "rating": "★★★★☆",
             "name": "Extra Repair Moisture Cream Intense Refill",
             "description": "Refill. Reuse. Repeat.",
@@ -331,7 +331,7 @@ const MothersMapping = () => {
         },
         {
             "id": 1130,
-            "image": "  ",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPHC01_600x600_0.jpg ",
             "rating": "★★☆☆☆",
             "name": "Extra Repair Eye Cream Intense Refill",
             "description": "Skin loving. Planet conscious.",

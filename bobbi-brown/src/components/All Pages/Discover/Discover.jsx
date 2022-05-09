@@ -13,14 +13,14 @@ export const Discover = (props) => {
       font-family: sans-serif;
     }
   `;
-    console.log(props)
+    // console.log(props)
   return (
     <>
     <DiscoverStyling>
       <div className='maindiv' >
         <br/>
         <div className="d1" >
-            <img className="img" src={props.imgsrc} />
+            <img className="img" src={props.imgsrc} alt="discoverImage"/>
             <h2 className="title">{props.title}</h2>
             <p>{props.details}</p>
             <a href={props.link} >Learn More</a>      

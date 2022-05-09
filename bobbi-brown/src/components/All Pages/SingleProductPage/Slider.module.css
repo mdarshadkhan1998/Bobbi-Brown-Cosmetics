@@ -1,0 +1,10 @@
+.main {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+  }
+  .img img {
+    height: 364px;
+    width: 364px;
+  }

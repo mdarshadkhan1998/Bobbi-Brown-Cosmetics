@@ -1,8 +1,11 @@
 .App {
   text-align: center;
+  width:100vw;
 }
 body{
   font-family:"BBText Regular",Helvetica,Arial,sans-serif;
+  width:100%;
+  scroll-behavior:smooth;
 }
 .acrouselheading{
   margin-right:600px;

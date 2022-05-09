@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import styled from "styled-components"
 
 const SignUpStyling = styled.div`
@@ -210,8 +211,8 @@ export const Signup = () => {
                                     <input type="checkbox" required />
                                     {/* <p>I'd like to receive recurring advertising text messages (SMS and MMS) from Bobbi Brown. I understand these text messages may be sent via an autodialer, that consent is not required to purchase goods from Bobbi Brown, and that I can opt-out any time by replying STOP to the text message I receive from Bobbi Brown. I can text HELP for more information. Msg and data rates may apply. If I am a California resident, I agree to the Notice of Financial Incentive. To learn more, view our Privacy Policy.</p> */}
                                     <p className="Paragraph" id="terms-conditions">I'd like to receive recurring advertising text messages (SMS and MMS) from Bobbi Brown. I understand these text messages may be sent via an autodialer, that consent is not required to purchase goods from Bobbi Brown, and that I can opt-out any time by replying STOP to the text message I receive from Bobbi Brown. I can text HELP for more information. Msg and data rates may apply. If I am a California resident, I agree to the Notice of
-                                        <a href="https://www.bobbibrowncosmetics.com/privacy-policy#financial" target="_blank" className="financial-incentive"> Financial Incentive</a>. To learn more, view our
-                                        <a href="https://www.bobbibrowncosmetics.com/privacy-policy" target="_blank" className="privacy-policy"> Privacy Policy</a>.</p>
+                                        <Link to="https://www.bobbibrowncosmetics.com/privacy-policy#financial" target="_blank" className="financial-incentive"> Financial Incentive</Link>. To learn more, view our
+                                        <Link to="https://www.bobbibrowncosmetics.com/privacy-policy" target="_blank" className="privacy-policy"> Privacy Policy</Link>.</p>
                                 </div>
 
                                 <div>

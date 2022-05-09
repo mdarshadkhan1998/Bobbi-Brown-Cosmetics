@@ -2,7 +2,7 @@
     background-color: black;
     color: white;
 } */
-        #first{
+        #first, #second, #footer_email{
             padding: 45px;
             cursor: pointer;
 
