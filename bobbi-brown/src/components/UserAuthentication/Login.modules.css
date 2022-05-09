@@ -1,0 +1,238 @@
+input {
+    caret-color: black;
+    border: 1px solid black;
+}
+
+input:focus {
+    /* outline: none; */
+    border: 1px solid #FF4661;
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: #FF4661;
+}
+
+
+
+.Head {
+    display: flex;
+    /* border: 1px solid #FF4661; */
+}
+
+.mainDiv {
+    margin-left: 350px;
+    /* border: 1px solid black; */
+    width: 30%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    font-weight: 400;
+    font-weight: bold;
+    letter-spacing: .2em;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bolder;
+}
+
+.inputDiv {
+    text-align: left;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    margin-left: 0px;
+}
+
+.passDiv {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.btnDiv {
+    text-align: left;
+}
+
+button {
+    width: 360px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.line {
+    width: 2px;
+    height: 580px;
+    margin-top: 120px;
+    background-color: black;
+    margin-left: 45px;
+}
+
+.Part {
+    display: flex
+}
+
+.First {
+    width: 30%;
+    height: 1.5px;
+    background-color: black;
+    margin-left: 270px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.Second {
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.Third {
+    width: 30%;
+    height: 1.5px;
+    background-color: black;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.introOne {
+    text-align: center;
+    margin-left: -100px;
+}
+
+.introTwo {
+    width: 58%;
+    display: flex;
+    margin: auto;
+}
+
+.secCheckbox {
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.introTwoP {
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.btnnDiv {
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    display: flex;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+}
+
+.btnn {
+    width: 300px;
+    height: 50px;
+    margin-top: -20px;
+    background-color: #1877F2;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+select:hover {
+    color: #FF4661;
+}
+
+.checkBox:checked {
+    /* apply any css */
+    border: solid 1px solid black;
+}
+
+.side {
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.twoInput {
+    margin-left: -347px;
+}
+
+.whenbday {
+    text-align: left;
+}
+
+.months {
+    width: 130px;
+    height: 40px;
+    border: 1px solid black;
+    margin-left: -435px;
+}
+
+.days {
+    width: 130px;
+    height: 40px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+.inputPara {
+    width: 50%;
+    display: flex;
+}
+
+.alineLeft {
+    font-size: 14px;
+    text-align: left;
+}
+
+.myDiv {
+    width: 50%;
+    display: flex;
+}
+
+.kroSignup {
+    width: 330px;
+    height: 30px;
+    fontSize: 14px;
+    margin-left: -370px;
+}
+
+a {
+    color: #FF4661;
+}
+
+#check,
+#check1 {
+    height: 16px;
+    outline: 1px solid black;
+}
+
+input:focus {
+    border: 1px solid #FF4661;
+}
+
+input:focus {
+    border: 1px solid #FF4661;
+    outline: none;
+}
+
+option {
+    color: black;
+}

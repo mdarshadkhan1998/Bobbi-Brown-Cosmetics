@@ -13,15 +13,16 @@ import ShopAllBestsellers from '../components/All Pages/ShopAllBestsellers';
 import FaceProductMapping from '../components/All Pages/FaceProductMapping';
 import SkincareMapping from '../components/All Pages/SkincareMapping';
 import MakeupMini from '../components/All Pages/MakeupMini';
-import { Login } from '../components/Authentication/Login'
+import { Login, Verify } from '../components/UserAuthentication/Verify'
 import DiscoverDataMapping from '../components/All Pages/Discover/DiscoverDataMapping';
-import { Signup } from '../components/Authentication/Signup';
+import { Signup } from '../components/UserAuthentication/Signup';
 import ProductDataMapping from '../components/All Pages/Product/ProductDataMapping';
 import FixedNavbar from '../Navbar/NavbarPart/FixedNavbar'
 import SubMainFixedNavbar from '../Navbar/NavbarPart/SubMainFixedNavbar'
 import ToggleSubMainFixedNavbar from '../Navbar/NavbarPart/ToggleSubMainFixedNavbar'
 import MothersMapping from '../components/All Pages/MothersMapping';
 import SingleProductPage from '../components/All Pages/SingleProductPage/SingleProductPage';
+import { Location } from '../components/UserAuthentication/Location';
 
 const MainRoutesStyling = styled.div`
 
@@ -50,8 +51,9 @@ export const MainRoutes = () => {
             <Route path="/productdatamapping" element={<ProductDataMapping />} />
             <Route path= "/mothersmapping" element={<MothersMapping/>}/>
             <Route path="/singleproductpage" element={<SingleProductPage/>}/>
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup/*" element={<Signup />} />
+            <Route path="/verify" element={<Verify />} />
+            <Route path="/signup" element={<Signup/>} />
+            <Route path="/location" element={<Location/>}/>
           </Routes>
         </div>
         <br/>
