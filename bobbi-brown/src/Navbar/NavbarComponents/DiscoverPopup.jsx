@@ -62,7 +62,7 @@ const DiscoverPopup = () => {
                     <h3>FOUNDATION SHADE FINDER</h3>
                     <p>Discover your perfect shade match.</p>
                 </Link>
-                <Link to="/discoverdatamapping"  style={{textDecoration:"none"}} >
+                <Link to="/offers"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/39-Navigation-Dropdown-Tile-PC_Loyalty_2x.jpg" alt=''/>
                     <h3>BBACCESS</h3>
                     <p>Join today and get <b>15% OFF</b> your first order plus free shipping every day.</p>
@@ -74,12 +74,12 @@ const DiscoverPopup = () => {
                 </Link>
                 {/* <Link to="#"  style={{textDecoration:"none"}}> */}
                     <ul>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><h3>DISCOVER MORE</h3></Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Our Story</p></Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Our Artistry Experts</p></Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Pretty Powerful Fund</p></Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Ingredients Glossary</p></Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Bobbi Brown Community</p></Link></li>
+                        <li><Link to='/offers' style={{textDecoration:"none"}} ><h3>DISCOVER MORE</h3></Link></li>
+                        <li><Link to='/offers' style={{textDecoration:"none"}} ><p>Our Story</p></Link></li>
+                        <li><Link to='/offers' style={{textDecoration:"none"}} ><p>Our Artistry Experts</p></Link></li>
+                        <li><Link to='/offers' style={{textDecoration:"none"}} ><p>Pretty Powerful Fund</p></Link></li>
+                        <li><Link to='/offers' style={{textDecoration:"none"}} ><p>Ingredients Glossary</p></Link></li>
+                        <li><Link to='/offers' style={{textDecoration:"none"}} ><p>Bobbi Brown Community</p></Link></li>
                     </ul>
                 {/* </Link> */}
             </div>

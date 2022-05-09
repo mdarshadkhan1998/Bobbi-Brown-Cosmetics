@@ -67,8 +67,6 @@ const NewProductMapping = () => {
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg ",
             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_102124_1080x1080_0.jpg',
             "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_102124_1080x1080_1.jpg",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★☆☆",
             "name": "Luxe & Glow",
             "description": "4 luxurious formulas for lids and lips",

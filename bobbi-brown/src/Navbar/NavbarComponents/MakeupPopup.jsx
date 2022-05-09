@@ -58,52 +58,52 @@ const MakeupPopup = () => {
                 </Link>
                 {/* <Link to="#"  style={{textDecoration:"none"}}> */}
                     <ul>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><h3>FACE</h3> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Foundation</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Corrector & Concealer</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Primer</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Powder</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Foundation Guide</p> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><h3>FACE</h3> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><p>Foundation</p> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><p>Corrector & Concealer</p> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><p>Primer</p> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><p>Powder</p> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><p>Foundation Guide</p> </Link></li>
                     </ul>
                 {/* </Link> */}
                 {/* <Link to="#"  style={{textDecoration:"none"}}> */}
                     <ul>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><h3>LIPS</h3> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Lipstick</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Lip Gloss</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Lip Liner</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Lip Balms & Tints</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Lip Guide</p> </Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><h3>LIPS</h3> </Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><p>Lipstick</p> </Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><p>Lip Gloss</p> </Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><p>Lip Liner</p> </Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><p>Lip Balms & Tints</p> </Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><p>Lip Guide</p> </Link></li>
                     </ul>
                 {/* </Link> */}
                 {/* <Link to="#"  style={{textDecoration:"none"}}> */}
                     <ul>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><h3>EYES</h3> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Eye Shadow</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Brows</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Eyeliner</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Mascara</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Eye Shadow Guide</p> </Link></li>
+                        <li><Link to='/makeupmini' style={{textDecoration:"none"}} ><h3>EYES</h3> </Link></li>
+                        <li><Link to='/makeupmini' style={{textDecoration:"none"}} ><p>Eye Shadow</p> </Link></li>
+                        <li><Link to='/makeupmini' style={{textDecoration:"none"}} ><p>Brows</p> </Link></li>
+                        <li><Link to='/makeupmini' style={{textDecoration:"none"}} ><p>Eyeliner</p> </Link></li>
+                        <li><Link to='/makeupmini' style={{textDecoration:"none"}} ><p>Mascara</p> </Link></li>
+                        <li><Link to='/makeupmini' style={{textDecoration:"none"}} ><p>Eye Shadow Guide</p> </Link></li>
                     </ul>
                 {/* </Link> */}
                 {/* <Link to="#"  style={{textDecoration:"none"}}> */}
                     <ul>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><h3>CHEEKS</h3> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Highlight & Glow</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Blush</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Bronzer</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Glow Guide</p> </Link></li>
+                        <li><Link to='/makeupmini' style={{textDecoration:"none"}} ><h3>CHEEKS</h3> </Link></li>
+                        <li><Link to='/makeupmini' style={{textDecoration:"none"}} ><p>Highlight & Glow</p> </Link></li>
+                        <li><Link to='/makeupmini' style={{textDecoration:"none"}} ><p>Blush</p> </Link></li>
+                        <li><Link to='/makeupmini' style={{textDecoration:"none"}} ><p>Bronzer</p> </Link></li>
+                        <li><Link to='/makeupmini' style={{textDecoration:"none"}} ><p>Glow Guide</p> </Link></li>
                     </ul>
                 {/* </Link> */}
                 {/* <Link to="#"  style={{textDecoration:"none"}}> */}
                     <ul>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><h3>MORE</h3> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Gifts & Sets</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Brushes & Tools</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Beach Fragrance</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Last Chance</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Virtual Try-on</p> </Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>e-Gift Card</p> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><h3>MORE</h3> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><p>Gifts & Sets</p> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><p>Brushes & Tools</p> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><p>Beach Fragrance</p> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><p>Last Chance</p> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><p>Virtual Try-on</p> </Link></li>
+                        <li><Link to='/mothersmapping' style={{textDecoration:"none"}} ><p>e-Gift Card</p> </Link></li>
                     </ul>
                 {/* </Link> */}
             </div>

@@ -31,7 +31,9 @@ const NewPopupStyling = styled.div`
         list-style: none;
     }
 `;
+
 const NewPopup = () => {
+   
   return (
       <NewPopupStyling>
         <div className='maindivSet'>
@@ -42,7 +44,7 @@ const NewPopup = () => {
 
                     <h3>SHOP ALL NEW</h3>
                 </Link>
-                <Link to="/newproductmapping"  style={{textDecoration:"none"}} >
+                <Link to="/offers"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/GNAV/BB_Gnav_PC_Mitigation_BeautyEvent_Glow.jpg" alt=''/>
                     <h3>OFFERS & SERVICES</h3>
                 </Link>
@@ -50,7 +52,7 @@ const NewPopup = () => {
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/GNAV/BB-FY22-MothersDay_Gnav_Giftguide_@2x.jpg" alt=''/>
                     <h3>MOTHER'S DAY GIFT GUIDE</h3>
                 </Link>
-                <Link to="/newproductmapping"  style={{textDecoration:"none"}}>
+                <Link to="/makeupmini"  style={{textDecoration:"none"}}>
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/GNAV/20220215_BB_FY22_LWCSS_ShadeExt_GNAV_Global_Tile.jpg" alt=''/>
                     <h3>SHOP LONG-WEAR CREAM SHADOW STICK</h3>
                 </Link>

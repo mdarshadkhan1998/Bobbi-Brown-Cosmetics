@@ -57,7 +57,7 @@ const SkincarePopup = () => {
                     <h3>VITAMIN ENRICHED FACE BASE</h3>
                     <p>This cult favorite is the perfect prep for foundation.</p>
                 </Link>
-                <Link to="/skincaremapping"  style={{textDecoration:"none"}} >
+                <Link to="/makeupmini"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/skincare/BB-PC-GNAV-Skincare_Bestsellers_600x300_@2x.jpg" alt=''/>
                     <h3>OUR BEST SELLERS</h3>
                     <p>Shop moisturizers, serums & more.</p>

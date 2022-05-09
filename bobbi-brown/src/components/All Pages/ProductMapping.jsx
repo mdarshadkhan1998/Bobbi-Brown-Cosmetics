@@ -103,7 +103,7 @@ const ProductMapping = (e) => {
     }
     
     const gotoseperate = (data)=>{
-        // console.log(data)
+        console.log(data)
      
         navigate("/singleproductpage",{state: e})
     }

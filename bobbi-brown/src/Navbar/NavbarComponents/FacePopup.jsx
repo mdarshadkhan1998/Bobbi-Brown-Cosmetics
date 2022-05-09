@@ -56,7 +56,7 @@ const FacePopup = () => {
                     <h3>DISCOVER SKIN LONG-WEAR WEIGHTLESS FOUNDATION SPF 15</h3>
                     <p>Our #1 Foundation Formula now in 42 shades.</p>
                 </Link>
-                <Link to="/faceproductmapping"  style={{textDecoration:"none"}} >
+                <Link to="/discoverdatamapping"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/face/Nagivation-Tiles-Face-Foundation-Finder_2_@2x.jpg" alt=''/>
                     <h3>FOUNDATION SHADE FINDER</h3>
                     <p>Discover your perfect shade match.</p>
@@ -68,13 +68,13 @@ const FacePopup = () => {
                 </Link>
                 {/* <Link to="#"  style={{textDecoration:"none"}}> */}
                     <ul>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><h3>FACE</h3></Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Foundation</p></Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Corrector & Concealer</p></Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Primer</p></Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Powder</p></Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Face Brushes & Tools</p></Link></li>
-                        <li><Link to='#' style={{textDecoration:"none"}} ><p>Foundation Guide</p></Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><h3>FACE</h3></Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><p>Foundation</p></Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><p>Corrector & Concealer</p></Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><p>Primer</p></Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><p>Powder</p></Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><p>Face Brushes & Tools</p></Link></li>
+                        <li><Link to='/productdatamapping' style={{textDecoration:"none"}} ><p>Foundation Guide</p></Link></li>
                     </ul>
                 {/* </Link> */}
             </div>

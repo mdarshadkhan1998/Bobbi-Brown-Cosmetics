@@ -39,7 +39,7 @@ const BestSellersPopup = () => {
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/bestsellers/BB-PC-Gnav-Tile-01-B_@2x.jpg" alt=''/>
                     <h3>SHOP ALL BESTSELLERS</h3>
                 </Link>
-                <Link to="/shopallbestsellers"  style={{textDecoration:"none"}} >
+                <Link to="/productdatamapping"  style={{textDecoration:"none"}} >
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/bestsellers/BB-PC-GNAV-LWCSS_450x300_@2x.jpg" alt=''/>
                     <h3>LONG-WEAR CREAM SHADOW STICK</h3>
                 </Link>
@@ -47,7 +47,7 @@ const BestSellersPopup = () => {
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/bestsellers/BB-PC-GNAV-Highlighters_450x300_@2x.jpg" alt=''/>
                     <h3>HIGHLIGHTING POWDER</h3>
                 </Link>
-                <Link to="/shopallbestsellers"  style={{textDecoration:"none"}}>
+                <Link to="/virtual"  style={{textDecoration:"none"}}>
                     <img className='imageResize' src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/bestsellers/BB-PC-Gnav-Tile-04-B_@2x.jpg" alt=''/>
                     <h3>GIFTS & SETS</h3>
                 </Link>

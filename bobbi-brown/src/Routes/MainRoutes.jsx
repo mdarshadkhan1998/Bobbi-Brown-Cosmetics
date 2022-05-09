@@ -22,6 +22,8 @@ import SubMainFixedNavbar from '../Navbar/NavbarPart/SubMainFixedNavbar'
 import ToggleSubMainFixedNavbar from '../Navbar/NavbarPart/ToggleSubMainFixedNavbar'
 import MothersMapping from '../components/All Pages/MothersMapping';
 import SingleProductPage from '../components/All Pages/SingleProductPage/SingleProductPage';
+import VirtualPage from "../components/All Pages/VirtualPage"
+import Offers from '../components/All Pages/Offers/Offers';
 
 const MainRoutesStyling = styled.div`
 
@@ -50,6 +52,8 @@ export const MainRoutes = () => {
             <Route path="/productdatamapping" element={<ProductDataMapping />} />
             <Route path= "/mothersmapping" element={<MothersMapping/>}/>
             <Route path="/singleproductpage" element={<SingleProductPage/>}/>
+            <Route path="/virtual" element={<VirtualPage/>}/>
+            <Route path="/offers" element={<Offers/>}/>
             <Route path="/login" element={<Login />} />
             <Route path="/signup/*" element={<Signup />} />
           </Routes>

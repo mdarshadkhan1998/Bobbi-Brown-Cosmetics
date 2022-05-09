@@ -104,7 +104,7 @@ const SubMainFixedNavbar = () => {
                                     <Link to={"/skincaremapping"} onMouseEnter={()=>hoverHandler('SKINCARE')} ><p>SKINCARE</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
-                                    <Link to={""} onMouseEnter={()=>hoverHandler('VIRTUAL')} ><p>VIRTUAL SERVICES</p></Link>
+                                    <Link to={"/virtual"} onMouseEnter={()=>hoverHandler('VIRTUAL')} ><p>VIRTUAL SERVICES</p></Link>
                                 </li>
                                 <li className='slideFixNavbar'>
                                     <Link to={"/discoverdatamapping"} onMouseEnter={()=>hoverHandler('DISCOVER')} ><p>DISCOVER</p></Link>
