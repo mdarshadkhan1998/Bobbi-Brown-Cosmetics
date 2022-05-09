@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../App.css";
+import { Authcontext } from "./Authentication/CartContext";
 //bootstrap
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Checkout = () => {
+
+   const {arr,setarr}= useContext(Authcontext)
+
+   const all = localStorage.getItem('totalincart')
   const navigate = useNavigate();
 
   const handlecomplete = () => {
@@ -17,13 +22,24 @@ export const Checkout = () => {
     setTimeout(() => {
       navigate("/");
     }, 6000);
+    localStorage.setItem("totalincart",0)
+
+  //   fetch(`http://localhost:3000/data`,{
+  //     headers:{'content-type':'application/json'},
+  //     method:"PATCH",
+  //     body:JSON.stringify(setarr([]))
+  //   })
+  //   .then((res)=> (console.log(res))
+  //     .then((res)=>setarr(res))
+    
+    
+  //   .catch((err)=> console.log(err))
+
   };
   return (
     <div className="maincontainer">
       <div className="container">
-        <div className="py-5 text-center">
-          <h2>Checkout form</h2>
-        </div>
+       
         <div className="row">
           <div className="col-md-4 order-md-2 mb-4">
             <h4 className="d-flex justify-content-between align-items-center mb-3">
@@ -36,32 +52,19 @@ export const Checkout = () => {
                   <h6 className="my-0">Product name</h6>
                   <small className="text-muted">Brief description</small>
                 </div>
-                <span className="text-muted">$12</span>
+            
               </li>
-              <li className="list-group-item d-flex justify-content-between lh-condensed">
-                <div>
-                  <h6 className="my-0">Second product</h6>
-                  <small className="text-muted">Brief description</small>
-                </div>
-                <span className="text-muted">$35</span>
-              </li>
-              <li className="list-group-item d-flex justify-content-between lh-condensed">
-                <div>
-                  <h6 className="my-0">Third item</h6>
-                  <small className="text-muted">Brief description</small>
-                </div>
-                <span className="text-muted">$15</span>
-              </li>
+           
+             
               <li className="list-group-item d-flex justify-content-between bg-light">
                 <div className="text-success">
-                  <h6 className="my-0">Promo code</h6>
-                  <small>EXAMPLECODE</small>
+                 
                 </div>
-                <span className="text-success">-$5</span>
+                
               </li>
               <li className="list-group-item d-flex justify-content-between">
                 <span>Total (USD)</span>
-                <strong>$45</strong>
+                <strong>${all}</strong>
               </li>
             </ul>
           </div>

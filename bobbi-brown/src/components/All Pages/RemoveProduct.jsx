@@ -82,21 +82,31 @@ const RemoveProductStyling = styled.div`
 var j = 0;
 var sum = 0;
 const RemoveProduct = (e) => {
-  const [total, settotal] = useState(1);
+  const [total, settotal] = useState();
   const { arr, setarr, handleremove } = useContext(Authcontext);
  
 
   useEffect(() => {
     while (j < 1) {
-      for (let i = 0; i < arr.length; i++) {
-        sum += arr[i].price;
+      if(arr.length===0)
+      {
+        sum=0;
+        // localStorage.setItem("totalincart",sum)
       }
+      else
+      {
+        for (let i = 0; i < arr.length; i++) {
+          sum += arr[i].price;
+          
+        }
+      }      
       j++;
      settotal(sum)
     }
     // console.log(sum);
     settotal(sum);
-    console.log(total);
+    // console.log(total)
+    localStorage.setItem("totalincart",sum)
 
     //   settotal(total+ +e.price)
     //  return ()=> (settotal)
@@ -118,7 +128,7 @@ const RemoveProduct = (e) => {
 
   return (
     <RemoveProductStyling>
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         <img
           src={e.image}
           alt="image"
@@ -144,7 +154,7 @@ const RemoveProduct = (e) => {
           <br />
           <br />
         </div>
-        <p>{e.price}</p>
+        <p>${e.price}</p>
       </div>
     </RemoveProductStyling>
   );

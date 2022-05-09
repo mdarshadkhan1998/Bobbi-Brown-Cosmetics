@@ -18,7 +18,11 @@ export const CartContext = ({children}) => {
               .catch((err) => console.log(err));
           })
           .catch((err) => console.log(err));
-    
+
+          // temp reload
+          window.location.reload()
+          //temp.reload
+          
       };
   // console.log(arr)
   return (
