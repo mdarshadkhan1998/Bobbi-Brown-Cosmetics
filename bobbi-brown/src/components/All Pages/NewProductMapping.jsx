@@ -359,25 +359,76 @@ const NewProductMapping = () => {
     ]
       
     const [data, setData] = useState([...NewDataMapping]);
+    
+    //sorting part
+    const handleSort = (e) => {
+        var sort = e.target.value;
+        if(sort==="Price [Low to High]")
+        {
+            let lh=data.sort((a,b)=>{
+                console.log(e)
+                return a.price - b.price
+            });
+            console.log(lh)
+            setData(lh)
+        }
+        else if(sort === "Price [High to Low]")
+        {
+            let lh=data.sort((a,b)=>a.rating - b.rating);
+            setData(lh)
+        }
+        else
+        {
+
+        }
+    }
+        
+
+
+    // document.querySelector("#hl").addEventListener("click",function(){
+    //     let hl=imp.sort((a,b)=>b.rating - a.rating);
+    //     displayData(hl)
+    // })
+
+    // document.querySelector("#aToz").addEventListener("click",function(){
+    //     let aToz=imp.sort((a,b)=>(a.name > b.name ? 1:-1));
+    //     displayData(aToz)
+    // })
+
+
+    // document.querySelector("#zToa").addEventListener("click",function(){
+    //     let zToa=imp.sort((a,b)=>(a.name > b.name ? -1:1));
+    //     displayData(zToa)
+    // })
+
+
+    
 
     return (
-        <div>
-            <NewProductMappingStyling>
-                <div>
-                    <img style={{ width: "100vw" }} src={new1} alt='' />
-                </div>
-                <div>
-
-                </div>
-                <div className='mappedGridding'>
-                    {data.map((e)=>(<ProductMapping {...e} key={e.id}/>))}
-                </div>
-                <div>
-                    <img src={new2} alt='' style={{width:"100vw" , padding:"50px"}}/>
-                </div>
-                <h6 style={{width:"71%", margin:"auto", paddingBottom:"30px", fontSize:"14px", letterSpacing:"1px"}}>Our best moisturizer face & best skincare products to nourish skin and create the perfect canvas for makeup application. Bobbi's top-rated collection of best moisturizer face & best skincare products infuse skin with luxurious hydration. Discover our best moisturizer face & best skincare products to nourish, hydrate, repair & soothe all skin types.</h6>
-            </NewProductMappingStyling>
+        <>
+            <div>
+                <NewProductMappingStyling>
+                    <div>
+                        <img style={{ width: "100vw" }} src={new1} alt='' />
+                    </div>
+                    <div>
+                        <select onClick={handleSort}>
+                            <option>Sort By</option>
+                            <option id='hl' >Price [High to Low]</option>
+                            <option id='lh'>Price [Low to High]</option>
+                            <option id='hl'>Rating</option>
+                        </select>
+                    </div>
+                    <div className='mappedGridding'>
+                        {data.map((e)=>(<ProductMapping {...e} key={e.id}/>))}
+                    </div>
+                    <div>
+                        <img src={new2} alt='' style={{width:"100vw" , padding:"50px"}}/>
+                    </div>
+                    <h6 style={{width:"71%", margin:"auto", paddingBottom:"30px", fontSize:"14px", letterSpacing:"1px"}}>Our best moisturizer face & best skincare products to nourish skin and create the perfect canvas for makeup application. Bobbi's top-rated collection of best moisturizer face & best skincare products infuse skin with luxurious hydration. Discover our best moisturizer face & best skincare products to nourish, hydrate, repair & soothe all skin types.</h6>
+                </NewProductMappingStyling>
         </div>
+        </>
     )
 }
 

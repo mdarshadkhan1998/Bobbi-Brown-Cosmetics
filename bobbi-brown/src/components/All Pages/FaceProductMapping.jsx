@@ -364,7 +364,12 @@ const FaceProductMapping = () => {
                     <img style={{ width: "100vw" }} src={face1} alt='' />
                 </div>
                 <div>
-
+                <select >
+                            <option>Sort By</option>
+                            <option id='hl' >Price [High to Low]</option>
+                            <option id='lh'>Price [Low to High]</option>
+                            <option id='hl'>Rating</option>
+                        </select>    
                 </div>
                 <div className='mappedGridding'>
                     {data.map((e)=>(<ProductMapping {...e} key={e.id}/>))}
