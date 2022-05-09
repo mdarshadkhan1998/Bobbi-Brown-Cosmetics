@@ -111,8 +111,8 @@ const ToggleSubMainFixedNavbar = () => {
                             {/* <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faMapMarkerAlt} /></Link>                            
                             <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faUser} /></Link>
                             <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "20px", padding:"10px" }} icon={faBagShopping} /></Link> */}
-                            <Link to={"#"}><img style={{padding:'8px' ,height:"37px"}} src='https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg' alt='' /></Link>                            
-                            <Link to={"#"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "22px", paddingLeft:"10px",paddingRight:"10px" }} icon={faUser} /></Link>
+                            <Link to={"/location"}><img style={{padding:'8px' ,height:"37px"}} src='https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg' alt='' /></Link>                            
+                            <Link to={"/verify"}><FontAwesomeIcon style={{ color: "white", fontWeight: "900", fontSize: "22px", paddingLeft:"10px",paddingRight:"10px" }} icon={faUser} /></Link>
                             <Link to={"/addtocart"}><img style={{padding:'8px' ,height:"37px"}} src='https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg' alt='' /></Link>
                         </div>
                     </div>
