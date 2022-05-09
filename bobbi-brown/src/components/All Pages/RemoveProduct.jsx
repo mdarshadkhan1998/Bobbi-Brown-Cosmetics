@@ -79,40 +79,46 @@ const RemoveProductStyling = styled.div`
   }
 `;
 // var total =0;
+var j = 0;
+var sum = 0;
 const RemoveProduct = (e) => {
-  const [total,settotal] = useState(0)
- const {arr,setarr,handleremove} = useContext(Authcontext)
-  const navigate = useNavigate();
+  const [total, settotal] = useState(1);
+  const { arr, setarr, handleremove } = useContext(Authcontext);
+ 
+
   useEffect(() => {
-    settotal(total+ +e.price)
-   return ()=> (settotal)
-    
-  },[]) 
-  console.log(total)
-  const handleChange = (quantity) => {
-    const value = +quantity * (+e.price);
-    console.log(value)
-    
+    while (j < 1) {
+      for (let i = 0; i < arr.length; i++) {
+        sum += arr[i].price;
+      }
+      j++;
+     settotal(sum)
+    }
+    // console.log(sum);
+    settotal(sum);
+    console.log(total);
+
+    //   settotal(total+ +e.price)
+    //  return ()=> (settotal)
+  }, []);
+  // console.log(arr)
+  const handleChange = (quantity, id) => {
+    // console.log(id)
+
+    const value = +quantity * +e.price;
+
+    //   fetch(`http://localhost:3000/data/${id}`,{
+    //     method:'PATCH',
+    //     headers:{'content-type':'application/json'},
+    //     body:JSON.stringify(arr)
+    // }).then((res)=> res.json())
+    // .then((d)=>console.log(d))
+    // .catch((err)=>console.log("err",err))
   };
-   
-  // const handleremove = (id) => {
-  //   fetch(`http://localhost:3000/data/${id}`, { method: "DELETE" })
-  //     .then((res) => res.json())
-  //     .then((res) => {
-  //       fetch(`http://localhost:3000/data`)
-  //         .then((res) => res.json())
-  //         .then((res) => setArr(res))
-  //         .catch((err) => console.log(err));
-  //     })
-  //     .catch((err) => console.log(err));
 
-  // };
-  
   return (
-  <RemoveProductStyling>
-    
-     <div style={{ display: "flex", justifyContent: "space-around" }}>
-
+    <RemoveProductStyling>
+      <div style={{ display: "flex", justifyContent: "space-around" }}>
         <img
           src={e.image}
           alt="image"
@@ -121,14 +127,13 @@ const RemoveProduct = (e) => {
         <div>
           <p style={{ fontSize: "16px" }}>{e.name}</p>
           <p style={{ fontSize: "12px" }}>{e.color}</p>
-       
           Quantity
-          <select onChange={(e)=>handleChange(e.target.value)}>
-            <option value={+1}>1</option>
-            <option value={+2}>2</option>
-            <option value={+3}>3</option>
-            <option value={+4}>4</option>
-            <option value={+5}>5</option>
+          <select onChange={(e) => handleChange(e.target.value, e.id)}>
+            <option value={1}>1</option>
+            <option value={2}>2</option>
+            <option value={3}>3</option>
+            <option value={4}>4</option>
+            <option value={5}>5</option>
           </select>
           <button
             onClick={() => handleremove(e.id)}
@@ -136,11 +141,10 @@ const RemoveProduct = (e) => {
           >
             Remove
           </button>
-          <br/>
-        <br/>
+          <br />
+          <br />
         </div>
-        <p >{e.price}</p>
-      
+        <p>{e.price}</p>
       </div>
     </RemoveProductStyling>
   );

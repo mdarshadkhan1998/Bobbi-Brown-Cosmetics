@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
+import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 
 import styled from "styled-components"
 import {producttocart} from '../../redux/action'
+import SingleProductPage from './SingleProductPage/SingleProductPage';
 
 const ProductMappingStyling = styled.div`
 .personalDiv{
@@ -78,14 +79,14 @@ const ProductMappingStyling = styled.div`
     cursor:pointer;
 }
 `;
-const Array = localStorage.getItem("producthere")|| []
+// const Array = localStorage.getItem("producthere")|| []
 const ProductMapping = (e) => {
     
 //  console.log(e)
      const [data,setData] = useState([])
         //  console.log(data)
    
-   const dispatch = useDispatch()
+   const location = useLocation()
    const navigate= useNavigate()
     const handlecart =(product,item) =>{
        
@@ -96,24 +97,29 @@ const ProductMapping = (e) => {
               headers:{'content-type':'application/json'},
               body:JSON.stringify(product)
           }).then((res)=> res.json())
-          .then((d)=>console.log(d))
+          .then((d)=>console.log())
           .catch((err)=>console.log("err",err))
         // console.log(data)
     }
-
+    
+    const gotoseperate = (data)=>{
+        // console.log(data)
+     
+        navigate("/singleproductpage",{state: e})
+    }
   return (
     <ProductMappingStyling>
         <div  className='personalDiv'>
             <div className={`${e.tag===undefined ? "" : 'tag' }`}>{`${e.tag===undefined ? "" : e.tag }`}</div>
-            <img className={e.image===undefined ? 'justImage' : 'image' } src={`${e.image===undefined ? e.justImage : e.image }`} alt='' />
+            <img onClick={()=>gotoseperate(e)} className={e.image===undefined ? 'justImage' : 'image' } src={`${e.image===undefined ? e.justImage : e.image }`} alt='' />
             <h6 className='color'>{`${e.color===undefined ? "" : e.color }`}</h6>
-            <h5 className='name'>{`${e.name===undefined ? "" : e.name }`}</h5>
-            <p className='description'>{`${e.description===undefined ? "" : e.description }`}</p>
+            <h5 onClick={()=>gotoseperate(e)} className='name'>{`${e.name===undefined ? "" : e.name }`}</h5>
+            <p onClick={()=>gotoseperate(e)} className='description'>{`${e.description===undefined ? "" : e.description }`}</p>
             <div className='rating'>
-                <p style={{fontSize:"20px"}}>{`${e.rating===undefined ? "" : e.rating }`}</p>
-                <p className='totalReview'>{`${e.totalReview===undefined ? "" : `(${e.totalReview})` }`}</p>
+                <p onClick={()=>gotoseperate(e)} style={{fontSize:"20px"}}>{`${e.rating===undefined ? "" : e.rating }`}</p>
+                <p onClick={()=>gotoseperate(e)} className='totalReview'>{`${e.totalReview===undefined ? "" : `(${e.totalReview})` }`}</p>
             </div>
-            <p className='price'>{`${e.tag===undefined ? "" : `$${e.price}.00` }`}</p>
+            <p className='price'>{`${e.justImage ? "" : `$${e.price}.00` }`}</p>
             {e.name===undefined ? "" : <button className='addToCartButton' onClick={()=>handlecart(e,e.id)}>ADD TO BAG</button> }            
         </div>
     </ProductMappingStyling>

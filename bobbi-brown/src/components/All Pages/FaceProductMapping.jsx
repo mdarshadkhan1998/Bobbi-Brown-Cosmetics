@@ -36,6 +36,8 @@ const FaceProductMapping = () => {
         {
             id: 813,
             "image":" https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E6XW02_600x600_0.jpg ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Corrector",
             "description": "Full-coverage dark circle corrector",
             "tag": "Free Shipping & Returns",
@@ -47,6 +49,8 @@ const FaceProductMapping = () => {
         {
             id: 814,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E6XT08_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Creamy Concealer Kit",
             "description": "Two-step undereye-brightening kit",
             "tag": "Free Shipping & Returns",
@@ -62,6 +66,8 @@ const FaceProductMapping = () => {
         {
             id: 815,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EH9A01_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Instant Full Cover Concealer",
             "description": "Full-coverage, long-lasting concealer",
             "tag": "Best Seller",
@@ -73,6 +79,8 @@ const FaceProductMapping = () => {
         {
             id: 816,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EN6F14_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Intensive Skin Serum Concealer",
             "description": "Radiance-boosting concealer",
             "tag": "Free Shipping & Returns",
@@ -85,6 +93,8 @@ const FaceProductMapping = () => {
         {
             id: 817,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EHLL01_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Primer Plus Mattifier",
             "description": "Oil-absorbing primer",
             "totalReview": 61,
@@ -98,6 +108,8 @@ const FaceProductMapping = () => {
         {
             id: 818,
             "image":" https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EKLT01_600x600_0.jpg ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Primer Plus Protection SPF 50",
             "description": "Protective face primer",
             "tag": "Top-Rated",
@@ -108,6 +120,8 @@ const FaceProductMapping = () => {
         {
             id: 81,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E1LM01_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Vitamin Enriched Face Base",
             "description": "Multitasking, moisturizing primer",
             "tag": "Top-Rated",
@@ -119,6 +133,8 @@ const FaceProductMapping = () => {
         {
             id: 82,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EGXR04_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Skin Long-Wear Weightless Foundation SPF 15",
             "description": "16-hour, breathable, natural matte coverage",
             "tag": "Free Shipping & Returns",
@@ -130,6 +146,8 @@ const FaceProductMapping = () => {
         {
             id: 83,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPXL09_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Skin Corrector Stick",
             "description": "Discoloration neutralizer for undereyes & face",
             "tag": "New",
@@ -141,6 +159,8 @@ const FaceProductMapping = () => {
         {
             id: 84,
             "image":" https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERFJ11_600x600_0.jpg ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Skin Concealer Stick",
             "description": "Easy-to-use, long-lasting concealer stick",
             "tag": "New",
@@ -152,6 +172,8 @@ const FaceProductMapping = () => {
         {
             id: 85,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EME704_600x600_0.jpg ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Intensive Serum Foundation SPF 40/30",
             "description": "Radiance-boosting foundation",
             "color": "Natural (N-052)",
@@ -162,6 +184,8 @@ const FaceProductMapping = () => {
         {
             id: 86,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETRR08_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Intensive Serum Concealer",
             "description": "Brightens and boosts hydration",
             "tag": "New",
@@ -177,6 +201,8 @@ const FaceProductMapping = () => {
         {
             id: 87,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EA6C04_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Skin Foundation Stick",
             "description": "Multitasking, on-the-go stick",
             "tag": "Free Shipping & Returns",
@@ -188,6 +214,8 @@ const FaceProductMapping = () => {
         {
             id: 88,
             "image":" https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E2LE05_600x600_0.jpg ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Skin Foundation SPF 15",
             "description": "Water-based, oil-free foundation",
             "tag": "Free Shipping & Returns",
@@ -199,6 +227,8 @@ const FaceProductMapping = () => {
         {
             id: 89,
             "image":" https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET5K12_600x600_0.jpg ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Skin Weightless Powder Foundation",
             "description": "Silky, oil-free powder formula",
             "color": "Warm Natural",
@@ -213,6 +243,8 @@ const FaceProductMapping = () => {
         {
             id: 810,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ENHM04_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Skin Long-Wear Fluid Powder Foundation SPF 20",
             "description": "Hybrid liquid-to-powder foundation",
             "tag": "New",
@@ -224,6 +256,8 @@ const FaceProductMapping = () => {
         {
             id: 811,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ENPT01_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Sheer Finish Pressed Powder",
             "description": "Oil-absorbing powder",
             "color": "Pale Yellow",
@@ -234,6 +268,8 @@ const FaceProductMapping = () => {
         {
             id: 812,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ENPW01_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Sheer Finish Loose Powder",
             "description": "Oil-free mattifying powder",
             "color": "Pale Yellow",
@@ -244,6 +280,8 @@ const FaceProductMapping = () => {
         {
             id: 819,
             "image":" https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EHP201_600x600_0.jpg ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Extra Illuminating Moisture Balm",
             "description": "Glow-amplifying moisturizer",
             "tag": "Customer Favorite",
@@ -255,6 +293,8 @@ const FaceProductMapping = () => {
         {
             id: 820,
             "image":"https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERE011_600x600_0.jpg  ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Mini Skin Long-Wear Weightless Foundation SPF15",
             "description": "16-hour, medium coverage matte formula",
             "tag": "Mini Size",
@@ -266,6 +306,8 @@ const FaceProductMapping = () => {
         {
             id: 821,
             "image":" https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E3CA01_600x600_0.jpg ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Foundation Brush",
             "description": "Expertly angled face brush",
             "tag": "Top-Rated",
@@ -276,6 +318,8 @@ const FaceProductMapping = () => {
         {
             id: 822,
             "image":" https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E55501_600x600_0.jpg ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Powder Brush",
             "description": "Gently tapered setting brush",
             "tag": "Top-Rated",
@@ -286,6 +330,8 @@ const FaceProductMapping = () => {
         {
             id: 823,
             "image":" https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERYX01_600x600_0.jpg ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Mini Sheer Finish Pressed Powder",
             "description": "Portable, oil-absorbing powder",
             "color": "Pale Yellow",
@@ -296,6 +342,8 @@ const FaceProductMapping = () => {
         {
             id: 824,
             "image":" https://m.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E55901_600x600_0.jpg ",
+             "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "name": "Bronzer Brush",
             "description": "Soft brush for seamless finish",
             "tag": "Top-Rated",

@@ -20,7 +20,7 @@ export const CartContext = ({children}) => {
           .catch((err) => console.log(err));
     
       };
-  console.log(arr)
+  // console.log(arr)
   return (
     <Authcontext.Provider value={{arr,setarr,handleremove}}>
  {children}

@@ -37,6 +37,8 @@ const SkincareMapping = () => {
         {
             "id": 51,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E1LM01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★★",
             "name": "Vitamin Enriched Face Base",
             "description": "Multitasking, moisturizing primer",
@@ -47,6 +49,8 @@ const SkincareMapping = () => {
         {
             "id": 52,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EL1901_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★☆☆",
             "name": "Vitamin Enriched Eye Base",
             "description": "Moisturizing undereye primer",
@@ -61,6 +65,8 @@ const SkincareMapping = () => {
         {
             "id": 53,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EREP01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★☆",
             "name": "Extra Repair Moisture Cream Intense",
             "description": "Replenishing face cream with Vitamin C",
@@ -71,6 +77,8 @@ const SkincareMapping = () => {
         {
             "id": 54,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EP7P01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★☆☆☆",
             "name": "Extra Repair Eye Cream Intense",
             "description": "Revitalizing undereye treatment",
@@ -81,6 +89,8 @@ const SkincareMapping = () => {
         {
             "id": 55,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_0.jpg  ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★☆☆☆",
             "name": "Extra Cleansing Balm",
             "description": "Purifying, conditioning cleanser",
@@ -91,6 +101,8 @@ const SkincareMapping = () => {
         {
             "id": 56,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65X01_600x600_0.jpg  ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★★",
             "name": "Hydrating Face Cream",
             "description": "Rich yet lightweight moisturizer",
@@ -101,6 +113,8 @@ const SkincareMapping = () => {
         {
             "id": 57,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65Y01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★☆",
             "name": "Hydrating Eye Cream",
             "description": "Gentle, quick-absorbing eye cream",
@@ -111,6 +125,8 @@ const SkincareMapping = () => {
         {
             "id": 58,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EMNE01_600x600_0.jpg  ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★★",
             "name": "Hydrating Water Fresh Cream",
             "description": "100 hours of nonstop hydration",
@@ -125,6 +141,8 @@ const SkincareMapping = () => {
         {
             "id": 59,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EHP201_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★☆☆☆",
             "name": "Extra Illuminating Moisture Balm",
             "description": "Glow-amplifying moisturizer",
@@ -136,6 +154,8 @@ const SkincareMapping = () => {
         {
             "id": 510,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E1YJ01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★★",
             "name": "Extra Face Oil",
             "description": "Silky, fast-absorbing face oil",
@@ -146,6 +166,8 @@ const SkincareMapping = () => {
         {
             "id": 511,
             "image":"  ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★☆",
             "name": "Extra Lip Tint",
             "description": "Color-enhancing lip balm",
@@ -157,6 +179,8 @@ const SkincareMapping = () => {
         {
             "id": 512,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7E01_600x600_0.jpg  ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★☆☆☆",
             "name": "Deluxe Size Soothing Cleansing Oil",
             "totalReview": 14,
@@ -165,6 +189,8 @@ const SkincareMapping = () => {
         {
             "id": 513,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGP01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★☆",
             "name": "Mini Soothing Cleansing Oil",
             "description": "On-the-go gentle makeup-dissolving oil",
@@ -175,6 +201,8 @@ const SkincareMapping = () => {
         {
             "id": 514,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM4201_600x600_0.jpg  ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★★",
             "name": "Soothing Cleansing Oil",
             "description": "Makeup remover and cleanser",
@@ -185,6 +213,8 @@ const SkincareMapping = () => {
         {
             "id": 515,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM4201_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★☆",
             "name": "Soothing Cleansing Oil",
             "totalReview": 35,
@@ -198,6 +228,8 @@ const SkincareMapping = () => {
         {
             "id": 516,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCT01_600x600_0.jpg",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★★",
             "name": "Soothing Cleansing Oil",
             "totalReview": 141,
@@ -206,6 +238,8 @@ const SkincareMapping = () => {
         {
             "id": 517,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EFX201_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★☆",
             "name": "Skin Clarifier No. 75",
             "description": "Concentrated pore-clarifying treatment",
@@ -216,6 +250,8 @@ const SkincareMapping = () => {
         {
             "id": 518,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EG7801_600x600_0.jpg  ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★☆☆☆",
             "name": "Skin Moisture Solution No. 86 - Intense Rehydration Compound",
             "description": "Water-infused hydrating serum",
@@ -225,6 +261,8 @@ const SkincareMapping = () => {
         {
             "id": 519,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65R01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★☆",
             "name": "Hydrating Face Tonic",
             "description": "Balancing and restoring toner",
@@ -235,6 +273,8 @@ const SkincareMapping = () => {
         {
             "id": 520,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E42G01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★☆☆☆",
             "name": "Instant Long-Wear Makeup Remover",
             "description": "Gentle eye-makeup remover",
@@ -245,6 +285,8 @@ const SkincareMapping = () => {
         {
             "id": 521,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM6701_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★★",
             "name": "Makeup Melter & Cleanser",
             "description": "Gentle foaming makeup remover",
@@ -254,6 +296,8 @@ const SkincareMapping = () => {
         {
             "id": 522,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EKLT01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★☆",
             "name": "Primer Plus Protection SPF 50",
             "description": "Protective face primer",
@@ -264,6 +308,8 @@ const SkincareMapping = () => {
         {
             "id": 523,
             "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERER01_600x600_0.jpg  ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★★",
             "name": "Extra Repair Moisture Cream Intense Refill",
             "description": "Refill. Reuse. Repeat.",
@@ -274,6 +320,8 @@ const SkincareMapping = () => {
         {
             "id": 524,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPHC01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★☆☆☆",
             "name": "Extra Repair Eye Cream Intense Refill",
             "description": "Skin loving. Planet conscious.",
@@ -284,6 +332,8 @@ const SkincareMapping = () => {
         {
             "id": 525,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7C01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★☆",
             "name": "Deluxe Size Vitamin Enriched Face Base",
             "description": "Moisturizer and primer in one",
@@ -294,6 +344,8 @@ const SkincareMapping = () => {
         {
             "id": 526,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERJK03_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★☆☆☆",
             "name": "Mini Extra Illuminating Moisture Balm",
             "description": "Glow big (in a new mini size)",
@@ -304,6 +356,8 @@ const SkincareMapping = () => {
         {
             "id": 527,
             "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGN01_600x600_0.jpg ",
+            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
             "rating":"★★★★★",
             "name": "Mini Vitamin Enriched Face Base",
             "description": "Oil-free moisturizer and primer",

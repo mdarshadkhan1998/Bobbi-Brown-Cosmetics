@@ -20,6 +20,8 @@ import ProductDataMapping from '../components/All Pages/Product/ProductDataMappi
 import FixedNavbar from '../Navbar/NavbarPart/FixedNavbar'
 import SubMainFixedNavbar from '../Navbar/NavbarPart/SubMainFixedNavbar'
 import ToggleSubMainFixedNavbar from '../Navbar/NavbarPart/ToggleSubMainFixedNavbar'
+import MothersMapping from '../components/All Pages/MothersMapping';
+import SingleProductPage from '../components/All Pages/SingleProductPage/SingleProductPage';
 
 const MainRoutesStyling = styled.div`
 
@@ -46,8 +48,10 @@ export const MainRoutes = () => {
             <Route path="/skincaremapping" element={<SkincareMapping />} />
             <Route path="/discoverdatamapping" element={<DiscoverDataMapping />} />
             <Route path="/productdatamapping" element={<ProductDataMapping />} />
+            <Route path= "/mothersmapping" element={<MothersMapping/>}/>
+            <Route path="/singleproductpage" element={<SingleProductPage/>}/>
             <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
+            <Route path="/signup/*" element={<Signup />} />
           </Routes>
         </div>
         <br/>
