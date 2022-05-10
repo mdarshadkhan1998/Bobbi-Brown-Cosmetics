@@ -6,6 +6,7 @@ import new2 from '../Images/new2.png'
 import new3 from '../Images/new3.png'
 import new4 from '../Images/new4.png'
 import new5 from '../Images/new5.png'
+import { Link } from 'react-router-dom';
 
 const NewProductMappingStyling = styled.div`
 body{
@@ -30,14 +31,14 @@ body{
 `;
 
 const NewProductMapping = () => {
-   
+
     const NewDataMapping = [
         {
             id: 71,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E49_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_24845_1080x1080_1.jpg",
-            "rating":"★★★★☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E49_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_24845_1080x1080_1.jpg",
+            "rating": "★★★★☆",
             "name": "Long-Wear Cream Shadow Stick",
             "description": "Our ultimate quick eye shadow stick",
             "tag": "TRY IT ON",
@@ -47,10 +48,10 @@ const NewProductMapping = () => {
         },
         {
             id: 72,
-            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSF0_600x600_0.jpg  ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★★",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSF0_600x600_0.jpg  ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★★",
             "name": "MZ Wallace Corrector & Concealer Stick Bundle",
             "description": "Portable, oil-absorbing powder",
             "tag": "Limited Edition",
@@ -64,10 +65,10 @@ const NewProductMapping = () => {
         },
         {
             id: 73,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_102124_1080x1080_0.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_102124_1080x1080_1.jpg",
-            "rating":"★★★☆☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_102124_1080x1080_0.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_102124_1080x1080_1.jpg",
+            "rating": "★★★☆☆",
             "name": "Luxe & Glow",
             "description": "4 luxurious formulas for lids and lips",
             "tag": "Limited Edition",
@@ -77,10 +78,10 @@ const NewProductMapping = () => {
         },
         {
             id: 74,
-            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPXL09_600x600_0.jpg  ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★☆",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPXL09_600x600_0.jpg  ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★☆",
             "name": "Skin Corrector Stick",
             "description": "Discoloration neutralizer for undereyes & face",
             "tag": "New",
@@ -90,10 +91,10 @@ const NewProductMapping = () => {
         },
         {
             id: 75,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERFJ11_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★★",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERFJ11_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★★",
             "name": "Skin Concealer Stick",
             "description": "Easy-to-use, long-lasting concealer stick",
             "tag": "New",
@@ -103,10 +104,10 @@ const NewProductMapping = () => {
         },
         {
             id: 76,
-            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETRR08_600x600_0.jpg  ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★☆",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETRR08_600x600_0.jpg  ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★☆",
             "name": "Intensive Serum Concealer",
             "description": "Brightens and boosts hydration",
             "tag": "New",
@@ -116,10 +117,10 @@ const NewProductMapping = () => {
         },
         {
             id: 77,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EW5632_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★☆☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EW5632_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★☆☆",
             "name": "Pot Rouge for Lips & Cheeks",
             "description": "Pretty Powerful cheek & lip color",
             "tag": "TRY IT ON",
@@ -129,10 +130,10 @@ const NewProductMapping = () => {
         },
         {
             id: 78,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCW01_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★☆☆☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCW01_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★☆☆☆",
             "name": "Highlighting Powder",
             "description": "Pearl-infused illuminator",
             "tag": "New Shades",
@@ -146,10 +147,10 @@ const NewProductMapping = () => {
         },
         {
             id: 79,
-            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCY12_600x600_0.jpg  ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★☆",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCY12_600x600_0.jpg  ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★☆",
             "name": "Extra Lip Tint",
             "description": "Color-enhancing lip balm",
             "tag": "TRY IT ON",
@@ -159,10 +160,10 @@ const NewProductMapping = () => {
         },
         {
             id: 710,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERJK03_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★☆☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERJK03_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★☆☆",
             "name": "Mini Extra Illuminating Moisture Balm",
             "description": "Glow big (in a new mini size",
             "tag": "Limited Edition",
@@ -172,10 +173,10 @@ const NewProductMapping = () => {
         },
         {
             id: 711,
-            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERGC03_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★★",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERGC03_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★★",
             "name": "Luxe Eye Shadow",
             "description": "Metallic Shimmer Eye Shadow",
             "tag": "TRY IT ON",
@@ -185,10 +186,10 @@ const NewProductMapping = () => {
         },
         {
             id: 712,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EP7P01_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★☆☆☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EP7P01_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★☆☆☆",
             "name": "Extra Repair Eye Cream Intense",
             "description": "Revitalizing undereye treatment",
             "tag": "New",
@@ -198,10 +199,10 @@ const NewProductMapping = () => {
         },
         {
             id: 713,
-            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPHC01_600x600_0.jpg  ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★☆",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPHC01_600x600_0.jpg  ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★☆",
             "name": "Extra Repair Eye Cream Intense Refill",
             "description": "Skin loving. Planet conscious.",
             "tag": "New",
@@ -211,10 +212,10 @@ const NewProductMapping = () => {
         },
         {
             id: 714,
-            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCY12_600x600_0.jpg  ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★☆☆",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCY12_600x600_0.jpg  ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★☆☆",
             "name": "Extra Repair Moisture Cream Intense",
             "description": "Replenishing face cream with Vitamin C",
             "tag": "New",
@@ -224,10 +225,10 @@ const NewProductMapping = () => {
         },
         {
             id: 715,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EREP01_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EREP01_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★☆",
             "name": "Extra Repair Moisture Cream Intense Refill",
             "description": "Refill. Reuse. Repeat.",
             "tag": "New",
@@ -241,10 +242,10 @@ const NewProductMapping = () => {
         },
         {
             id: 716,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★☆☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★☆☆",
             "name": "Extra Cleansing Balm",
             "description": "Purifying, conditioning cleanser",
             "tag": "New",
@@ -254,10 +255,10 @@ const NewProductMapping = () => {
         },
         {
             id: 717,
-            "image":"https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7C01_600x600_0.jpg  ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★★",
+            "image": "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7C01_600x600_0.jpg  ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★★",
             "name": "Deluxe Size Vitamin Enriched Face Base",
             "description": "Moisturizer and primer in one",
             "tag": "New",
@@ -267,10 +268,10 @@ const NewProductMapping = () => {
         },
         {
             id: 718,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETP201_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★☆☆☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETP201_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★☆☆☆",
             "name": "Just A Hint Extra Lip Tint Set",
             "description": "Powerful tinted lip treatment",
             "tag": "New",
@@ -280,10 +281,10 @@ const NewProductMapping = () => {
         },
         {
             id: 719,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAM04_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★☆☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAM04_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★☆☆",
             "name": "Mini Long-Wear Cream Shadow Stick",
             "description": "Does-it-all, budge-proof crayon",
             "tag": "Limited Edition",
@@ -293,10 +294,10 @@ const NewProductMapping = () => {
         },
         {
             id: 720,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAN01_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAN01_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★☆",
             "name": "Mini Smokey Eye Mascara",
             "description": "Mascara for Volume and Length",
             "tag": "Limited Edition",
@@ -306,10 +307,10 @@ const NewProductMapping = () => {
         },
         {
             id: 721,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAP06_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★★",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAP06_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★★",
             "name": "Mini Crushed Lip Color",
             "description": "Lived-in look & balm-like hydration",
             "tag": "New",
@@ -319,10 +320,10 @@ const NewProductMapping = () => {
         },
         {
             id: 722,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAR06_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★☆☆☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EWAR06_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★☆☆☆",
             "name": "Mini Luxe Lip Color",
             "description": "Bold, moisture-full lipstick",
             "tag": "Try-It",
@@ -332,10 +333,10 @@ const NewProductMapping = () => {
         },
         {
             id: 723,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERYX01_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★☆☆",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERYX01_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★☆☆",
             "name": "Mini Sheer Finish Pressed Powder",
             "description": "Portable, oil-absorbing powder",
             "tag": "Limited Edition",
@@ -345,10 +346,10 @@ const NewProductMapping = () => {
         },
         {
             id: 724,
-            "image":" https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET9301_600x600_0.jpg ",
-            "image2":'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
-            "image3":"https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
-            "rating":"★★★★★",
+            "image": " https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET9301_600x600_0.jpg ",
+            "image2": 'https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E49_1080x1080_2.jpg',
+            "image3": "https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_prod_103075_1080x1080_0.jpg",
+            "rating": "★★★★★",
             "name": "Soothing Cleansing Oil",
             "description": "Our ultimate quick eye shadow stick",
             "tag": "New",
@@ -357,52 +358,41 @@ const NewProductMapping = () => {
             "totalReview": 97,
         }
     ]
-      
+
     const [data, setData] = useState([...NewDataMapping]);
-    
+
     //sorting part
     const handleSort = (e) => {
         var sort = e.target.value;
-        if(sort==="Price [Low to High]")
-        {
-            let lh=data.sort((a,b)=>{
-                console.log(e)
-                return a.price - b.price
-            });
-            console.log(lh)
-            setData(lh)
+        if (sort === "Price [Low to High]") {
+            let hl = data.sort((a, b) => a.price - b.price);
+            setData([...hl])
         }
-        else if(sort === "Price [High to Low]")
-        {
-            let lh=data.sort((a,b)=>a.rating - b.rating);
-            setData(lh)
+        else if (sort === "Price [High to Low]") {
+            let lh = data.sort((a, b) => b.price - a.price);
+            setData([...lh])
         }
-        else
-        {
-
+        else if (sort === "Rating [High to Low]") {
+            let hl = data.sort((a, b) => b.totalReview - a.totalReview);
+            setData([...hl])
+        }
+        else if (sort === "Rating [Low to High]") {
+            let lh = data.sort((a, b) => a.totalReview - b.totalReview);
+            setData([...lh])
+        }
+        else if (sort === "Name [A to Z]") {
+            let aToz = data.sort((a, b) => (a.name > b.name ? 1 : -1));
+            setData([...aToz])
+        }
+        else if (sort === "Name [Z to A]") {
+            let zToa = data.sort((a, b) => (a.name > b.name ? -1 : 1));
+            setData([...zToa])
+        }
+        else if (sort === "Sort By") {
+            setData([...NewDataMapping])
         }
     }
-        
 
-
-    // document.querySelector("#hl").addEventListener("click",function(){
-    //     let hl=imp.sort((a,b)=>b.rating - a.rating);
-    //     displayData(hl)
-    // })
-
-    // document.querySelector("#aToz").addEventListener("click",function(){
-    //     let aToz=imp.sort((a,b)=>(a.name > b.name ? 1:-1));
-    //     displayData(aToz)
-    // })
-
-
-    // document.querySelector("#zToa").addEventListener("click",function(){
-    //     let zToa=imp.sort((a,b)=>(a.name > b.name ? -1:1));
-    //     displayData(zToa)
-    // })
-
-
-    
 
     return (
         <>
@@ -411,23 +401,27 @@ const NewProductMapping = () => {
                     <div>
                         <img style={{ width: "100vw" }} src={new1} alt='' />
                     </div>
-                    <div>
+                    <div style={{ display: "flex", justifyContent: "space-between", width: "90%", margin: "auto", paddingTop: "20px" }}>
+                        <Link to="/" style={{ textDecoration: "none", fontSize: "17px" }}><h6 style={{ fontSize: "13px" }}>HOME</h6></Link>
                         <select onClick={handleSort}>
                             <option>Sort By</option>
                             <option id='hl' >Price [High to Low]</option>
                             <option id='lh'>Price [Low to High]</option>
-                            <option id='hl'>Rating</option>
+                            <option id='hl'>Rating [High to Low]</option>
+                            <option id='hl'>Rating [Low to High]</option>
+                            <option id='hl'>Name [A to Z]</option>
+                            <option id='hl'>Name [Z to A]</option>
                         </select>
                     </div>
                     <div className='mappedGridding'>
-                        {data.map((e)=>(<ProductMapping {...e} key={e.id}/>))}
+                        {data.map((e) => (<ProductMapping {...e} key={e.id} />))}
                     </div>
                     <div>
-                        <img src={new2} alt='' style={{width:"100vw" , padding:"50px"}}/>
+                        <img src={new2} alt='' style={{ width: "100vw", padding: "50px" }} />
                     </div>
-                    <h6 style={{width:"71%", margin:"auto", paddingBottom:"30px", fontSize:"14px", letterSpacing:"1px"}}>Our best moisturizer face & best skincare products to nourish skin and create the perfect canvas for makeup application. Bobbi's top-rated collection of best moisturizer face & best skincare products infuse skin with luxurious hydration. Discover our best moisturizer face & best skincare products to nourish, hydrate, repair & soothe all skin types.</h6>
+                    <h6 style={{ width: "71%", margin: "auto", paddingBottom: "30px", fontSize: "14px", letterSpacing: "1px" }}>Our best moisturizer face & best skincare products to nourish skin and create the perfect canvas for makeup application. Bobbi's top-rated collection of best moisturizer face & best skincare products infuse skin with luxurious hydration. Discover our best moisturizer face & best skincare products to nourish, hydrate, repair & soothe all skin types.</h6>
                 </NewProductMappingStyling>
-        </div>
+            </div>
         </>
     )
 }
