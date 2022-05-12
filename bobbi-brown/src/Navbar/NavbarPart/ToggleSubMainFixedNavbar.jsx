@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faBagShopping, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faSearch} from '@fortawesome/free-solid-svg-icons';
 import NavbarPopupComponent from '../NavbarComponents/NavbarPopupComponent';
 import {faUser} from '@fortawesome/free-regular-svg-icons'
+import searchData from '../searchData.json'
+import SearchPopUp from '../NavbarComponents/SearchPopUp';
 // import {Fade} from '@mui/material'
 
 const SubMainFixPartOfNavbar = styled.div`
@@ -26,7 +28,7 @@ body{
 .searchNavbar{
     height:20px;
     width:140px;
-    color: black;
+    color:  rgb(180,180,190);
     background-color: black;
     border:none;
     font-size:13px;
@@ -66,12 +68,32 @@ p {
 `;
 const ToggleSubMainFixedNavbar = () => {
     const [howerState, setHowerState] = useState("");
+
+
+    var d = searchData.dataJson;
+    var [visiblitySearch, setVisiblity] = useState(false)
+    const [searchD, setSearchD] = useState([...d])
+    const [searchDCPY, setSearchDCPY] = useState([])
+    // console.log(searchDCPY)
+    const handleChange = (inputText) => {    
+      let z = searchD.filter((e)=>{
+        return e.name.includes(inputText);  
+      })
+      setSearchDCPY([...z])
+      setVisiblity(true)
+    //   console.log(z)
+    }
+
+
     const hoverHandler =(type)=>{
         setHowerState(type)
     }
 
     const handleNoHover=()=>{
         setHowerState("")
+    }
+    const handleVisiblity = ()=>{
+        setVisiblity(false)
     }
     return (
         <div>
@@ -80,7 +102,7 @@ const ToggleSubMainFixedNavbar = () => {
                     <div className="firstDiv" style={{}}>
                         <div style={{ borderBottom: "1px solid rgb(225,236,233)" }}>
                             <FontAwesomeIcon icon={faSearch} style={{ fontWeight: "200", fontSize: "17px", color: "rgb(212,218,216)" }} />
-                            <input className='searchNavbar' type="search" placeholder="SEARCH" />
+                            <input className='searchNavbar' type="text" onChange={(el)=>handleChange(el.target.value)} placeholder="SEARCH" />
                         </div>
                         <div>
                             <ul className=" linksForFixNav">
@@ -120,6 +142,25 @@ const ToggleSubMainFixedNavbar = () => {
             </SubMainFixPartOfNavbar>
             <div onMouseLeave={handleNoHover}>
                 { howerState && <NavbarPopupComponent type={howerState} /> }
+            </div>
+            <div style={{position:"fixed", 
+                        color:"white", 
+                        display:"grid", 
+                        gridTemplateColumns:"1fr",
+                        gap:"10px",
+                        textAlign:"left", 
+                        width:"360px", 
+                        height:"500px", 
+                        overflow:"scroll",
+                        marginLeft:"4.5vw", 
+                        background:"white", 
+                        opacity:"0.95",
+                        scrollbarWidth:"none",
+                        visibility:(visiblitySearch===true ? "visible" : "hidden"),
+                        }}
+                        onMouseLeave={handleVisiblity}    
+                    >
+                {searchDCPY.map((e)=><SearchPopUp key={e.id} {...e}  />)}            
             </div>
         </div>
     )
