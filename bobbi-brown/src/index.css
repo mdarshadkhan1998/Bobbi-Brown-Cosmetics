@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior:smooth;
   scrollbar-width:none;
+  width:100vw;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

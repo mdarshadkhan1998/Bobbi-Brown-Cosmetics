@@ -4,7 +4,7 @@
 }
 body{
   font-family:"BBText Regular",Helvetica,Arial,sans-serif;
-  width:100%;
+  width:100vw;
   scroll-behavior:smooth;
 }
 .acrouselheading{

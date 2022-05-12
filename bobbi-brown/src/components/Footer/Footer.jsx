@@ -56,13 +56,13 @@ const Footer = () => {
                         <button >SUBMIT</button><br />
                         <h3>FOLLOW US</h3><br />
                         <div className="socials">
-                            <Link to="https://www.instagram.com/_mad___boxer_/" target="_blank"><FaInstagram /></Link>
-                            <Link to="https://www.linkedin.com/in/md-arshad-khan-350206154/" target="_blank"><FaLinkedin /></Link>
-                            <Link to="https://github.com/mdarshadkhan1998/Bobbi-Brown-Cosmetics" target="_blank"><FaGithub /></Link>
-                            <Link to="https://www.pinterest.com/bobbibrown/" target="_blank"><FaPinterest /></Link>
-                            <Link to="https://www.facebook.com/BobbiBrown" target="_blank"><FaFacebookF /></Link>
-                            <Link to="https://twitter.com/BobbiBrown" target="_blank"><FaTwitter /></Link>
-                            <Link to="https://www.youtube.com/BobbiBrown" target="_blank"><FaYoutube /> </Link>
+                            <a href="https://www.instagram.com/_mad___boxer_/" target="_blank"><FaInstagram /></a>
+                            <a href="https://www.linkedin.com/in/md-arshad-khan-350206154/" target="_blank"><FaLinkedin /></a>
+                            <a href="https://github.com/mdarshadkhan1998/Bobbi-Brown-Cosmetics" target="_blank"><FaGithub /></a>
+                            <a href="https://www.pinterest.com/bobbibrown/" target="_blank"><FaPinterest /></a>
+                            <a href="https://www.facebook.com/BobbiBrown" target="_blank"><FaFacebookF /></a>
+                            <a href="https://twitter.com/BobbiBrown" target="_blank"><FaTwitter /></a>
+                            <a href="https://www.youtube.com/BobbiBrown" target="_blank"><FaYoutube /> </a>
                         </div>
                     </div>
                 </div>

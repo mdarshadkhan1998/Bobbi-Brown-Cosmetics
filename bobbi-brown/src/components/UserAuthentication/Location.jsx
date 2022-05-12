@@ -1,65 +1,43 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import styles from "./Login.modules.css";
 
 export const Location = () => {
 
-    let container = document.getElementById("container");
-
-    async function getWeather() {
-
-        try {
-
-            let city = document.getElementById("city").value;
-
-            let res = await fetch(
-                // `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=78e9a2ba256831d8f9f427eda531eb07&units=metric`
-                `https://api.openweathermap.org/data/2.5/weather?zip=10038,us&appid=78e9a2ba256831d8f9f427eda531eb07`
-            );
-
-            let data = await res.json();
-
-            appendData(data);
-
-            console.log("data:", data);
-
+    const [location, setLocation] = useState("Pune")
+    const [address, setAddress] = useState("")
+    //Geological Location Code for co-ordinates
+    console.log()
+    useEffect(()=>{
+    navigator.geolocation.getCurrentPosition(function(position) {
+        const lat = position.coords.latitude;
+        const lng = position.coords.longitude;
+            out(lat,lng)
+        });
+        const out = (lat,lng) => {
+            fetch(`https://us1.locationiq.com/v1/reverse.php?key=pk.456518217705258731c8c7089e3a45d0&lat=${lat}&lon=${lng}&format=json`)
+            .then((e)=>e.json())
+            .then((d)=>(
+                setAddress(d.display_name),
+                setLocation(d),
+                console.log(d.display_name)
+            ))
         }
-        catch (err) {
-            console.log("err:", err);
-        }
+    },[setLocation])
 
-    }
-
-    function appendData(data) {
-
-        // container.innerHTML = null;
-
-        let main_cont = document.createElement("div");
-        main_cont.setAttribute("id", "flexdiv");
-
-        let cont1_div = document.createElement("div");
-        cont1_div.setAttribute("id", "cont1_div");
-
-        let cont_div = document.createElement("div");
-        cont_div.setAttribute("id", "cont_div")
-
-        let iframe = document.createElement("iframe");
-        iframe.src = `http://maps.google.com/maps?q=${data.name}&t=&z=13&ie=UTF8&iwloc=&output=embed`
-
-        //iframe.setAttribute("id", "map")
-
-        iframe.width = "700px";
-        iframe.height = "500px";
-        // iframe.paddingTop = "500px";
-
-        cont_div.append(iframe)
-
-        main_cont.append(cont1_div, cont_div)
-
-        container.append(main_cont);
-    }
-
+    
+    
+    // const out = async(lat,lng)=>{
+    //     let rel = await fetch(`https://us1.locationiq.com/v1/reverse.php?key=pk.456518217705258731c8c7089e3a45d0&lat=${lat}&lon=${lng}&format=json`)
+    //     let data = await rel.json();
+    //     // console.log(data.address);
+    //     // console.log(data.display_name);
+    //     // setLocation(data.address.city);
+    // }
+    // out()
+    
+   
     return (
         <>
             <div style={{ backgroundColor: '#F4F1EC', height: '220px', marginTop: '30px', paddingTop: '10px' }}>
@@ -79,14 +57,7 @@ export const Location = () => {
 
                 <div style={{ display: "flex", gap: '20px', alignItems: "center", textAlign: "center", justifyContent: "center" }}>
                     <div>
-                        <a style={{ fontSize: '20px', cursor: "pointer" }}
-                            href="https://www.bobbibrowncosmetics.com/store_locator#"
-                            className="store-locator__locate geo_search"
-                            data-test-id="storelocator_currentlocation"
-                        >
-                            <span className="icon icon-finder"></span>{" "}
-                            <span className="text">Use Current Location</span>
-                        </a>
+                        <a className="text" style={{ fontSize: '20px', cursor: "pointer" }} href="" > Use Current Location</a>
                     </div>
 
                     <p style={{ fontWeight: "bold" }}>OR</p>
@@ -162,42 +133,42 @@ export const Location = () => {
                     </div>
 
                     <div>
-                        <button onClick={() => getWeather()} style={{ cursor: 'pointer', marginTop: '0px', backgroundColor: '#FF4661', color: 'white', width: '120px', height: '34px' }}>FIND STORE</button>
+                        <button style={{ cursor: 'pointer', marginTop: '0px', backgroundColor: '#FF4661', color: 'white', width: '120px', height: '34px' }}>FIND STORE</button>
                     </div>
                 </div>
             </div>
 
-            <div id="container"></div>
+            <div style={{display:"grid", gridTemplateColumns:"1fr 1fr",  padding:"50px",width:"96%", margin:"auto"}}>
+                <div id="container" style={{fontSize:"20px", paddingRight:"10%", flexDirection:"row", paddingTop:"25%"}}><b>ADDRESS :-</b>{address}</div>
+                <div>
+                    <iframe src={ `http://maps.google.com/maps?q=${location}&t=&z=13&ie=UTF8&iwloc=&output=embed`} width = "100%" height = "400px" />
+                </div>
+            </div>
 
-            {/* <div style={{ marginTop: '50px' }}>
-                <img style={{ width: '100%', height: '100px' }} src='newimg.jpg' alt="image" />
-                git url
-            </div> */}
-
-            <div style={{ display: 'flex', gap: '30px', marginTop: '50px' }}>
-                <div style={{ width: '20%', height: '', marginLeft: '70px', cursor: "pointer" }}>
-                    <img style={{ width: '100%', height: '300px' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_03.jpg" alt="img" />
+            <div style={{ display: 'grid',gridTemplateColumns:"1fr 1fr 1fr 1fr", gap: '2%', justifyContent:"space-around", width:"90%", margin:"auto"}}>
+                <div style={{ cursor: "pointer" }}>
+                    <img style={{ width: '100%', height: '70%' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_03.jpg" alt="img" />
                     <h3 style={{ textAlign: 'left' }}>CHAT NOW</h3>
                     <p style={{ textAlign: 'left' }}>Upload a photo for personalized advice on demand.</p>
                     <p style={{ textAlign: 'left', textDecoration: 'underline' }}>CHAT NOW</p>
                 </div>
 
-                <div style={{ width: '20%', height: '', cursor: "pointer" }}>
-                    <img style={{ width: '100%', height: '300px' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_05.jpg" alt="img" />
+                <div style={{ cursor: "pointer" }}>
+                    <img style={{ width: '100%', height: '70%' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_05.jpg" alt="img" />
                     <h3 style={{ textAlign: 'left' }}>FREE SHIPPING</h3>
                     <p style={{ textAlign: 'left' }}>Find your perfect match with free shipping and returns on all foundations.</p>
                     <a href="https://www.bobbibrowncosmetics.com/customer-service-shipping#shipping-options" style={{ textAlign: 'left', color: 'black', marginLeft: '-230px', textDecoration: 'underline' }}>SHOP NOW</a>
                 </div>
 
-                <div style={{ width: '22%%', height: '', cursor: 'pointer' }}>
-                    <img style={{ width: '100%', height: '300px' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_07.jpg" alt="img" />
+                <div style={{ cursor: 'pointer' }}>
+                    <img style={{ width: '100%', height: '70%' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_07.jpg" alt="img" />
                     <h3 style={{ textAlign: 'left' }}>WE WANT YOU TO LOVE IT</h3>
                     <p style={{ textAlign: 'left' }}>We've got answers to all your beauty questions.</p>
                     <a href="https://www.bobbibrowncosmetics.com/customer-service-returns#returns-instructions" style={{ textAlign: 'left', color: 'black', marginLeft: '-230px', textDecoration: 'underline' }}>EXPLORE NOW</a>
                 </div>
 
-                <div style={{ width: '25%%', height: '', cursor: "pointer" }}>
-                    <img style={{ width: '100%', height: '300px' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_09.jpg" alt="img" />
+                <div style={{ cursor: "pointer" }}>
+                    <img style={{ width: '100%', height: '70%' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_09.jpg" alt="img" />
                     <h3 style={{ textAlign: 'left' }}>EXCLUSIVE OFFERS</h3>
                     <p style={{ textAlign: 'left' }}>Get instantly matched with our Foundation Finder.</p>
                     <a href="https://www.bobbibrowncosmetics.com/customer-service-returns#returns-instructions" style={{ textAlign: 'left', color: 'black', marginLeft: '-250px', textDecoration: 'underline' }}>GET STARTED</a>

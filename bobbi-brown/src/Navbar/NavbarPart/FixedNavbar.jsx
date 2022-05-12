@@ -14,10 +14,13 @@ const MainFixPartOfNavbar = styled.div`
 background:black;
 body{
     font-family:"Roboto";
+    width:100vw;
+    background-color:black;
 }
 .firstDiv{
     width:96%;
     margin:auto;
+    background-color:black;
 }
 .firstSubDiv{
 }

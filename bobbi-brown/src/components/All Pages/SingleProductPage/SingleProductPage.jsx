@@ -111,10 +111,10 @@ const SingleProductPage = () => {
                 {/* <img src="logo1.png" alt="img" /> */}
                 {/* Icons */}
 
-                <Link to="https://www.instagram.com/_mad___boxer_/" target="_blank" style={{color:"black", fontSize:"30px",padding:"5px"}}><FaInstagram /></Link>
-                <Link to="https://www.linkedin.com/in/md-arshad-khan-350206154/" target="_blank" style={{color:"black", fontSize:"30px",padding:"5px"}}><FaLinkedin /></Link>
-                <Link to="https://github.com/mdarshadkhan1998/Bobbi-Brown-Cosmetics" target="_blank" style={{color:"black", fontSize:"30px",padding:"5px"}}><FaGithub /></Link>
-                <Link to="https://www.pinterest.com/bobbibrown/" target="_blank" style={{color:"black", fontSize:"30px",padding:"5px"}}><FaPinterest /></Link>
+                <a href="https://www.instagram.com/_mad___boxer_/" target="_blank" style={{color:"black", fontSize:"30px",padding:"5px"}}><FaInstagram /></a>
+                <a href="https://www.linkedin.com/in/md-arshad-khan-350206154/" target="_blank" style={{color:"black", fontSize:"30px",padding:"5px"}}><FaLinkedin /></a>
+                <a href="https://github.com/mdarshadkhan1998/Bobbi-Brown-Cosmetics" target="_blank" style={{color:"black", fontSize:"30px",padding:"5px"}}><FaGithub /></a>
+                <a href="https://www.pinterest.com/bobbibrown/" target="_blank" style={{color:"black", fontSize:"30px",padding:"5px"}}><FaPinterest /></a>
               </div>
             </div>
           </div>

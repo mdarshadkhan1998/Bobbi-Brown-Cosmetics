@@ -153,6 +153,7 @@ const SubMainFixedNavbar = () => {
                         opacity:"0.95",
                         scrollbarWidth:"none",
                         visibility:(visiblitySearch===true ? "visible" : "hidden"),
+                        cursor:"pointer"
                         }}
                         onMouseLeave={handleVisiblity}    
                     >

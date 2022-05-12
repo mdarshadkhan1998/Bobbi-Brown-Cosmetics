@@ -34,6 +34,7 @@ body{
     font-size:13px;
     font-weight:600;
     letter-spacing: 1px;
+
     
 }
 .linksForFixNav{
@@ -157,6 +158,7 @@ const ToggleSubMainFixedNavbar = () => {
                         opacity:"0.95",
                         scrollbarWidth:"none",
                         visibility:(visiblitySearch===true ? "visible" : "hidden"),
+                        cursor:"pointer"
                         }}
                         onMouseLeave={handleVisiblity}    
                     >
