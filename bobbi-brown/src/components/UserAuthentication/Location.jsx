@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import styled from "styled-components";
-import styles from "./Login.modules.css";
 
 export const Location = () => {
 
     const [location, setLocation] = useState("Pune")
     const [address, setAddress] = useState("")
+
     //Geological Location Code for co-ordinates
-    console.log()
     useEffect(()=>{
     navigator.geolocation.getCurrentPosition(function(position) {
         const lat = position.coords.latitude;
@@ -20,22 +17,10 @@ export const Location = () => {
             .then((e)=>e.json())
             .then((d)=>(
                 setAddress(d.display_name),
-                setLocation(d),
-                console.log(d.display_name)
+                setLocation(d)
             ))
         }
     },[setLocation])
-
-    
-    
-    // const out = async(lat,lng)=>{
-    //     let rel = await fetch(`https://us1.locationiq.com/v1/reverse.php?key=pk.456518217705258731c8c7089e3a45d0&lat=${lat}&lon=${lng}&format=json`)
-    //     let data = await rel.json();
-    //     // console.log(data.address);
-    //     // console.log(data.display_name);
-    //     // setLocation(data.address.city);
-    // }
-    // out()
     
    
     return (
@@ -148,28 +133,28 @@ export const Location = () => {
             <div style={{ display: 'grid',gridTemplateColumns:"1fr 1fr 1fr 1fr", gap: '2%', justifyContent:"space-around", width:"90%", margin:"auto"}}>
                 <div style={{ cursor: "pointer" }}>
                     <img style={{ width: '100%', height: '70%' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_03.jpg" alt="img" />
-                    <h3 style={{ textAlign: 'left' }}>CHAT NOW</h3>
+                    <h4 style={{ textAlign: 'left' }}>CHAT NOW</h4>
                     <p style={{ textAlign: 'left' }}>Upload a photo for personalized advice on demand.</p>
                     <p style={{ textAlign: 'left', textDecoration: 'underline' }}>CHAT NOW</p>
                 </div>
 
                 <div style={{ cursor: "pointer" }}>
                     <img style={{ width: '100%', height: '70%' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_05.jpg" alt="img" />
-                    <h3 style={{ textAlign: 'left' }}>FREE SHIPPING</h3>
+                    <h4 style={{ textAlign: 'left' }}>FREE SHIPPING</h4>
                     <p style={{ textAlign: 'left' }}>Find your perfect match with free shipping and returns on all foundations.</p>
                     <a href="https://www.bobbibrowncosmetics.com/customer-service-shipping#shipping-options" style={{ textAlign: 'left', color: 'black', marginLeft: '-230px', textDecoration: 'underline' }}>SHOP NOW</a>
                 </div>
 
                 <div style={{ cursor: 'pointer' }}>
                     <img style={{ width: '100%', height: '70%' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_07.jpg" alt="img" />
-                    <h3 style={{ textAlign: 'left' }}>WE WANT YOU TO LOVE IT</h3>
+                    <h4 style={{ textAlign: 'left' }}>WE WANT YOU TO LOVE IT</h4>
                     <p style={{ textAlign: 'left' }}>We've got answers to all your beauty questions.</p>
                     <a href="https://www.bobbibrowncosmetics.com/customer-service-returns#returns-instructions" style={{ textAlign: 'left', color: 'black', marginLeft: '-230px', textDecoration: 'underline' }}>EXPLORE NOW</a>
                 </div>
 
                 <div style={{ cursor: "pointer" }}>
                     <img style={{ width: '100%', height: '70%' }} src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_09.jpg" alt="img" />
-                    <h3 style={{ textAlign: 'left' }}>EXCLUSIVE OFFERS</h3>
+                    <h4 style={{ textAlign: 'left' }}>EXCLUSIVE OFFERS</h4>
                     <p style={{ textAlign: 'left' }}>Get instantly matched with our Foundation Finder.</p>
                     <a href="https://www.bobbibrowncosmetics.com/customer-service-returns#returns-instructions" style={{ textAlign: 'left', color: 'black', marginLeft: '-250px', textDecoration: 'underline' }}>GET STARTED</a>
                 </div>
