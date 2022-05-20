@@ -23,15 +23,16 @@ export const AddtoCart = () => {
   const all = localStorage.getItem("totalincart")
   
   // const [arr, setArr] = useState([]);
-  const {arr,setarr} = useContext(Authcontext)
+  // const {arr,setarr} = useContext(Authcontext)
+  const arr = JSON.parse(localStorage.getItem("local")) || [];
   const navigate = useNavigate();
   //  console.log(arr)
-  useEffect(() => {
-    fetch(`http://localhost:3000/data`)
-      .then((res) => res.json())
-      .then((res) => setarr(res))
-      .catch((err) => console.log(err));
-  }, []);
+  // useEffect(() => {
+  //   fetch(`http://localhost:3000/data`)
+  //     .then((res) => res.json())
+  //     .then((res) => setarr(res))
+  //     .catch((err) => console.log(err));
+  // }, []);
 
   const handlecheckout = () => {
   if(arr.length ) { navigate("/checkout");}

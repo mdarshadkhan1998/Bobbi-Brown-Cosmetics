@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
-import { useDispatch } from 'react-redux';
+import React, { useContext, useState } from 'react'
+// import { useDispatch } from 'react-redux';
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 
 import styled from "styled-components"
-import {producttocart} from '../../redux/action'
+import { LocalStorageContext } from '../Authentication/LocalContext';
+// import {producttocart} from '../../redux/action'
 import SingleProductPage from './SingleProductPage/SingleProductPage';
 
 const ProductMappingStyling = styled.div`
@@ -87,24 +88,25 @@ const ProductMappingStyling = styled.div`
 `;
 // const Array = localStorage.getItem("producthere")|| []
 const ProductMapping = (e) => {
-    
+    // const [local,setLocal] = useState([])
 //  console.log(e)
-     const [data,setData] = useState([])
+     const {addtolocalstorage} = useContext(LocalStorageContext)
         //  console.log(data)
-   
+        
    const location = useLocation()
    const navigate= useNavigate()
-    const handlecart =(product,item) =>{
-       
-               setData([...data,product])
-                //  console.log(product)
-          fetch(`http://localhost:3000/data`,{
-              method:'POST',
-              headers:{'content-type':'application/json'},
-              body:JSON.stringify(product)
-          }).then((res)=> res.json())
-          .then((d)=>console.log())
-          .catch((err)=>console.log("err",err))
+    const handlecart =(product) =>{
+         
+           addtolocalstorage(product)
+              
+               
+        //   fetch(`http://localhost:3000/data`,{
+        //       method:'POST',
+        //       headers:{'content-type':'application/json'},
+        //       body:JSON.stringify(product)
+        //   }).then((res)=> res.json())
+        //   .then((d)=>console.log())
+        //   .catch((err)=>console.log("err",err))
         // console.log(data)
     }
     
@@ -126,7 +128,7 @@ const ProductMapping = (e) => {
                 <p onClick={()=>gotoseperate(e)} className='totalReview'>{`${e.totalReview===undefined ? "" : `(${e.totalReview})` }`}</p>
             </div>
             <p className='price'>{`${e.justImage ? "" : `$${e.price}.00` }`}</p>
-            {e.name===undefined ? "" : <button className='addToCartButton' onClick={()=>handlecart(e,e.id)}>ADD TO BAG</button> }            
+            {e.name===undefined ? "" : <button className='addToCartButton' onClick={()=>handlecart(e)}>ADD TO BAG</button> }            
         </div>
     </ProductMappingStyling>
   )
