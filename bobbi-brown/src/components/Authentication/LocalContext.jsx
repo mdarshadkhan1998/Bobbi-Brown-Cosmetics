@@ -7,12 +7,12 @@ export const LocalContext = ({children}) =>{
    
        const addtolocalstorage = (data)=>{
            setlocal([...local,data])
-           console.log(local)
+        //    console.log(local)
            localStorage.setItem("local",JSON.stringify(local))
        }
   
     return (
-        <LocalStorageContext.Provider value={{local,setlocal,addtolocalstorage}}>
+        <LocalStorageContext.Provider value={{arr,local,setlocal,addtolocalstorage}}>
         {children}
         </LocalStorageContext.Provider>
     )

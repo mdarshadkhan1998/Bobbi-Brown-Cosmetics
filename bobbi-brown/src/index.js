@@ -25,19 +25,19 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 // import { Provider } from "react-redux";
 // import { store } from "./redux/store";
-import { CartContext } from "./components/Authentication/CartContext";
+// import { CartContext } from "./components/Authentication/CartContext";
 import {LocalContext} from "./components/Authentication/LocalContext"
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
         <BrowserRouter>
-        <CartContext>
+        {/* <CartContext> */}
         <LocalContext>
         {/* <Provider store={store}> */}
             <App />
         {/* </Provider> */}
         </LocalContext>
-        </CartContext>
+        {/* </CartContext> */}
         </BrowserRouter>
     </React.StrictMode>
 );

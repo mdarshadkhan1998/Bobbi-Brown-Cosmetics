@@ -7,6 +7,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import RemoveProduct from "./All Pages/RemoveProduct";
 import { Authcontext } from "./Authentication/CartContext";
+import { LocalStorageContext } from "./Authentication/LocalContext";
 
 const Flexdiv = styled.div`
   width: 70%;
@@ -20,11 +21,16 @@ export const AddtoCart = () => {
   // const {cart}= useSelector((state => state.cart))
   // console.log(cart)
   // const location = useLocation()
+  const arr = JSON.parse(localStorage.getItem("local")) || [];
+  const {local,setlocal,addtolocalstorage} = useContext(LocalStorageContext)
+  useEffect(() => {
+
+  },[local])
   const all = localStorage.getItem("totalincart")
   
   // const [arr, setArr] = useState([]);
   // const {arr,setarr} = useContext(Authcontext)
-  const arr = JSON.parse(localStorage.getItem("local")) || [];
+ 
   const navigate = useNavigate();
   //  console.log(arr)
   // useEffect(() => {

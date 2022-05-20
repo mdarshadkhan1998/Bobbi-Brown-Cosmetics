@@ -1,14 +1,14 @@
 
 
-import React, { createContext, useState } from 'react'
+// import React, { createContext, useState } from 'react'
 
-export const Authcontext = createContext()
+// export const Authcontext = createContext()
 
-export const CartContext = ({children}) => {
+// export const CartContext = ({children}) => {
   
-    const [arr,setarr] = useState([])
+    // const [arr,setarr] = useState([])
    
-    const handleremove = (id) => {
+    // const handleremove = (id) => {
         // fetch(`http://localhost:3000/data/${id}`, { method: "DELETE" })
         //   .then((res) => res.json())
         //   .then((res) => {
@@ -18,17 +18,17 @@ export const CartContext = ({children}) => {
         //       .catch((err) => console.log(err));
         //   })
         //   .catch((err) => console.log(err));
-        localStorage.removeItem(id)
+        // localStorage.removeItem(id)
 
           // temp reload
           // window.location.reload()
           //temp.reload
           
-      };
+      // };
   // console.log(arr)
-  return (
-    <Authcontext.Provider value={{arr,setarr,handleremove}}>
- {children}
-    </Authcontext.Provider>
-  )
-}
+  // return (
+    // <Authcontext.Provider value={{handleremove}}>
+//  {children}
+    {/* </Authcontext.Provider> */}
+  // )
+// }

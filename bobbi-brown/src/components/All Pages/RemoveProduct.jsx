@@ -5,6 +5,7 @@ import styled from "styled-components";
 import { producttocart } from "../../redux/action";
 import axios from "axios";
 import { Authcontext } from "../Authentication/CartContext";
+import { LocalStorageContext } from "../Authentication/LocalContext";
 const RemoveProductStyling = styled.div`
   .personalDiv {
     padding: 20px;
@@ -78,40 +79,34 @@ const RemoveProductStyling = styled.div`
     cursor: pointer;
   }
 `;
+const arr = JSON.parse(localStorage.getItem("local")) || [];
 // var total =0;
 var j = 0;
 var sum = 0;
-const RemoveProduct = (e) => {
+const RemoveProduct = (e,index) => {
   const [total, settotal] = useState();
-  const { arr, setarr, handleremove } = useContext(Authcontext);
+  const {local,setlocal,addtolocalstorage} = useContext(LocalStorageContext)
+  // const { arr, setarr, handleremove } = useContext(Authcontext);
  
 
-  useEffect(() => {
-    while (j < 1) {
-      if(arr.length===0)
-      {
-        sum=0;
-        // localStorage.setItem("totalincart",sum)
+  const handleremove =(id) =>{
+   console.log(id)
+     localStorage.removeItem(id)
+    for(let i=0;i<arr.length;i++){
+      if(arr[i].id== id){
+        arr.splice(arr[i],1);
+        console.log(arr)
+        localStorage.setItem("local",JSON.stringify(arr))
       }
-      else
-      {
-        for (let i = 0; i < arr.length; i++) {
-          sum += arr[i].price;
-          
-        }
-      }      
-      j++;
-     settotal(sum)
     }
-    // console.log(sum);
-    settotal(sum);
-    // console.log(total)
-    localStorage.setItem("totalincart",sum)
+      //  addtolocalstorage(arr)
+      // setlocal(local)
+      // 
+     
+   
+  }
 
-    //   settotal(total+ +e.price)
-    //  return ()=> (settotal)
-  }, []);
-  // console.log(arr)
+ 
   const handleChange = (quantity, id) => {
     // console.log(id)
 
