@@ -8,7 +8,7 @@ We completed this project within a week.
 
 - [Click here](https://bobbi-brown-clone-arshad-abhinav-yogesh-shivanshu-rahul-nikesh.netlify.app/) to preview our project.
 - [Click here](https://medium.com/@shivanshuchobey5998/bobbibrown-com-website-clone-construct-week-unit-4-237dd9990d7c) to view our Blog.
-![Logo](./bobbi-brown/src/Readme%20Images/logo.jpg)
+![Logo](./bobbi-brown/src/Readme%20Images/logo.png)
 
 [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/) is a leading Women Cosmetics Products Ecommerce Website. Bobbi Brown is an American professional make-up artist, author, and the founder of Bobbi Brown Cosmetics. Brown created ten natural-shade lipsticks which according to Entrepreneur “revolutionized the beauty industry”. She has written nine books about beauty and wellness.
 
@@ -16,7 +16,7 @@ We completed this project within a week.
 
 - Images : [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
 - Content : [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
-- CSS Library: [Bootstrap](https://getbootstrap.com/) | [Tailwind CSS](https://tailwindcss.com/)
+- CSS Library: [Bootstrap](https://getbootstrap.com/) | [Tailwind CSS](https://tailwindcss.com/) | [Material-UI](https://v4.mui.com/)
 - Icons : [Reacct-Font Awesome](https://fontawesome.com/)
 - References : [MDN Docs](https://developer.mozilla.org/en-US/) | [W3School](https://www.w3schools.com/) | [React](https://reactjs.org/) | [React Redux](https://react-redux.js.org/)
 
@@ -26,7 +26,7 @@ We completed this project within a week.
 - HTML 5
 - CSS 3
 - JavaScript
-- CSS Library — Bootstrap. …Tailwind CSS. …
+- CSS Library — Bootstrap, Tailwind CSS, Material-UI
 - Github
 
 **Client:** [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
