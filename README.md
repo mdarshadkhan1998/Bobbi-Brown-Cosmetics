@@ -1,5 +1,5 @@
 # Clone of bobbibrowncosmetics.com
-
+![Gif](./bobbi-brown/src/Readme%20Images/Gif.gif)
 [Bobbi Brown Cosmetics](https://www.bobbibrowncosmetics.com/) is a global prestige beauty brand that empowers women to embrace and enhance their individual beauty. 
 It has an Global instant delivery service. Customers of this company use the mobile application or website to order prestige beauty products online.
 
