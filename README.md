@@ -8,6 +8,7 @@ We completed this project within a week.
 
 - [Click here](https://bobbi-brown-clone-arshad-abhinav-yogesh-shivanshu-rahul-nikesh.netlify.app/) to preview our project.
 - [Click here](https://medium.com/@shivanshuchobey5998/bobbibrown-com-website-clone-construct-week-unit-4-237dd9990d7c) to view our Blog.
+- [Click here](https://drive.google.com/file/d/1bGrJOXcpS2e1ZPlwFjyBPsqSXb_5iucg/view?usp=sharing) to watch a brief preview of our project in video format.
 ![Logo](./bobbi-brown/src/Readme%20Images/logo.png)
 
 [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/) is a leading Women Cosmetics Products Ecommerce Website. Bobbi Brown is an American professional make-up artist, author, and the founder of Bobbi Brown Cosmetics. Brown created ten natural-shade lipsticks which according to Entrepreneur “revolutionized the beauty industry”. She has written nine books about beauty and wellness.
@@ -32,8 +33,8 @@ We completed this project within a week.
 **Client:** [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
 
 ## Features
-- Login / Sign Up / Profile / Offers and Toggled Navbars with their Pop-Ups.
-- Location Fetching using Geographical Location, lat and lng /custom Location Search.
+- Login | Sign Up | Profile | Offers and Toggled Navbars with their Pop-Ups.
+- Location Fetching using Geographical Location, lat and lng | custom Location Search.
 - Manual slider of products card for different categories.
 - Search bar for finding the product by it's name and viewing it.
 - Product page for different categories.
@@ -44,17 +45,6 @@ We completed this project within a week.
 - Payment Page.
 - Media query for All Size Screen.
 
-## Brief Video Demo
-[Click here](https://drive.google.com/drive/u/0/search?lfhs=2&q=bobbi) to watch our brief project preview in a video format.
-=======
-This was our project for Unit-4 Construct week at Masai Shcool.
-Our target was to complete all main functionality of e-commerce website have, such as sing up to till to the byuing of a product.
-We have completed this project in 5 days.
-
-- [Click here](https://bobbi-brown-clone-arshad-abhinav-yogesh-shivanshu-rahul-nikesh.netlify.app/) to see preview of our project.
-
-This is a Women Cosmetics Products Ecommerce Website. Bobbi Brown is an American professional make-up artist, author, and the founder of Bobbi Brown Cosmetics. Brown created ten natural-shade lipsticks which according to Entrepreneur “revolutionized the beauty industry”. She has written nine books about beauty and wellness.
-
 ## Credits
 
 - Images : [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
@@ -63,7 +53,7 @@ This is a Women Cosmetics Products Ecommerce Website. Bobbi Brown is an American
 - Icons : [Reacct-Font Awesome](https://fontawesome.com/)
 - References : [MDN Docs](https://developer.mozilla.org/en-US/) | [W3School](https://www.w3schools.com/) | [React](https://reactjs.org/) | [React Redux](https://react-redux.js.org/)
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - React
 - Redux
@@ -83,39 +73,49 @@ This is a Women Cosmetics Products Ecommerce Website. Bobbi Brown is an American
 - Manual slider for product card.
 - Add to cart opt for buying products.
 
-## Demo
-
-[Click here](https://drive.google.com/file/d/1bGrJOXcpS2e1ZPlwFjyBPsqSXb_5iucg/view?usp=sharing) to watch our project preview in a video format.
-
 ## Screenshots
 
 ### 1. Home page
 
-![Website Screenshot](https://miro.medium.com/max/1400/1*3O5dJrdc7lc7XPzV2skHlQ.png)
+![Home page](./bobbi-brown/src/Readme%20Images/1-HomePage.png)
 
 ### 2. Registration Page
 
-![Website Screenshot](https://miro.medium.com/max/1400/1*ernQGQqyLflki8o3qC0J1w.png)
+![Registration Page](./bobbi-brown/src/Readme%20Images/4-Signup_Login.png)
+
+### 3. Search Part
+
+![Search Part](./bobbi-brown/src/Readme%20Images/2-search.png)
+
+### 3. Pop-Up Part
+
+![Search Page](./bobbi-brown/src/Readme%20Images/3-PopupPart.png)
+
+### 3. Location fetching And display on Map
+
+![Search Page](./bobbi-brown/src/Readme%20Images/5-map.png)
 
 ### 3. Product Page
 
-![Website Screenshot](https://miro.medium.com/max/1400/1*Nsac44aTYOHt47LUsknItg.png)
+![Search Page](./bobbi-brown/src/Readme%20Images/6-ProductPage.png)
+
+### 3. Single Product Detailed Page
+
+![Search Page](./bobbi-brown/src/Readme%20Images/7-SingleProductPage.png)
 
 ### 4. Cart page
 
-![Website Screenshot]()
+![Website Screenshot](./bobbi-brown/src/Readme%20Images/8-Cart.png)
 
-### 5. Checkout page
+### 5. Offers page
 
-![Website Screenshot]()
+![Website Screenshot](./bobbi-brown/src/Readme%20Images/9-Offers%20_Part.png)
+![Website Screenshot](./bobbi-brown/src/Readme%20Images/11-Offers%20Part.png)
 
-### 6. Checkout Products
+### 6. Payment Checkout Products
 
-![Website Screenshot]()
+![Website Screenshot](./bobbi-brown/src/Readme%20Images/10-Paument_Checkout.png)
 
-### 7. Payment Options
-
-![Website Screenshot]()
 
 ## Challenges
 
@@ -123,25 +123,41 @@ This is a Women Cosmetics Products Ecommerce Website. Bobbi Brown is an American
 
 2. Another problem was to merge all of the files in a proper sequence which was again a difficult task for us because while merging and connecting all the pages some of the pages had the same name, and while running the site it was redirecting to some other pages so it was difficult to find the location and to rename the file.
 
-3. As the navbar and footer were common for all the pages so we copied both of them in a single folder and imported them in every code, this was a kind of new method for us and we struggled while doing this step.
+3. As there were 2 different navbars in this which were toggling after scrolling to a certain height, So it was very difficult to apply the flag on that part in order toggle it.
 
-4. We faced challenges with CSS tags and class also, because when we merged CSS files for any page in which 2-3 members have worked, sometimes tags were colliding because of the same names of tags and classes.
+4. We faced challenges with CSS, as few of the team members used Bootstrap and Material-UI and remaining few members unknowingly used the same name class which already existed in bootstrap, which created an unpredictable conflict in the CSS Part.
 
 5. We faced difficulties to manage the routes, page, dependencies to work at a time.
 
+6. One of the main challenge faced by us was while making Popups for navbar and while finding the geological location and fetching an approximate location of used once he allows permission for live location.
+ 
+7. The main challenge of ours was to run the whole project without rerendering or reloading.
+
 ## Team
 
-- Arshad Khan
+- MD Arshad Khan
 - Abhinav Roy
 - Shivanshu Chobey
 - Yogesh Kumar
 - Nikesh Borkar
 - Rahul Kumar
 
-## Blogg link
+## 🔗 Linkedin
 
-- https://medium.com/@shivanshuchobey5998/bobbibrown-com-website-clone-construct-week-unit-4-237dd9990d7c
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-arshad-khan-350206154/)
+
+
+[MD Arshad Khan](https://www.linkedin.com/in/md-arshad-khan-350206154/), 
+[Abhinav Roy](https://www.linkedin.com/in/abhinav-roy-35154120a/), 
+[Shivanshu Chobey](https://www.linkedin.com/in/shivanshu5998/), 
+[Yogesh Kumar](https://www.linkedin.com/in/yogeshkumar21101995/), 
+[Nikesh Borkar](https://www.linkedin.com/in/nikesh-borkar/),
+[Rahul Kumar](https://www.linkedin.com/in/md-arshad-khan-350206154/)
 
 ## Authors
+Click the name to visit their Github Profile
+- [MD Arshad Khan](https://github.com/mdarshadkhan1998)
 
-- [@Nikesh Borkar](https://github.com/NikeshBorkar)
+## Support
+
+For support, email - [mdarshadkhan1998@gmail.com](mdarshadkhan1998@gmail.com)
