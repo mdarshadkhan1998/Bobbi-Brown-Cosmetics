@@ -39,7 +39,7 @@ We completed this project within a week.
 - Search bar for finding the product by it's name and viewing it.
 - Product page for different categories.
 - Detailed product preview page
-- Filters for coustom price
+- Filters for custom price
 - Sort functions for High to Low and Low to High Price, Rating, Bestsellers, Name and Color.
 - Add to cart option for buying products.
 - Payment Page.
