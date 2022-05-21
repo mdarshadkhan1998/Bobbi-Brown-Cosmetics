@@ -77,32 +77,32 @@ We completed this project within a week.
 
 ![Search Part](./bobbi-brown/src/Readme%20Images/2-search.png)
 
-### 3. Pop-Up Part
+### 4. Pop-Up Part
 
 ![Search Page](./bobbi-brown/src/Readme%20Images/3-PopupPart.png)
 
-### 3. Location fetching And display on Map
+### 5. Location fetching And display on Map
 
 ![Search Page](./bobbi-brown/src/Readme%20Images/5-map.png)
 
-### 3. Product Page
+### 6. Product Page
 
 ![Search Page](./bobbi-brown/src/Readme%20Images/6-ProductPage.png)
 
-### 3. Single Product Detailed Page
+### 7. Single Product Detailed Page
 
 ![Search Page](./bobbi-brown/src/Readme%20Images/7-SingleProductPage.png)
 
-### 4. Cart page
+### 8. Cart page
 
 ![Website Screenshot](./bobbi-brown/src/Readme%20Images/8-Cart.png)
 
-### 5. Offers page
+### 9. Offers page
 
 ![Website Screenshot](./bobbi-brown/src/Readme%20Images/9-Offers%20_Part.png)
 ![Website Screenshot](./bobbi-brown/src/Readme%20Images/11-Offers%20Part.png)
 
-### 6. Payment Checkout Products
+### 10. Payment Checkout Products
 
 ![Website Screenshot](./bobbi-brown/src/Readme%20Images/10-Paument_Checkout.png)
 
