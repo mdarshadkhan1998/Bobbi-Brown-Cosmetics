@@ -1,36 +1,51 @@
-# Bobbi-Brown-Cosmetics
-Blinkit (formerly Grofers) is an Indian instant delivery service. Customers of the company use a mobile application to order groceries and essentials online.
+# Clone of bobbibrowncosmetics.com
 
-Cloning Blinkit was our project for Unit-3 Construct week at Masai School. Our main objective was to complete all main functionality of this e-commerce website , such as sing up to till to the buying of a product. 
-We have completed this project in 5 days.
+[Bobbi Brown Cosmetics](https://www.bobbibrowncosmetics.com/) is a global prestige beauty brand that empowers women to embrace and enhance their individual beauty. 
+It has an Global instant delivery service. Customers of this company use the mobile application or website to order prestige beauty products online.
 
-- [Click here](https://blink-it-by-arshad-gaurav-ayush-rohit-shubham.netlify.app/) to preview our project.
-- [Click here](https://medium.com/@rg15697/second-construct-week-and-a-new-experience-c71af930eb80) to view our Blog.
-![Logo](https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/84/6e/03/846e03c3-6020-579b-1782-f4bd346a09e2/AppIconRelease-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png)
+Cloning [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/) was our project for Unit-4 Construct week at Masai School. Our main objective was to complete all main functionality of this e-commerce website , starting from sing up till buying of the products, and that too without refreshing or rerendering the website more than once throughout the operation.  
+We completed this project within a week.
 
-[blinkit.com](https://blinkit.com/) is leading E-Commerce website for all type of grocery products such as fruits, vegetables, breakfast & dairy products, biscuits, snacks, chocolates and many more.
-## 🛠 Skills
+- [Click here](https://bobbi-brown-clone-arshad-abhinav-yogesh-shivanshu-rahul-nikesh.netlify.app/) to preview our project.
+- [Click here](https://medium.com/@shivanshuchobey5998/bobbibrown-com-website-clone-construct-week-unit-4-237dd9990d7c) to view our Blog.
+![Logo](./bobbi-brown/src/Readme%20Images/logo.jpg)
+
+[bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/) is a leading Women Cosmetics Products Ecommerce Website. Bobbi Brown is an American professional make-up artist, author, and the founder of Bobbi Brown Cosmetics. Brown created ten natural-shade lipsticks which according to Entrepreneur “revolutionized the beauty industry”. She has written nine books about beauty and wellness.
+
+## Credits
+- Images : [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
+- Content : [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
+- CSS Library: [Bootstrap](https://getbootstrap.com/) | [Tailwind CSS](https://tailwindcss.com/)
+- Icons : [Reacct-Font Awesome](https://fontawesome.com/)
+- References : [MDN Docs](https://developer.mozilla.org/en-US/) | [W3School](https://www.w3schools.com/) | [React](https://reactjs.org/) | [React Redux](https://react-redux.js.org/)
+
+## Tech Stack
+- React
+- Redux
 - HTML 5
-- CSS 3 
+- CSS 3
 - JavaScript
-- GitHub
+- CSS Library — Bootstrap. …Tailwind CSS. …
+- Github
 
 **Client:** 
-[blinkit.com](https://blinkit.com/)
+[bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
 
 ## Features
+- Login / Sign Up / Profile / Offers and Toggled Navbars with their Pop-Ups.
 - Location Fetching using Geographical Location, lat and lng /custom Location Search.
-- Login / Sign Up / Profile and their Pop Ups.
-- Product slider for different categories.
+- Manual slider of products card for different categories.
+- Search bar for finding the product by it's name and viewing it.
 - Product page for different categories.
-- Detailed product preview page.
+- Detailed product preview page
+- Filters for coustom price
+- Sort functions for High to Low and Low to High Price, Rating, Bestsellers, Name and Color.
 - Add to cart option for buying products.
 - Payment Page.
-- Get the App / About / Career / Partner / Blog.
 - Media query for All Size Screen.
 
 ## Brief Video Demo
-[Click here](https://drive.google.com/file/d/14Mdp1t-qx7PQNswqESkQ7xNz22mdp9GT/view?usp=sharing) to watch our brief project preview in a video format.
+[Click here](https://drive.google.com/drive/u/0/search?lfhs=2&q=bobbi) to watch our brief project preview in a video format.
 
 ## Screenshots
 ### Landing Page
