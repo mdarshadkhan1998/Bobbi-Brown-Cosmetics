@@ -63,17 +63,7 @@ We completed this project within a week.
 - CSS Library — Bootstrap. …Tailwind CSS. …
 - Github
 
-## Features
-
-- Login and Signin page
-- Carouse for product pictures
-- Detailed product preview page
-- Filters for coustom price
-- Sort functions for Higher to Lower price,Lower to Higher price and Search bar for finding the product by it's name.
-- Manual slider for product card.
-- Add to cart opt for buying products.
-
-## Screenshots
+## Screenshots of our Project for Overview
 
 ### 1. Home page
 
