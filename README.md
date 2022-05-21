@@ -13,6 +13,7 @@ We completed this project within a week.
 [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/) is a leading Women Cosmetics Products Ecommerce Website. Bobbi Brown is an American professional make-up artist, author, and the founder of Bobbi Brown Cosmetics. Brown created ten natural-shade lipsticks which according to Entrepreneur “revolutionized the beauty industry”. She has written nine books about beauty and wellness.
 
 ## Credits
+
 - Images : [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
 - Content : [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
 - CSS Library: [Bootstrap](https://getbootstrap.com/) | [Tailwind CSS](https://tailwindcss.com/)
@@ -28,8 +29,7 @@ We completed this project within a week.
 - CSS Library — Bootstrap. …Tailwind CSS. …
 - Github
 
-**Client:** 
-[bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
+**Client:** [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/)
 
 ## Features
 - Login / Sign Up / Profile / Offers and Toggled Navbars with their Pop-Ups.
