@@ -7,7 +7,7 @@ Cloning [bobbibrowncosmetics.com](https://www.bobbibrowncosmetics.com/) was our 
 We completed this project within a week.
 
 - [Click here](https://bobbi-brown-clone-arshad-abhinav-yogesh-shivanshu-rahul-nikesh.netlify.app/) to preview our project.
-- [Click here](https://medium.com/@shivanshuchobey5998/bobbibrown-com-website-clone-construct-week-unit-4-237dd9990d7c) to view our Blog.
+- [MD Arshad Khan](https://medium.com/@mdarshadkhan1998/clone-of-bobbibrowncosmetics-com-5e0baa7bd62b),[Shivanshu Chobey](https://medium.com/@shivanshuchobey5998/bobbibrown-com-website-clone-construct-week-unit-4-237dd9990d7c) Click here to view our Blog.
 - [Click here](https://drive.google.com/file/d/1bGrJOXcpS2e1ZPlwFjyBPsqSXb_5iucg/view?usp=sharing) to watch a brief preview of our project in video format.
 ![Logo](./bobbi-brown/src/Readme%20Images/logo.png)
 
@@ -124,13 +124,13 @@ We completed this project within a week.
 7. The main challenge of ours was to run the whole project without rerendering or reloading.
 
 ## Team
-
-- MD Arshad Khan
-- Abhinav Roy
-- Shivanshu Chobey
-- Yogesh Kumar
-- Nikesh Borkar
-- Rahul Kumar
+-- Click on name to visit Github Account
+- [MD Arshad Khan](https://github.com/mdarshadkhan1998)
+- [Abhinav Roy](https://github.com/abhinavroy121)
+- [Shivanshu Chobey](https://github.com/Shivanshu5998s)
+- [Yogesh Kumar](https://github.com/iYogeshkumar)
+- [Nikesh Borkar](https://github.com/NikeshBorkar)
+- [Rahul Kumar](https://github.com/krRahul10)
 
 ## 🔗 Linkedin
 
