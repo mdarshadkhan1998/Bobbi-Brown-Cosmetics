@@ -66,46 +66,66 @@ We completed this project within a week.
 ## Screenshots of our Project for Overview
 
 ### 1. Landing page
+
 Our landing consists of some of the main functionalities such as location detection, search product part, login, Sign-Up, view profile, add to cart, product preview, increment and decrement of cart items, add and remove items from cart, proceed payment part, sliding images and products and many more.
+
 ![Home page](./bobbi-brown/src/Readme%20Images/1-HomePage.png)
 
 ### 2. Registration Page
+
 Here in Login part, the user need to fill the correct credentials to log in, and if input type mismatches then it will throw an error to "Enter a valid Credential"
 Once we are done with Login part we will be redirected to OTP page and after submitting correct OTP it will take you to the Home Page.
+
 ![Registration Page](./bobbi-brown/src/Readme%20Images/4-Signup_Login.png)
 
 ### 3. Search Part
+
 Here we can search for any specific item to look for its details and for adding it to the cart.
+
 ![Search Part](./bobbi-brown/src/Readme%20Images/2-search.png)
 
 ### 4. Pop-Up Part
+
 In this we are having 2 different navbars which toggles after scrolling to a particular height. And we can also See popup functionality on both of the navbars.
+
 ![Search Page](./bobbi-brown/src/Readme%20Images/3-PopupPart.png)
 
 ### 5. Map Functionality
+
 Here in mapping part our location gets fetched automatically after allowing our geological location, or else we can also search for some custom location.
+
 ![Search Page](./bobbi-brown/src/Readme%20Images/5-map.png)
 
 ### 6. Product Page
+
 This the sample of a product Page for Best Sellers, and similarly we have different pages based on new comings, popularity and many more, here I have added Sorting functionality for each page based on Price, Rating, Name, Category and Best Sellers.
 And apart from this we can also click on any item to see its details and add it to cart.
+
 ![Search Page](./bobbi-brown/src/Readme%20Images/6-ProductPage.png)
 
 ### 7. Single Product Detailed Page
+
 Here we can see the details of the selected item just by a single click.
+
 ![Search Page](./bobbi-brown/src/Readme%20Images/7-SingleProductPage.png)
 
 ### 8. Cart page
+
 After adding all the required grocery items we can go to cart where all selected items will be displayed and here in cart we can increase , decrease or remove items from the cart.
+
 ![Website Screenshot](./bobbi-brown/src/Readme%20Images/8-Cart.png)
 
 ### 9. Offers page
+
 Here we can utilize some facility of different offers.
+
 ![Website Screenshot](./bobbi-brown/src/Readme%20Images/9-Offers%20_Part.png)
 ![Website Screenshot](./bobbi-brown/src/Readme%20Images/11-Offers%20Part.png)
 
 ### 10. Payment Checkout Products
+
 After clicking on proceed button of cart, we will be redirected to payment page, where we can select any of the suggested payment method to proceed with the payment. After this we will be asked to enter contact number along with some other details and after verifying the OTP we will be redirected us to the home page.
+
 ![Website Screenshot](./bobbi-brown/src/Readme%20Images/10-Paument_Checkout.png)
 
 
