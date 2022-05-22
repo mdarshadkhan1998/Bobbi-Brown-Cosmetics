@@ -124,7 +124,7 @@ We completed this project within a week.
 7. The main challenge of ours was to run the whole project without rerendering or reloading.
 
 ## Team
--- Click on name to visit Github Account
+- Click on name to visit Github Account
 - [MD Arshad Khan](https://github.com/mdarshadkhan1998)
 - [Abhinav Roy](https://github.com/abhinavroy121)
 - [Shivanshu Chobey](https://github.com/Shivanshu5998s)
