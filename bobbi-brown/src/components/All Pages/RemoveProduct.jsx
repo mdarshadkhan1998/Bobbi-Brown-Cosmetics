@@ -96,7 +96,8 @@ const RemoveProduct = (e,index) => {
       if(arr[i].id== id){
         arr.splice(arr[i],1);
         console.log(arr)
-        localStorage.setItem("local",JSON.stringify(arr))
+        localStorage.setItem("local",JSON.stringify(arr));
+        setlocal(arr)
       }
     }
       //  addtolocalstorage(arr)
