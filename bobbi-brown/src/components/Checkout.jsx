@@ -7,7 +7,7 @@ import { Authcontext } from "./Authentication/CartContext";
 
 export const Checkout = () => {
 
-   const {arr,setarr}= useContext(Authcontext)
+  //  const {arr,setarr}= useContext(Authcontext)
 
    const all = localStorage.getItem('totalincart')
   const navigate = useNavigate();
