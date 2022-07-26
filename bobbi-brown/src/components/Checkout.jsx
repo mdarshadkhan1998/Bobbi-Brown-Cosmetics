@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import "../App.css";
 import { Authcontext } from "./Authentication/CartContext";
@@ -8,8 +9,9 @@ import { Authcontext } from "./Authentication/CartContext";
 export const Checkout = () => {
 
   //  const {arr,setarr}= useContext(Authcontext)
-
-   const all = localStorage.getItem('totalincart')
+//  const dispatch = useDispatch()
+ const all = useSelector((store)=> store.total)
+  //  const all = localStorage.getItem('totalincart')
   const navigate = useNavigate();
 
   const handlecomplete = () => {

@@ -1,23 +1,32 @@
 
-// import React from 'react'
-import {PRODUCTTOCART} from './action.js'
-
  const initState = {
-     cart: []
+     cart: [],
+     total: 0
  }
 
 
 
-export const reducer = (state = initState , {type,payload}) => {
-     
+export const reducer = (store = initState , {type,payload}) => {
+    //  console.log(store)
     switch (type) {
-        case PRODUCTTOCART : {
-        //     console.log("state:",state,"action.type",action.type,"action.payload",action.payload)
-        // console.log(state)
-            return {
-            ...state.cart,  payload
-        }}
-
-        default : return state
+        case "PRODUCTTOCART" : return {
+            ...store,
+            cart : [...store.cart , payload]
+        }
+        
+        case "REMOVEFROMCART" : return {
+            ...store,
+            cart : [...store.cart.filter((item)=> item!= payload)]
+        }
+       
+        case "QUANTITY" : return {
+             ...store,
+              cart :[...store.cart.map((item)=> item.id == payload.id ? payload : item)]
+        }
+        case "TOTALPRICE" : return {
+            ...store,
+            total: payload
+        }
+        default : return store
     }
 }

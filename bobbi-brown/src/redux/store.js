@@ -2,9 +2,11 @@
 import React from 'react'
 import {combineReducers ,legacy_createStore as createStore, compose} from 'redux';
 import {reducer} from './reducer.js';
-// const rootreducer = combineReducers({
-//     cart: reducer
-// })
+
+
+const rootreducer = combineReducers({
+     reducer
+})
 
 
 

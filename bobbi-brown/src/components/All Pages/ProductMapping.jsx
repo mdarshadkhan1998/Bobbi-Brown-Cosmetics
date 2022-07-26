@@ -1,11 +1,10 @@
 import React, { useContext, useState } from 'react'
-// import { useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
+import {producttocart} from "../../redux/action"
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 
 import styled from "styled-components"
-import { LocalStorageContext } from '../Authentication/LocalContext';
-// import {producttocart} from '../../redux/action'
-import SingleProductPage from './SingleProductPage/SingleProductPage';
+
 
 const ProductMappingStyling = styled.div`
 .personalDiv{
@@ -86,28 +85,19 @@ const ProductMappingStyling = styled.div`
     cursor:pointer;
 }
 `;
-// const Array = localStorage.getItem("producthere")|| []
+
 const ProductMapping = (e) => {
-    // const [local,setLocal] = useState([])
-//  console.log(e)
-     const {addtolocalstorage} = useContext(LocalStorageContext)
-        //  console.log(data)
+  const dispatch = useDispatch()
         
    const location = useLocation()
    const navigate= useNavigate()
     const handlecart =(product) =>{
-         
-           addtolocalstorage(product)
-              
-               
-        //   fetch(`http://localhost:3000/data`,{
-        //       method:'POST',
-        //       headers:{'content-type':'application/json'},
-        //       body:JSON.stringify(product)
-        //   }).then((res)=> res.json())
-        //   .then((d)=>console.log())
-        //   .catch((err)=>console.log("err",err))
-        // console.log(data)
+        const payload = {
+            ...product,
+            quantity : 1
+          }
+     dispatch(producttocart(payload))
+     
     }
     
     const gotoseperate = (data)=>{
